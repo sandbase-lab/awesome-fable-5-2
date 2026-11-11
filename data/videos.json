@@ -5286,6 +5286,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120151937995649231"
  },
  {
+  "id": "2120152210881618226",
+  "title": "Mascot animation recreated in Rive with Fable 5.2",
+  "title_zh": "用Fable 5.2在Rive中复刻吉祥物动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "paulo_kombucha",
+   "name": "Paulo"
+  },
+  "postUrl": "https://x.com/paulo_kombucha/status/2120152210881618226",
+  "createdAt": "2026-11-10T13:50:52.000Z",
+  "durationMs": 20633,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120152210881618226/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120152210881618226/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120152210881618226"
+ },
+ {
   "id": "2120154573356793883",
   "title": "Pickleball game built in Unreal Engine",
   "title_zh": "在虚幻引擎中制作的匹克球游戏",
