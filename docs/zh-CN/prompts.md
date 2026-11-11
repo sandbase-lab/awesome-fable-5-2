@@ -2,35 +2,21 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 62 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
+共 60 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (12)
-- [动效](#motion-graphics) (12)
-- [游戏](#game) (8)
+- [动效](#motion-graphics) (11)
+- [游戏](#game) (10)
 - [产品界面](#ui-demo) (3)
-- [讲解](#explainer) (6)
-- [发布片](#launch-film) (3)
-- [测试对比](#comparison) (18)
+- [讲解](#explainer) (7)
+- [发布片](#launch-film) (4)
+- [测试对比](#comparison) (13)
 
 <a id="3d-scene"></a>
 
 ## 3D 场景
-
-### Three.js太空港漂浮3D数据中心
-
-[@ilya_sb1](https://x.com/ilya_sb1/status/2119878436529246669) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2119878436529246669/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119878436529246669?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Tested Claude Fable 5.2 today.
-
-Prompt: "build a 3D data center floating in space."
-
-~5 minutes later: a full three.js scene. Server racks, blinking lights, data packets flowing between racks, glow, orbit controls. It even named it "Orbital Data Node 07." I didnt do any edits or second tries.
-
-Pro users get it until Nov 16, up to 50% of your plan limits. Test it while it's included.
-```
 
 ### 历史还原的耶路撒冷沉浸式 3D 模型
 
@@ -184,37 +170,60 @@ How it was made 👇
 Claude Fable 5.2 High in Claude Code.
 ```
 
-### 在纽约漫步的巨型机甲3D场景
+### 置身于楔形龙卷风正中央的模拟场景
 
-[@quz_ai](https://x.com/quz_ai/status/2120145020057501745) · 0:22 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120145020057501745/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120145020057501745?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+[@camperaigg](https://x.com/camperaigg/status/2120486699134554373) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120486699134554373/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120486699134554373?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
 ```text
-Simon Willison didn’t know where Yonkers was.
+🚨 Fable 5.2 TESTING Part 22
 
-So he looked it up on Google Maps, then asked Claude Fable 5.2 to turn the city into a giant mech that stands up and stomps around New York City.
+🌪️ I asked Claude to stand me in the path of a tornado.
 
-The result is a Three.js animated 3D diorama using real OpenStreetMap data. 🧵
+One idea, four choices, one note: "make sure sound is top notch". I never touched the code. 🤯
 
-He prompted:
+⏱️ 299 minutes
+💸 $18.77 in API costs
+🤖 Claude Fable 5.2 in Claude Code
 
-“Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use openstreetmap mapping data”
+What it did on its own 👇
 
-Claude correctly guessed that “átomos” was a mobile keyboard typo for “stomps.”
+🧍 Kept you standing still: the camera never spins with the vortex, the horizon stays level, and the storm does all the moving
+🌀 Modelled one wedge tornado, 480 m across with a 160 m hollow core and 190 mph winds, and drove picture and sound from that single model
+🚂 Built the roar from a freight train, two hurricanes and a jet engine, split into body and air so it grows the way a real one does
+⚡ Made every thunderclap, power flash and the barn arrive late by its distance at the speed of sound
+👂 Popped your ears in the core: the roar drops away and you hear your own breathing while lightning runs down the tube
+🚨 Caught its own lightning strobing eight times in one second on a frame-by-frame flash scan, and rebuilt every strike as a single flash
+⬛ Cut picture and sound to black on the same frame when the far wall arrives
 
-What it built:
+📦 30 s · 1080p60 · three.js · 8,600 pieces of debris · six sub-frames of motion blur per frame
+```
 
-• A giant mech cut from the actual shape of Yonkers rises out of the ground  
-• It walks a looping tour through Manhattan, Brooklyn, Queens, and the Bronx  
-• Buildings get flattened under each footfall  
-• Status line updates as it moves across land or wades through water  
-• Stomp counter and mech height readout track progress  
-• You can pause, orbit, zoom, and replay the scene  
+### Blender 自动化三维产品场景渲染
 
-It’s a playful way to lock a place into memory — geography + creative 3D + current frontier model coding skills in one short experiment.
+[@francescoinweb3](https://x.com/francescoinweb3/status/2120601459385376975) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120601459385376975/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120601459385376975?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
-The whole thing started as a simple “I don’t know where this is” moment and turned into a working interactive demo in minutes.
+```text
+Claude Fable 5.2 is f*cking dangerous
 
-What’s the most random place you’ve had an AI visualize for you lately?
+one prompt and it turns into a full 3D artist.
+
+it writes the whole Blender scene in python. builds the set, drops the product in, lights it, picks the lens.
+
+> then it renders a rough version and actually looks at it.
+
+"key light's flat. rim's missing."
+
+fixes the code. renders again.
+
+> the expensive final only happens when nothing floats, nothing clips and the product reads in one second.
+
+> modeling, lighting, render, review. one model, end to end.
+
+> you don't touch a single vertex.
+
+prompt's in the video. steal it.
+
+same idea as my studio below
 ```
 
 <a id="motion-graphics"></a>
@@ -272,28 +281,6 @@ Fable 5.2 one shot
 Prompt: "Make the most incredible, impressive motion graphic video"
 ```
 
-### 关于健康饮食长寿的音乐视频
-
-[@elliotarledge](https://x.com/elliotarledge/status/2120048277450363219) · 2:57 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120048277450363219/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120048277450363219?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-"make a music video on why you should eat healthy so you can live forever"
-
-made by fable 5.2
-```
-
-### 基于 SVG 代码生成的梦想视频
-
-[@FinanceYF5](https://x.com/FinanceYF5/status/2120074461546533026) · 4:04 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120074461546533026/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120074461546533026?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-有人只告诉 Fable 5.2：“做一支你梦想中的视频。”
-
-第一次运行 5 小时，模型完成了整支片，却选了一首糟糕的歌；修正后继续工作，总计 9 小时，最终交出一支 4 分钟视频。
-
-所有场景先由代码绘制成 SVG，再送入视频模型生成。
-```
-
 ### Fable 5.2 单提示词视频生成展示
 
 [@yasirahmadnoori](https://x.com/yasirahmadnoori/status/2120092008333381850) · 0:13 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120092008333381850/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120092008333381850?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -324,16 +311,6 @@ Here’s how you can make this animation with Fable 5.2. Sharing the entire proc
 make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.
 ```
 
-### Fable 5.2生成的能力展示视频
-
-[@Model_Culture](https://x.com/Model_Culture/status/2120221741838381457) · 0:35 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120221741838381457/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120221741838381457?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-I asked Fable 5.2, "Show me the best video that shows off your current capabilities," and what it came back with was a video that completely blew me away. Seriously, the quality is just far too high - it's honestly insane…
-
-It truly operates on a completely different level. I actually got goosebumps from it.
-```
-
 ### 纯代码生成的两段视频
 
 [@LukeTsiaras](https://x.com/LukeTsiaras/status/2120238479988740542) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120238479988740542/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120238479988740542?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -344,6 +321,24 @@ In my opinion, for 99% of daily tasks, Fable 5.2 feels like the unnecessarly bou
 These are two videos generated entirely out of code, which I believe is currently one of the strongest ways to simultaneously test a model's capability and artistic/human taste.
 
 Prompt:
+```
+
+### 使用 Fable 5.2 制作的加载动画
+
+[@seanaiux](https://x.com/seanaiux/status/2120279835020804164) · 0:12 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120279835020804164/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120279835020804164?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Asked Fable 5.2 to make a loading animation. The result is Insane!
+
+Free prompt ↓
+```
+
+### Fable 5.2复刻动态设计
+
+[@kloss_xyz](https://x.com/kloss_xyz/status/2120349707142860942) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120349707142860942/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120349707142860942?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2, recreate this motion design.
 ```
 
 <a id="game"></a>
@@ -480,6 +475,51 @@ Most realistic trading sim ever made.
 Prompt to build your own below. Bookmark rn
 ```
 
+### 钢笔手绘小船草图转变为可玩赛艇游戏
+
+[@r1VeN2k](https://x.com/r1VeN2k/status/2120546559049765206) · 0:26 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120546559049765206/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120546559049765206?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+IT'S INSANE. A PEN DOODLE OF A BOAT BECAME A PLAYABLE RACING GAME IN TWO PROMPTS.
+
+He can't draw. The sketch is a few pen lines of a speedboat.
+
+He snaps a photo, drops it into Claude with Fable 5.2, gets a realistic boat from one prompt. Then types: "ok now make it a game."
+
+Rival boats, a start gate, a speedometer. Playable.
+
+The sketch is the whole skill now. What would you draw first?
+```
+
+### 单HTML文件纯代码构建的3D农场游戏
+
+[@rewind02](https://x.com/rewind02/status/2120582812793475290) · 2:04 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120582812793475290/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120582812793475290?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+full 3d farming game was built in one html file with claude fable 5.2 + three.js..
+
+no asset files at all
+
+the trick is generating everything from code. here’s the workflow:
+
+- step 1: set fable 5.2 to xhigh effort and ask for one self-contained html file using three.js
+- step 2: prompt 1, the world: terrain, ~200k instanced grass blades that sway and flatten underfoot, a farmhouse and a barn with working doors
+- step 3: textures from code: wood grain, peeling paint, wet soil that glistens after watering
+- step 4: prompt 2, the farming loop: hoe for raised furrows, a seed catalogue, a watering can, a sickle, 6 crops from seed to harvest
+- step 5: prompt 3, the atmosphere: 4 seasons, fog and rain, snow that builds up and holds footprints, lanterns that light at sunset
+- step 6: audio from code too: footsteps that change on grass, dirt and wood, rain under a roof, background music
+- step 7: share it as a claude artifact so anyone can play it in the browser
+
+who does what:
+
+> fable 5.2: every mesh, texture, sound and line of javascript
+> three.js: rendering, lighting, instancing
+> one html file: the whole game
+> you: the brief and the feedback
+
+small reactive details beat big features (dev: lucian__03)
+```
+
 <a id="ui-demo"></a>
 
 ## 产品界面
@@ -595,30 +635,6 @@ Tried Claude's new Fable 5.2. Gave it one idea: "What if the Moon disappeared?" 
 @claudeai
 ```
 
-### 由 Fable 5.2 自身制作的解说视频
-
-[@tankazunori0914](https://x.com/tankazunori0914/status/2120003528366416032) · 1:26 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120003528366416032/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120003528366416032?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2に、Fable 5.2自身の解説動画を作成してもらいました。（音量注意！）
-
-頼んだのは「Fable 5.2がどれくらいすごいのか、本気で5.2について解説する高品質の動画を作成してください。」の1回だけ。1分26秒の動画が返ってきました。
-
-・構成、デザイン、アニメーションはClaude Code上でFable 5.2が作成（動画化はHyperFrames）
-・数字は公式発表とArtificial Analysisから。料金がOpus 5.5の2倍になるなど、弱いところも入っています
-
-結びは「ふだんの仕事はOpus 5.5から。長くて難しい仕事はFable 5.2へ」でした。
-
-・Prompt
-Fable 5.2がどれくらいすごいのか、本気で5.2について解説する高品質の動画を作成してください。
-
-今回は解説の動画です。
-
-数式で描く3Dフラクタルや流体、曲までコードで作る動画は、別で検証する予定。
-
-#claude #Fable52 #HyperFrames
-```
-
 ### 计算机图形学发展历史动画
 
 [@aollivier82](https://x.com/aollivier82/status/2120260208245043663) · 0:28 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120260208245043663/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120260208245043663?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -649,6 +665,113 @@ my biggest learnings:
 3. turn your notes into a numbered fix list. it changes only what's on the list and leaves everything else alone
 
 want the prompt i used? comment "heist" (it's free)
+```
+
+### 3D无限变焦科普解释视频
+
+[@maxxmalist](https://x.com/maxxmalist/status/2120503884967800894) · 0:50 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120503884967800894/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120503884967800894?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Claude Fable 5.2 is f*cking insane
+
+it just built a 3D explanation film to show that “nothing is really sharp” purely with code
+
+people already getting MILLIONS of views daily with claude content on socials
+now, this is another level and opens up completely new possibilites
+
+i’m sharing the skill for free, you can grab it from my library below
+
+with sunra putting all these leading AI models and workflows in one place, experimenting with stuff like this is getting ridiculously easy
+
+here’s the prompt you paste to claude at the very beginning:
+
+Make a 3D "infinite zoom" explainer video about: [TOPIC / CLAIM, e.g. "nothing is really sharp"].
+
+THE FORMULA
+- One continuous shot. The camera flies from [START OBJECT, at human scale] down to
+  [END SCALE, e.g. a single atom] (or outward, if the idea is growth). No cuts.
+- One live measurement on screen the whole time: a thin bar with a number that keeps
+  changing ("2.20 cm -> 0.250 nm"), a count of how many times it was halved (or doubled),
+  and two or three words naming what is in view right now.
+- A payoff at the end: pull back fast to the start object and show the one surprising
+  number the whole trip was for. [PAYOFF, or "find the best one in the research"]
+- Things for scale: as the zoom passes each size, a familiar object of that size sits
+  next to the subject with its name and size
+  ([OBJECTS, e.g. grain of salt, human hair, red blood cell, bacterium, virus,
+  chip transistor, antibody, DNA], or pick 6-9 spaced at least 3x apart in size).
+
+TRUTH
+- Every number on screen is real. Research the dimensions first, give me the sources,
+  and tell me where you simplified (coatings left out, colours that are conventions...).
+- Geometry follows the data: if the edge radius is 40 nm, it is 40 nm in the model, and
+  the scale objects are placed at their true size relative to it.
+
+LOOK
+- Black background, studio lighting, real 3D with depth of field. It should feel like
+  macro photography that keeps going past what a lens can do.
+- The surface must change character at every scale (polish -> grinding marks -> chips ->
+  crystal grains -> rounded edge -> atoms), so the zoom is felt, not just counted.
+- No text that repeats a voiceover. On-screen text is data and names only.
+- No music, no sound effects, no voiceover unless I ask.
+
+FORMAT
+- [16:9 1920x1080 | 9:16 1080x1920], 30 fps, about [45] seconds, H.264 MP4.
+- Labels in [English].
+
+HOW TO BUILD IT
+- All code, no video-generation models: Three.js scene, a pure function that draws the
+  frame for any time t, headless Chrome with the GPU, frames piped into ffmpeg.
+- Zoom by scaling the world around the focus point, never by moving the camera into tiny
+  numbers. Detail is procedural and fades in and out by physical size.
+
+HOW TO WORK
+1. Research the real sizes. Show me a short table: time | scale | what is in view |
+   object for scale. Wait for my OK only if something in my brief is unclear; otherwise go.
+2. Build, then render 8-10 stills across the timeline and look at them yourself. Fix
+   exposure, framing, clipped objects and overlapping labels before rendering the film.
+3. Render the full video, extract frames from the result and check them again, including
+   a few consecutive frames for flicker.
+4. Give me the MP4 (plus a copy under 30 MB if the main file is larger), the sources, and
+   an honest list of what you checked and what you did not.
+```
+
+### Fable 5.2写真人像提示词技巧
+
+[@AYi_AInotes](https://x.com/AYi_AInotes/status/2120526727541645709) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120526727541645709/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120526727541645709?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+卧槽，全体起立！Claude Fable 5.2彻底封神了，视频底座蒸馏画静止人像，简直是物理规律的单方面屠杀啊卧槽！！
+Fable 5.2总结的AI生图纯欲写真焚诀九式和帮我优化的独家顶级提示词无保留开源分享给大家！！
+我甚至忍不住说个暴论兄弟们，玩AIGC谁还在一行行试错生图提示词，谁就是算力时代最苦逼的打工人！！
+
+下午拿Claude Fable 5.2总结的生图焚决喂给MiniMax新出的H3-Image，实测跑出来的这组九宫格居家写真直接把我看懵了，真的牛逼，感觉我的青春都回来了啊啊啊！
+
+以前跑人像最怕充气娃娃假皮感和死板姿势，但这次按Fable 5.2拆出来的审美骨架去跑，真实质感直接甩开传统模型几个档次，
+
+第一条，用具体年龄加认人的特征定人设，写25岁左右的东亚成年女性，再锁死一颗泪痣、眉形和发长，
+
+第二条，身材只正面写一次，剩下的全交给剪裁和面料，比如贴身的白色罗纹棉细肩带吊带、圆领口、下摆收在腰线上方，
+
+第三条，用做到一半的动作制造抓拍感，伸懒腰、拨头发、扎马尾，九格里只留两格看镜头，
+
+第四条，用光位和曝光定影调，焦段光圈一个字不写，只写漫射晨光穿过白纱帘落在脸上、曝光以脸为准，
+
+第五条，用特写交代骨相和皮肤，单独留一格拍锁骨和肩带，写明可见细小毛孔和细绒毛、不磨皮，
+
+第六条，用白场景托出空气感，白墙白床单白纱帘，白色占画面一半以上，
+
+第七条，胶片感拆开写，高调略过曝、低对比、低饱和、细颗粒，一句笼统的film look都不要，
+
+第八条，在最后用避免清单卡死AI塑料感，写明塑料皮肤、过度磨皮、娃娃脸、脸部发暗、白色发灰，
+
+这套写法正好碰上了@MiniMax_AI今天正式发布的H3-Image，这是一款衍生自H3的图像生成模型，具备文本生成图像、图像参考和图像编辑能力，4K图像生成，直接干到10秒了！！
+
+看配图就知道有多夸张，散乱的发丝、锁骨微光、棉织物的罗纹和眼下那颗小痣都清清楚楚，不同姿势下的脸也基本咬住了，
+
+我的理解是，它把自家成熟的视频底座拆掉音频做了蒸馏，视频模型天天在理解真实世界的三维光影连续性，回过头画一张静止人像就是降维收割，
+
+顶级大模型把摄影指导的审美翻译成人话，视频底座十秒出片，成套提示词已放在评论区，兄弟们自取去跑。
+#H3Image
 ```
 
 <a id="launch-film"></a>
@@ -700,6 +823,40 @@ Fable 5.2 审美和剪辑绝顶🤯
 然后这是我得到的，强烈建议试试：
 ```
 
+### 键盘拆解与发布会风格展示动画
+
+[@0xRicker](https://x.com/0xRicker/status/2120564035057856942) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120564035057856942/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120564035057856942?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+F*ck. Claude just turned into a full product-launch studio.
+
+Fable 5.2 plans → /anatomy builds the object → /anatomy-reveal films it → three.js renders it
+
+1 prompt + 2 skills = 6 launch shots from one object, no image model
+
+how it works:
+
+- Fable 5.2 is the brain.
+
+- /anatomy builds the model part by part, in code
+
+/anatomy-reveal is the camera: fly-in with motion blur, macro on the details, the exploded view
+
+how to set it up:
+
+1 → add both skills to Claude (links below)
+
+2 → give it a photo or just the name of the object
+
+3 → say what the shot should feel like. mine was: “take this keyboard apart, make every shot feel like a launch film”
+
+4 → Fable checks every frame before it calls it done: nothing clips, nothing floats
+
+5 → you get one HTML file. open it, hit record, post
+
+skills below 👇
+```
+
 <a id="comparison"></a>
 
 ## 测试对比
@@ -724,34 +881,6 @@ Fable cost more, but it finished 1h 15m faster. And just look at the ice, the sh
 The future looks bright and amazing. 🔥
 
 What do you guys think?
-```
-
-### 两款模型代码生成视频对比
-
-[@LukeTsiaras](https://x.com/LukeTsiaras/status/2119933075832340555) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2119933075832340555/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119933075832340555?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Opus 5.5 = $2.44 Fable 5.2 = $9.72
-
-There's no doubt about it: Fable 5.2 is the frontier, but I don't think the slight jump in intelligence justifies the cost. In my testing it was almost four times as expensive as Opus 5.5, which achieved very similar results. 
-
-These are two videos generated entirely out of code, which I believe is currently one of the strongest ways to simultaneously test a model's capability and artistic/human taste.
-
-Prompt:
-```
-
-### 发光冰山峡谷中的科考船场景对比
-
-[@Im_pritam18](https://x.com/Im_pritam18/status/2119988430578815203) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2119988430578815203/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119988430578815203?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Claude Fable 5.2 vs Claude Opus 5.5  
-
-Same prompt. One HTML file each. No edits. Both on medium effort.  
-
-Prompt: a research ship in a canyon of glowing icebergs at night, with an aurora, a whale, snow and a camera orbit.  
- 
-Which one wins?
 ```
 
 ### 模型动态设计作品集生成对比
@@ -898,36 +1027,6 @@ Hydrogen held up surprisingly well against Fable and could be 10x cheaper than F
 Fable 5.2 did a really impressive job overall but is the extra detailing worth the cost?
 ```
 
-### 生成3D芯片主视觉网页的模型对比
-
-[@kairox36](https://x.com/kairox36/status/2120159366800195798) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120159366800195798/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120159366800195798?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-The brand new Fable 5.2 on LOW effort (bottom) vs Opus 5.5 on HIGH effort (top). Same prompt. Zero edits.
-
-The task: the hero screen of a website for a fictional AI chip called NEURA. A glass 3D chip in the dark shatters into glowing particles, they rebuild into the logo, the headline glitches in, menu and button slide up. Plain three.js, one HTML file, no assets, under 10 seconds.
-
-Fable 5.2 on low:
-23 min of work
-39 steps
-78K output tokens, 40K of them thinking
-745 lines of code
-$4.96
-
-Opus 5.5 on high:
-27 min of work
-48 steps
-114K output tokens, 64K thinking
-1,147 lines of code
-$4.64
-
-So Fable on its laziest setting finished 4 minutes faster with a third less code, and still cost more than Opus thinking hard. Low effort cuts the thinking, not the price: Fable is $8 in / $40 out per million tokens, Opus 5.5 is $4 / $20.
-
-Both pages run with no fixes. Fable gets to the logo and nav sooner, but its glitch chews up the headline letters. Opus spends longer on the shatter and particle physics.
-
-Is Fable on low already enough for a landing page, or would you still pay for Opus on high?
-```
-
 ### 多模型对比生成的飞龟岛
 
 [@JamesMalsawm](https://x.com/JamesMalsawm/status/2120162060869025848) · 0:12 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120162060869025848/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120162060869025848?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -947,39 +1046,6 @@ There is a bit of a leap in their results but not like a huge jump,
 Definitely, Fable 5.2 cost more but finished faster than Opus 5.5 with quality results
 
 What do you guys think?
-```
-
-### 在Blender中构建迈阿密海洋大道的模型对比
-
-[@bubosees](https://x.com/bubosees/status/2120166313452589431) · 0:32 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120166313452589431/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120166313452589431?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2 just made Opus 5.5 look slow.
-
-I gave them the exact same prompt on the same laptop. One shot each.
-Build Miami's Ocean Drive in Blender, code only.
-Watch them race side by side.
-
-Opus 5.5 took 63 minutes, 126 turns and $10.52
-Fable 5.2 got it done in 36 minutes, 31 turns and $7.71
-
-So almost twice as fast, 4x fewer turns and 27% cheaper.
-
-Be honest, which one would you pick?
-```
-
-### 疫苗工作原理解释动画的模型对比
-
-[@getviewgum](https://x.com/getviewgum/status/2120172526173028704) · 0:28 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120172526173028704/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120172526173028704?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2 vs Opus 5.5 in 2D Animated Explainer 
-
-💰$2.50 API Budget 
-🕐10 Minute Time Limit
-
-One Shot / Pure Code
-Video: How does a vaccine teach your body?
 ```
 
 ### Three.js 空客 A380 起飞效果对比
