@@ -2,33 +2,21 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-60 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
+62 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators describe the task rather than pasting the whole prompt, and some put the full text in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
-- [3D scenes](#3d-scene) (12)
-- [Motion graphics](#motion-graphics) (11)
+- [3D scenes](#3d-scene) (14)
+- [Motion graphics](#motion-graphics) (13)
 - [Games](#game) (10)
-- [Product UI](#ui-demo) (3)
+- [Product UI](#ui-demo) (2)
 - [Explainers](#explainer) (7)
-- [Launch films](#launch-film) (4)
+- [Launch films](#launch-film) (3)
 - [Tests & comparisons](#comparison) (13)
 
 <a id="3d-scene"></a>
 
 ## 3D scenes
-
-### Historically accurate 3D model of Jerusalem
-
-[@kplikethebird](https://x.com/kplikethebird/status/2119900775727902732) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119900775727902732/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119900775727902732?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-So excited that I can finally share my Roman Empire: this immersive 3D model of Jerusalem that Fable 5.2 built for me. I literally have not been able to stop thinking about it. 
-
-Prompt: "Build an immersive, historically accurate 3D model of Jerusalem during the week of Jesus's final visit using Blender." 
-
-You can wander the streets of Jerusalem yourself:
-```
 
 ### Steam locomotive transforming into a robot
 
@@ -198,32 +186,84 @@ What it did on its own 👇
 📦 30 s · 1080p60 · three.js · 8,600 pieces of debris · six sub-frames of motion blur per frame
 ```
 
-### Automated Blender 3D product scene generation
+### A 3D house built from a single prompt
 
-[@francescoinweb3](https://x.com/francescoinweb3/status/2120601459385376975) · 0:25 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120601459385376975/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120601459385376975?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+[@calebfahlgren](https://x.com/calebfahlgren/status/2120680918914601165) · 0:44 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120680918914601165/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120680918914601165?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
 ```text
-Claude Fable 5.2 is f*cking dangerous
+Fable 5.2 is pretty unreal at 3D 😵‍💫
 
-one prompt and it turns into a full 3D artist.
+I gave it one prompt to build a house. A few hours later, it made this masterpiece
 
-it writes the whole Blender scene in python. builds the set, drops the product in, lights it, picks the lens.
+the prompt was surprisingly simple:
+```
 
-> then it renders a rough version and actually looks at it.
+### A code-rendered animated short in Three.js
 
-"key light's flat. rim's missing."
+[@0xMovez](https://x.com/0xMovez/status/2121001440470577157) · 1:41 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121001440470577157/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121001440470577157?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
-fixes the code. renders again.
+```text
+Fable 5.2 is absolutely f*cking insane for film animation.
 
-> the expensive final only happens when nothing floats, nothing clips and the product reads in one second.
+i made this 2-minutes animated short with Fable 5.2 without writing a single line of code.. 
 
-> modeling, lighting, render, review. one model, end to end.
+and it's better than 90% of video models.
 
-> you don't touch a single vertex.
+> pure three.js, zero video model
+> 8 worlds, 16 shots, 3,000 code-rendered frames
+> music + sound effects synthesized in code
+> built by a team of 17 parallel AI agents
 
-prompt's in the video. steal it.
+Find full prompt below 
 
-same idea as my studio below
+then, read the full guide on motion design with Fable 5.2
+```
+
+### Necromancer spawning skeletons with Disney animation principles
+
+[@luccacerf](https://x.com/luccacerf/status/2121009941930705224) · 0:35 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121009941930705224/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121009941930705224?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2 + Tripo + Blender MCP
+
+"Using the 12 principles of walt disney animation build a necromancer that spawns skeletons "
+
+Again, Fable surprised me. Now it makes good VFX out of no where.
+```
+
+### Battle robot 3D mesh modeling workflow
+
+[@0x_fokki](https://x.com/0x_fokki/status/2121273973270827059) · 0:49 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121273973270827059/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121273973270827059?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2 has everyone talking about AI 3D. But I wanted to see how far I could push it in a real production space.
+
+I can't stop testing 3D models since I found this.
+
+I opened a 3D workspace I'd never tried and asked it for one battle robot in 4 sets of armor, expecting nothing special.
+
+2 messages later all 4 versions read the same 1,936,038 faces.
+
+the workspace is @tripoai's Tripo Agentic Canvas, a node canvas with an agent in the chat.
+
+the run, in 6 steps:
+
+1. one prompt in Agent Chat: a full-body battle robot for a sci-fi game
+2. the concept into a gray clay render, since an untextured reference gives HD Model finer detail
+3. HD Model builds the mesh off the clay render
+4. a second message: 4 Texture Generation nodes on that one mesh in titanium steel, royal gold, black obsidian and battle-worn rust
+5. Tripo's segmentation splits the titanium one into 22 parts
+6. Tripo's CLI rigs all 4 as bipeds and one command adds the moves: run, slash, shoot and jump
+
+before the mesh and the textures the agent wrote out its plan and waited for me to press continue.
+
+my way to keep variants matching is squinting at two renders side by side.
+
+its way was 4 nodes wired to the same mesh, 7 in total for 110 credits and not one placed by me.
+
+the AI 3D Lab is next on my list.
+
+300 free credits and 60% off your first month with my link in the first reply 👇
 ```
 
 <a id="motion-graphics"></a>
@@ -281,18 +321,6 @@ Fable 5.2 one shot
 Prompt: "Make the most incredible, impressive motion graphic video"
 ```
 
-### Single prompt video generation with Fable 5.2
-
-[@yasirahmadnoori](https://x.com/yasirahmadnoori/status/2120092008333381850) · 0:13 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120092008333381850/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120092008333381850?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-This is actually INSANE.   
-
-Fable 5.2 just created this with one prompt
-
-Here is the prompts I used 👇
-```
-
 ### An animation created with Fable 5.2
 
 [@oiharshit](https://x.com/oiharshit/status/2120177401619747146) · 0:07 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120177401619747146/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120177401619747146?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -339,6 +367,56 @@ Free prompt ↓
 
 ```text
 Fable 5.2, recreate this motion design.
+```
+
+### Dynamic motion graphics showreel generated from prompt
+
+[@Mr_Buzzoni](https://x.com/Mr_Buzzoni/status/2120763270500077829) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120763270500077829/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120763270500077829?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Claude Code + Fable 5.2 makes a full motion design showreel from one prompt, and this is f*cking unreal
+
+how to get yours:
+
+1. open stock Claude Code, Fable 5.2 on max reasoning
+2. paste this:
+
+"make a dynamic 17-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a resume. render it, check the frames, go all out"
+
+this is what comes out 👇
+```
+
+### Video made with Fable and Seedance
+
+[@abxxai](https://x.com/abxxai/status/2120863770486710542) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120863770486710542/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120863770486710542?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+wtf.. i made this with Fable 5.2 and Seedance 2.5
+
+nobody's teaching the actual workflow behind these.. so here it is
+
+full breakdown + every prompt below 👇
+```
+
+### A code-rendered painted animated short film
+
+[@de1lymoon](https://x.com/de1lymoon/status/2121300246898897397) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121300246898897397/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121300246898897397?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+fable 5.2 is absolutely f*cking insane for film animation
+
+i made this painted short with Fable 5.2 without writing a single line of code..
+
+and there is no video model anywhere in it.
+
+> pure canvas code, zero video model, zero image model
+> 5 shots, 510 code-rendered frames, 1080x1920
+> music synthesized in code, voice by elevenlabs
+> one paragraph of text in, finished film out in under 2 hours
+
+the exact prompt i used is in the first reply
+
+and the full guide on motion design with Fable 5.2 is right under it
 ```
 
 <a id="game"></a>
@@ -454,25 +532,25 @@ Prompt 3
 Okay, this is great. Now I want you to make a video trailer for this, showing the game, how the game is played, and callouts on different features of the game. I want the trailer to maybe be based on storytelling. If you want it to be 1 minute or 2 minutes, I want the trailer to be almost like a very detailed trailer, with maybe multiple cameras of what's happening and maybe callouts of different things and different events in the game, with great retro sound of the game.
 ```
 
-### A crypto trading simulation game
+### Browser-based fantasy sailing game generated by code
 
-[@fxlxsxf](https://x.com/fxlxsxf/status/2120120062275141952) · 0:52 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120120062275141952/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120120062275141952?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+[@flxrnc](https://x.com/flxrnc/status/2120494277528580110) · 0:45 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120494277528580110/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120494277528580110?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
 ```text
-I ASKED FABLE 5.2 TO MAKE A GAME I'D ACTUALLY PLAY AND IT BUILT GTA FOR CRYPTO DEGENS
+I just made a full fantasy game with Fable 5.2, and it runs in your browser...
 
-→ You spawn on a park bench with $0
-→ Pizza delivery pays $65 with a 45 sec timer
-→ Used laptop costs $300 and unlocks trading
-→ x10 leverage with a real liquidation price
-→ Studio $1,000. Rusty hatchback $3,000. Penthouse $250,000
-→ One whale dump and you're back on the bench with $0
+no studio, no game engine, no team, just one prompt and a few follow-ups:
 
-One HTML file. No 3D artist. No assets.
+• 5 sleeping worlds that wake up as you sail through them
+• a gold marsh, a drowned court, a glowing cave and a red gorge
+• water that mirrors every world like glass
+• a full score made from code
 
-Most realistic trading sim ever made.
+Fable 5.2 generated the whole world
 
-Prompt to build your own below. Bookmark rn
+play it free + get every prompt below
+
+then read the article, it's how to design worlds like this with Fable 5.2 ↓
 ```
 
 ### Pen boat doodle turned into racing game
@@ -538,36 +616,6 @@ it runs the sign-up on every phone.
 demo app: 3 bugs flagged, screenshots included.
 
 that's the https://t.co/OUrI9OXbry mcp. works with claude & grok bot
-```
-
-### Creative interactive web experiments collection
-
-[@kawaidgaf](https://x.com/kawaidgaf/status/2120026598388941197) · 0:32 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120026598388941197/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120026598388941197?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-this is what fable 5.2 does with "go full creative mode"  😳
-
-@MiaAI_lab asked it for 100 html files with 3 rules
-
-- look stunning
-- zero repetitive designs
-- go full creative mode
-
-it only got to 76 before burning two full weekly fable limits
-
-and what came out is insane
-
-> a koi pond you can watch
-> a lunar lander you can play
-> a pottery wheel you throw pots on
-> a 1971 lava lamp, a pen plotter, a night typist
-
-she says it beats opus 5.5 on frontend design, but costs 2x as much
-
-all 76 with prompts:
-https://t.co/SDdpxtFczi
-
-which one would you open first ?
 ```
 
 ### Interactive clean button animation created with Lottie AI
@@ -777,22 +825,6 @@ Fable 5.2总结的AI生图纯欲写真焚诀九式和帮我优化的独家顶级
 <a id="launch-film"></a>
 
 ## Launch films
-
-### Launch video created with Fable
-
-[@DoctorYev](https://x.com/DoctorYev/status/2119895951108423801) · 1:04 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119895951108423801/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119895951108423801?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-you gotta be kidding me
-
-one-prompt launch video w Fable 5.2
-
-give me your honest score 1-10 (10 = high) for how did Claude Fable do?
-
-example featuring @Uare_ai 
-
-full prompt 👇👇👇
-```
 
 ### Code generated model launch film with music
 
