@@ -2,17 +2,17 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-65 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
+70 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators describe the task rather than pasting the whole prompt, and some put the full text in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
 - [3D scenes](#3d-scene) (14)
-- [Motion graphics](#motion-graphics) (13)
-- [Games](#game) (7)
-- [Product UI](#ui-demo) (2)
+- [Motion graphics](#motion-graphics) (14)
+- [Games](#game) (8)
+- [Product UI](#ui-demo) (4)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
-- [Explainers](#explainer) (10)
+- [Explainers](#explainer) (11)
 - [Launch films](#launch-film) (3)
 - [Tests & comparisons](#comparison) (14)
 
@@ -516,6 +516,24 @@ a year ago this needed a team
 full code below
 ```
 
+### Pixel art lizard wizard casting a fireball spell
+
+[@zer0point_eth](https://x.com/zer0point_eth/status/2121941080010592499) · 0:04 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121941080010592499/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121941080010592499?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+A dev tested how Claude models handle pixel art animation, and the leap to Fable 5.2 is actually insane
+
+Previous models struggled to modify both the character and the spell type simultaneously
+ 
+Fable 5.2 finally nails it, swapping the blue wizard for a green lizard man while completely rewriting the spell into an animated fireball
+
+Here is the exact prompt used for the test:
+
+"Create a gif just like this, a pixel art wizard casting a spell, but make it a fireball spell. Get as close as possible to this style but change the wizard to be a green lizard man with green skin and red clothes"
+
+The real breakthrough here isn't just generating art. It's giving an LLM a reference animation and commanding it to rewrite the character, outfit, and particle physics in one go
+```
+
 <a id="game"></a>
 
 ## Games
@@ -649,6 +667,20 @@ who does what:
 small reactive details beat big features (dev: lucian__03)
 ```
 
+### Dark Souls inspired browser game built with Three.js
+
+[@MengTo](https://x.com/MengTo/status/2121896633848017145) · 1:39 · [Watch](https://www.sandbase.ai/lab/media/x/opus-5-5/2121896633848017145/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121896633848017145?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+I made a Dark Souls inspired game in 3 days with Three.js and Claude Fable 5.2.
+
+Runs in the browser with full lighting, effects and sound. No build step.
+
+Stack: Fable 5.2 + Opus 5.5 in Claude Code, Seedream 5.0 Pro, Tripo 3D
+
+Full workflow and prompts below (1/10)
+```
+
 <a id="ui-demo"></a>
 
 ## Product UI
@@ -723,6 +755,46 @@ what Claude helped me do:
 lesson: one scan is never enough. when a better model comes out, run your old checks again
 
 the full guide is in the article below ↓
+```
+
+### Web platform UI performance optimization demo
+
+[@koppkev](https://x.com/koppkev/status/2121948375931338802) · 0:07 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121948375931338802/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121948375931338802?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+i told fable 5.2 to make https://t.co/sKpUJ7oUKB the smoothest platform on earth.
+
+it's doing some dark magic stuff i've never seen before. i don't understand anything, but it works.
+
+here's the prompt: 
+
+"Audit this entire project for performance and make it feel as smooth and fast as possible without changing how it looks or behaves. Preserve every feature, animation, transition and layout exactly as is. Measure before you change anything: profile page loads, navigation, scrolling and every interaction, and identify what stutters, what blocks the main thread, what makes the user wait, and what loads too early, too late or too often (images, video, fonts, scripts, data). Test on a throttled low-end device with a slow connection and treat that as the target, not my machine. Fix issues in order of user-visible impact, one at a time, verify each fix with before/after measurements, and revert anything that does not measurably help. Finish with a short report of what you changed and the numbers."
+
+the thing is, details was already heavily optimized. i did a lot of that manually.
+
+but it still found stuff. like it's drawing shaders that you can't even see, just so everything is ready before you click.
+
+before, the page transitions could sometimes stutter on lower end devices. now it's 120 fps the whole way.
+
+it did cost me around 10% -15% weekly usage on a 100$ plan so you should be aware of that.
+```
+
+### Rebuilding Twitter interface and feed from scratch
+
+[@leopardracer](https://x.com/leopardracer/status/2121977285221720283) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121977285221720283/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121977285221720283?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+ah sh*t claude fable 5.2 just rebuilt twitter from scratch in 15 seconds and started scrolling the feed
+
+i opened claude code, typed "rebuild https://t.co/BUieT37Sy2" and went to make tea. by the time it was ready the timeline was already on my screen
+
+the loading animation, the sidebar, the tabs, the trending section, every post card. it put the whole interface together piece by piece and then started scrolling like nothing happened
+
+this is the same model that ran 1,000 agents to formalize fermat's last theorem in 30 hours. a social network is apparently what it does when the task is easy
+
+the recording is 24 seconds. 15 of those are the build, the rest is me watching it scroll
+
+the exact prompt is in the reply ↓
 ```
 
 <a id="data-viz"></a>
@@ -1117,6 +1189,24 @@ Key factual claim
 Imp…
 ```
 
+### Educational cartoon explaining fractions for kids
+
+[@anstapnever](https://x.com/anstapnever/status/2121216551890419748) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121216551890419748/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121216551890419748?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+a 6-year-old understood fractions thanks to Fable 5.2
+
+i gave Fable 5.2 and Opus 5.5 one prompt: make a kind cartoon that explains what "half" means
+
+no animators. no voice actors. pure code
+
+stop showing your kids Skibidi Toilet.
+
+if your kid doesn't get something, make them a cartoon that explains it.
+
+the prompt is below, change one line ↓
+```
+
 ### Handling complex coding tasks with system prompt
 
 [@monokern](https://x.com/monokern/status/2121583598998262156) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121583598998262156/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121583598998262156?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1417,23 +1507,6 @@ Which result impressed you the most? 👇
 Follow @LatentOperatorX for more AI battles. ⚔️
 ```
 
-### Rigged game character creation comparison
-
-[@de1lymoon](https://x.com/de1lymoon/status/2120212518891323791) · 0:19 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120212518891323791/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120212518891323791?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-fable 5.2 vs opus 5.5 same brief, same $0.20 tripo model, one script to turn it into a RIGGED game character
-
-one was 3x faster. the other one could actually wave
-
-- fable 5.2: 22 bones, 4 clips, 2048 px texture, 2.05 min
-- opus 5.5: 20 bones, 4 clips, 1024 px texture, 3.2 min
-
-tip: make it check which way the character faces. tripo exports them sideways and both models missed it
-
-give 3d modeling a try yourself - i've dropped the prompt in the comments
-```
-
 ### Night rocket launch comparison between two models
 
 [@SamgreyAi](https://x.com/SamgreyAi/status/2120253192726577503) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120253192726577503/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120253192726577503?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1507,4 +1580,17 @@ one came out carved from obsidian and molten lava, cracks glowing from the insid
 the catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which one costs more - you call it: which cobra looks like the one actually worth paying for?
 
 Fable or Gemini? drop your pick
+```
+
+### Comparing jelly orange slices between Claude models
+
+[@RoundtableSpace](https://x.com/RoundtableSpace/status/2122060820201062902) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/opus-5-5/2121646685319221546/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122060820201062902?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Same prompt: "make a jelly orange slice."
+
+>⁠Claude Opus 5.5: $7.57
+>⁠Claude Fable 5.2: $11.57
+
+Hide the names and prices. Which one would you pick?
 ```

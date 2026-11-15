@@ -2,17 +2,17 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 65 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
+共 70 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (14)
-- [动效](#motion-graphics) (13)
-- [游戏](#game) (7)
-- [产品界面](#ui-demo) (2)
+- [动效](#motion-graphics) (14)
+- [游戏](#game) (8)
+- [产品界面](#ui-demo) (4)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
-- [讲解](#explainer) (10)
+- [讲解](#explainer) (11)
 - [发布片](#launch-film) (3)
 - [测试对比](#comparison) (14)
 
@@ -516,6 +516,24 @@ a year ago this needed a team
 full code below
 ```
 
+### 释放火球法术的像素风蜥蜴人法师
+
+[@zer0point_eth](https://x.com/zer0point_eth/status/2121941080010592499) · 0:04 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121941080010592499/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121941080010592499?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+A dev tested how Claude models handle pixel art animation, and the leap to Fable 5.2 is actually insane
+
+Previous models struggled to modify both the character and the spell type simultaneously
+ 
+Fable 5.2 finally nails it, swapping the blue wizard for a green lizard man while completely rewriting the spell into an animated fireball
+
+Here is the exact prompt used for the test:
+
+"Create a gif just like this, a pixel art wizard casting a spell, but make it a fireball spell. Get as close as possible to this style but change the wizard to be a green lizard man with green skin and red clothes"
+
+The real breakthrough here isn't just generating art. It's giving an LLM a reference animation and commanding it to rewrite the character, outfit, and particle physics in one go
+```
+
 <a id="game"></a>
 
 ## 游戏
@@ -649,6 +667,20 @@ who does what:
 small reactive details beat big features (dev: lucian__03)
 ```
 
+### 用Three.js在浏览器制作的类黑魂游戏
+
+[@MengTo](https://x.com/MengTo/status/2121896633848017145) · 1:39 · [观看](https://www.sandbase.ai/lab/media/x/opus-5-5/2121896633848017145/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121896633848017145?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+I made a Dark Souls inspired game in 3 days with Three.js and Claude Fable 5.2.
+
+Runs in the browser with full lighting, effects and sound. No build step.
+
+Stack: Fable 5.2 + Opus 5.5 in Claude Code, Seedream 5.0 Pro, Tripo 3D
+
+Full workflow and prompts below (1/10)
+```
+
 <a id="ui-demo"></a>
 
 ## 产品界面
@@ -723,6 +755,46 @@ what Claude helped me do:
 lesson: one scan is never enough. when a better model comes out, run your old checks again
 
 the full guide is in the article below ↓
+```
+
+### 网页平台UI性能优化与流畅度实测
+
+[@koppkev](https://x.com/koppkev/status/2121948375931338802) · 0:07 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121948375931338802/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121948375931338802?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+i told fable 5.2 to make https://t.co/sKpUJ7oUKB the smoothest platform on earth.
+
+it's doing some dark magic stuff i've never seen before. i don't understand anything, but it works.
+
+here's the prompt: 
+
+"Audit this entire project for performance and make it feel as smooth and fast as possible without changing how it looks or behaves. Preserve every feature, animation, transition and layout exactly as is. Measure before you change anything: profile page loads, navigation, scrolling and every interaction, and identify what stutters, what blocks the main thread, what makes the user wait, and what loads too early, too late or too often (images, video, fonts, scripts, data). Test on a throttled low-end device with a slow connection and treat that as the target, not my machine. Fix issues in order of user-visible impact, one at a time, verify each fix with before/after measurements, and revert anything that does not measurably help. Finish with a short report of what you changed and the numbers."
+
+the thing is, details was already heavily optimized. i did a lot of that manually.
+
+but it still found stuff. like it's drawing shaders that you can't even see, just so everything is ready before you click.
+
+before, the page transitions could sometimes stutter on lower end devices. now it's 120 fps the whole way.
+
+it did cost me around 10% -15% weekly usage on a 100$ plan so you should be aware of that.
+```
+
+### 从零重建推特界面与信息流
+
+[@leopardracer](https://x.com/leopardracer/status/2121977285221720283) · 0:24 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121977285221720283/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121977285221720283?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+ah sh*t claude fable 5.2 just rebuilt twitter from scratch in 15 seconds and started scrolling the feed
+
+i opened claude code, typed "rebuild https://t.co/BUieT37Sy2" and went to make tea. by the time it was ready the timeline was already on my screen
+
+the loading animation, the sidebar, the tabs, the trending section, every post card. it put the whole interface together piece by piece and then started scrolling like nothing happened
+
+this is the same model that ran 1,000 agents to formalize fermat's last theorem in 30 hours. a social network is apparently what it does when the task is easy
+
+the recording is 24 seconds. 15 of those are the build, the rest is me watching it scroll
+
+the exact prompt is in the reply ↓
 ```
 
 <a id="data-viz"></a>
@@ -1117,6 +1189,24 @@ Key factual claim
 Imp…
 ```
 
+### 面向儿童的分数概念教学动画
+
+[@anstapnever](https://x.com/anstapnever/status/2121216551890419748) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121216551890419748/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121216551890419748?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+a 6-year-old understood fractions thanks to Fable 5.2
+
+i gave Fable 5.2 and Opus 5.5 one prompt: make a kind cartoon that explains what "half" means
+
+no animators. no voice actors. pure code
+
+stop showing your kids Skibidi Toilet.
+
+if your kid doesn't get something, make them a cartoon that explains it.
+
+the prompt is below, change one line ↓
+```
+
 ### 利用系统提示词处理复杂编程任务
 
 [@monokern](https://x.com/monokern/status/2121583598998262156) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121583598998262156/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121583598998262156?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1417,23 +1507,6 @@ Which result impressed you the most? 👇
 Follow @LatentOperatorX for more AI battles. ⚔️
 ```
 
-### 带绑定的游戏角色创建对比
-
-[@de1lymoon](https://x.com/de1lymoon/status/2120212518891323791) · 0:19 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120212518891323791/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120212518891323791?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-fable 5.2 vs opus 5.5 same brief, same $0.20 tripo model, one script to turn it into a RIGGED game character
-
-one was 3x faster. the other one could actually wave
-
-- fable 5.2: 22 bones, 4 clips, 2048 px texture, 2.05 min
-- opus 5.5: 20 bones, 4 clips, 1024 px texture, 3.2 min
-
-tip: make it check which way the character faces. tripo exports them sideways and both models missed it
-
-give 3d modeling a try yourself - i've dropped the prompt in the comments
-```
-
 ### 夜间火箭发射场景的双模型对比
 
 [@SamgreyAi](https://x.com/SamgreyAi/status/2120253192726577503) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120253192726577503/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120253192726577503?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1507,4 +1580,17 @@ one came out carved from obsidian and molten lava, cracks glowing from the insid
 the catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which one costs more - you call it: which cobra looks like the one actually worth paying for?
 
 Fable or Gemini? drop your pick
+```
+
+### 对比不同Claude模型生成的果冻橙片
+
+[@RoundtableSpace](https://x.com/RoundtableSpace/status/2122060820201062902) · 0:17 · [观看](https://www.sandbase.ai/lab/media/x/opus-5-5/2121646685319221546/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122060820201062902?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Same prompt: "make a jelly orange slice."
+
+>⁠Claude Opus 5.5: $7.57
+>⁠Claude Fable 5.2: $11.57
+
+Hide the names and prices. Which one would you pick?
 ```

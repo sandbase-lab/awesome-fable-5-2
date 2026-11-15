@@ -31,7 +31,7 @@
   "durationMs": 57000,
   "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119868968307695818/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119868968307695818/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119868968307695818"
  },
@@ -211,7 +211,7 @@
   "durationMs": 18250,
   "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119876626179870838/video.mp4",
   "promptShared": false,
-  "featured": 5,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119876626179870838/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119876626179870838"
  },
@@ -229,7 +229,7 @@
   "durationMs": 56800,
   "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119877065701036047/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119877065701036047/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119877065701036047"
  },
@@ -631,24 +631,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119899685011792255/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119899685011792255"
- },
- {
-  "id": "2119899949756539056",
-  "title": "Motion design film featuring flock simulation of birds",
-  "title_zh": "包含鸟群模拟动画的动态设计短片",
-  "category": "particles",
-  "author": {
-   "handle": "techfren",
-   "name": "Tech Friend AJ"
-  },
-  "postUrl": "https://x.com/techfren/status/2119899949756539056",
-  "createdAt": "2026-11-09T21:08:28.000Z",
-  "durationMs": 78000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119899949756539056/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119899949756539056/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119899949756539056"
  },
  {
   "id": "2119900487688622171",
@@ -1199,24 +1181,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119920990893244510"
  },
  {
-  "id": "2119921141162860626",
-  "title": "Fast automated workday demo with Claude Fable",
-  "title_zh": "Claude Fable高效自动化工作流演示",
-  "category": "ui-demo",
-  "author": {
-   "handle": "chddaniel",
-   "name": "Daniel Ch"
-  },
-  "postUrl": "https://x.com/chddaniel/status/2119921141162860626",
-  "createdAt": "2026-11-09T22:32:40.000Z",
-  "durationMs": 93091,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119921141162860626/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119921141162860626/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119921141162860626"
- },
- {
   "id": "2119925067207647695",
   "title": "A galloping horse animated in SVG",
   "title_zh": "纯SVG动画奔腾的马",
@@ -1361,24 +1325,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119932937642946900/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119932937642946900"
- },
- {
-  "id": "2119932946346094690",
-  "title": "A cozy game about a plane flying over Lisbon",
-  "title_zh": "小飞机飞越里斯本的休闲游戏",
-  "category": "game",
-  "author": {
-   "handle": "goncalo_canhoto",
-   "name": "Gonçalo Canhoto 🇵🇹"
-  },
-  "postUrl": "https://x.com/goncalo_canhoto/status/2119932946346094690",
-  "createdAt": "2026-11-09T23:19:35.000Z",
-  "durationMs": 30016,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119932946346094690/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119932946346094690/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119932946346094690"
  },
  {
   "id": "2119935331499925557",
@@ -2307,24 +2253,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120050837347258451"
  },
  {
-  "id": "2120054646282870910",
-  "title": "Wooden marble labyrinth game in Three.js",
-  "title_zh": "基于Three.js的木制滚珠迷宫游戏",
-  "category": "game",
-  "author": {
-   "handle": "mylifcc",
-   "name": "lifcc"
-  },
-  "postUrl": "https://x.com/mylifcc/status/2120054646282870910",
-  "createdAt": "2026-11-10T07:23:11.000Z",
-  "durationMs": 51041,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120054646282870910/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120054646282870910/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120054646282870910"
- },
- {
   "id": "2120056264751227079",
   "title": "Glass heart animation created in Blender",
   "title_zh": "Blender中生成的玻璃心脏动画",
@@ -2905,24 +2833,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120116358793085186"
  },
  {
-  "id": "2120120133712593118",
-  "title": "A stray cat rescue game",
-  "title_zh": "流浪猫救援模拟游戏",
-  "category": "game",
-  "author": {
-   "handle": "aimikoda",
-   "name": "Kōda"
-  },
-  "postUrl": "https://x.com/aimikoda/status/2120120133712593118",
-  "createdAt": "2026-11-10T11:43:24.000Z",
-  "durationMs": 96466,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120120133712593118/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120120133712593118/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120120133712593118"
- },
- {
   "id": "2120123820833116194",
   "title": "Playable 3D game built with Fable",
   "title_zh": "使用Fable构建的可玩3D游戏",
@@ -3124,24 +3034,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120134049503347125"
  },
  {
-  "id": "2120134440512794822",
-  "title": "Motion design showcase using web animation libraries",
-  "title_zh": "网页动画库制作的动效展示",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "0xnicc0",
-   "name": "nicco"
-  },
-  "postUrl": "https://x.com/0xnicc0/status/2120134440512794822",
-  "createdAt": "2026-11-10T12:40:15.000Z",
-  "durationMs": 30500,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120134440512794822/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120134440512794822/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120134440512794822"
- },
- {
   "id": "2120139167846088787",
   "title": "Three.js black hole light bending comparison",
   "title_zh": "Three.js黑洞引力透镜效果对比",
@@ -3159,24 +3051,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120139167846088787/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120139167846088787"
- },
- {
-  "id": "2120139661863530865",
-  "title": "Recreation of a Matrix movie scene",
-  "title_zh": "黑客帝国电影场景重现",
-  "category": "3d-scene",
-  "author": {
-   "handle": "loktar00",
-   "name": "Loktar 🇺🇸"
-  },
-  "postUrl": "https://x.com/loktar00/status/2120139661863530865",
-  "createdAt": "2026-11-10T13:01:00.000Z",
-  "durationMs": 26005,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120139661863530865/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120139661863530865/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120139661863530865"
  },
  {
   "id": "2120140416905613368",
@@ -3340,24 +3214,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120157341102276769/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120157341102276769"
- },
- {
-  "id": "2120157789766951406",
-  "title": "Post-boss ending scene in a Zelda-like game",
-  "title_zh": "类塞尔达游戏中的 Boss 战后通关场景",
-  "category": "game",
-  "author": {
-   "handle": "0xKense1",
-   "name": "Kensei"
-  },
-  "postUrl": "https://x.com/0xKense1/status/2120157789766951406",
-  "createdAt": "2026-11-10T14:13:02.000Z",
-  "durationMs": 8375,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120157789766951406/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120157789766951406/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120157789766951406"
  },
  {
   "id": "2120158769758027923",
@@ -3578,24 +3434,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120180769033441317"
  },
  {
-  "id": "2120181596384825581",
-  "title": "An animation drawn entirely with code",
-  "title_zh": "完全由代码绘制渲染的动画视频",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "SamVale29",
-   "name": "Sam Vale"
-  },
-  "postUrl": "https://x.com/SamVale29/status/2120181596384825581",
-  "createdAt": "2026-11-10T15:47:38.000Z",
-  "durationMs": 58000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120181596384825581/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120181596384825581/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120181596384825581"
- },
- {
   "id": "2120188343870964113",
   "title": "Restoration visualization of a ruin in Tuscany",
   "title_zh": "托斯卡纳废墟修复视觉效果视频",
@@ -3722,24 +3560,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120199783730299278"
  },
  {
-  "id": "2120200286753161230",
-  "title": "Video to 3D animation test in Fable",
-  "title_zh": "Fable视频转3D动画生成测试",
-  "category": "3d-scene",
-  "author": {
-   "handle": "KHvostikk",
-   "name": "Konstantin Zolozhkov"
-  },
-  "postUrl": "https://x.com/KHvostikk/status/2120200286753161230",
-  "createdAt": "2026-11-10T17:01:54.000Z",
-  "durationMs": 8041,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120200286753161230/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120200286753161230/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120200286753161230"
- },
- {
   "id": "2120202746121085321",
   "title": "Live webcam anatomy mirror tracking head movement",
   "title_zh": "实时追踪头部的网页端人体解剖透视镜像",
@@ -3753,7 +3573,7 @@
   "durationMs": 201733,
   "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120202746121085321/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120202746121085321/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120202746121085321"
  },
@@ -3830,25 +3650,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120211050595340766/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120211050595340766"
- },
- {
-  "id": "2120212518891323791",
-  "title": "Rigged game character creation comparison",
-  "title_zh": "带绑定的游戏角色创建对比",
-  "category": "comparison",
-  "author": {
-   "handle": "de1lymoon",
-   "name": "Alex"
-  },
-  "postUrl": "https://x.com/de1lymoon/status/2120212518891323791",
-  "createdAt": "2026-11-10T17:50:30.000Z",
-  "durationMs": 18808,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120212518891323791/video.mp4",
-  "promptShared": true,
-  "promptText": "fable 5.2 vs opus 5.5 same brief, same $0.20 tripo model, one script to turn it into a RIGGED game character\n\none was 3x faster. the other one could actually wave\n\n- fable 5.2: 22 bones, 4 clips, 2048 px texture, 2.05 min\n- opus 5.5: 20 bones, 4 clips, 1024 px texture, 3.2 min\n\ntip: make it check which way the character faces. tripo exports them sideways and both models missed it\n\ngive 3d modeling a try yourself - i've dropped the prompt in the comments",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120212518891323791/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120212518891323791"
  },
  {
   "id": "2120214767868456979",
@@ -3995,24 +3796,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120239401821487149"
  },
  {
-  "id": "2120246750459961453",
-  "title": "Gameplay demonstration of a street mission game",
-  "title_zh": "街道任务救援游戏的玩法演示",
-  "category": "game",
-  "author": {
-   "handle": "global_techgirl",
-   "name": "Mercy Thaddeus"
-  },
-  "postUrl": "https://x.com/global_techgirl/status/2120246750459961453",
-  "createdAt": "2026-11-10T20:06:32.000Z",
-  "durationMs": 68969,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120246750459961453/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120246750459961453/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120246750459961453"
- },
- {
   "id": "2120247208918266080",
   "title": "Lord of the Rings river water physics scene",
   "title_zh": "指环王风格的河流物理模拟 3D 场景",
@@ -4117,7 +3900,7 @@
   "durationMs": 116099,
   "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120253236309569696/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120253236309569696/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120253236309569696"
  },
@@ -4577,24 +4360,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120448447166001569"
  },
  {
-  "id": "2120454553216651660",
-  "title": "Underwater civilization generation cost and visual comparison",
-  "title_zh": "水下文明生成成本与视觉效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "Lummox_eth",
-   "name": "Lummox"
-  },
-  "postUrl": "https://x.com/Lummox_eth/status/2120454553216651660",
-  "createdAt": "2026-11-11T09:52:16.000Z",
-  "durationMs": 10000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120454553216651660/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120454553216651660/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120454553216651660"
- },
- {
   "id": "2120455512588210568",
   "title": "CPU synthesized and routed for FPGA hardware",
   "title_zh": "面向FPGA硬件综合布线的CPU",
@@ -4611,24 +4376,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120455512588210568/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120455512588210568"
- },
- {
-  "id": "2120472656046649627",
-  "title": "Four AI models generating a working inline-4 engine",
-  "title_zh": "四款AI模型生成直列四缸发动机的对比",
-  "category": "comparison",
-  "author": {
-   "handle": "kinderlayer",
-   "name": "Kinder"
-  },
-  "postUrl": "https://x.com/kinderlayer/status/2120472656046649627",
-  "createdAt": "2026-11-11T11:04:12.000Z",
-  "durationMs": 12006,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120472656046649627/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120472656046649627/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120472656046649627"
  },
  {
   "id": "2120475568915529978",
@@ -4703,24 +4450,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120488092096160189"
  },
  {
-  "id": "2120488383315062856",
-  "title": "Zooming from skin to electron clouds",
-  "title_zh": "从皮肤缩放至电子云微观层面的科普动画",
-  "category": "explainer",
-  "author": {
-   "handle": "f0rgent",
-   "name": "f⭕️rgent"
-  },
-  "postUrl": "https://x.com/f0rgent/status/2120488383315062856",
-  "createdAt": "2026-11-11T12:06:42.000Z",
-  "durationMs": 44100,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120488383315062856/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120488383315062856/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120488383315062856"
- },
- {
   "id": "2120494277528580110",
   "title": "Browser-based fantasy sailing game generated by code",
   "title_zh": "纯代码生成的网页奇幻航海游戏",
@@ -4758,24 +4487,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120494280548520197"
  },
  {
-  "id": "2120495827777151186",
-  "title": "A robot ant assembles a robot in 3D",
-  "title_zh": "机械蚁组装机器人的3D场景",
-  "category": "3d-scene",
-  "author": {
-   "handle": "HamidoFx1",
-   "name": "Hamido Teck"
-  },
-  "postUrl": "https://x.com/HamidoFx1/status/2120495827777151186",
-  "createdAt": "2026-11-11T12:36:16.000Z",
-  "durationMs": 19866,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120495827777151186/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120495827777151186/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120495827777151186"
- },
- {
   "id": "2120500496850997258",
   "title": "Capybara scene comparison in Three.js",
   "title_zh": "Three.js水豚场景生成对比",
@@ -4792,42 +4503,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120500496850997258/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120500496850997258"
- },
- {
-  "id": "2120501283304153438",
-  "title": "Trailer for a Three.js game",
-  "title_zh": "Three.js游戏的宣传预告片",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "MengTo",
-   "name": "Meng To"
-  },
-  "postUrl": "https://x.com/MengTo/status/2120501283304153438",
-  "createdAt": "2026-11-11T12:57:57.000Z",
-  "durationMs": 60000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120501283304153438/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120501283304153438/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120501283304153438"
- },
- {
-  "id": "2120505286603505858",
-  "title": "Juggling rhythmically in stylized Paris streets",
-  "title_zh": "巴黎风情街头伴着节奏抛球杂耍",
-  "category": "3d-scene",
-  "author": {
-   "handle": "mxvdl",
-   "name": "Max Vedel"
-  },
-  "postUrl": "https://x.com/mxvdl/status/2120505286603505858",
-  "createdAt": "2026-11-11T13:13:52.000Z",
-  "durationMs": 53397,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120505286603505858/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120505286603505858/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120505286603505858"
  },
  {
   "id": "2120514197674975640",
@@ -6140,22 +5815,22 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121176151234330707"
  },
  {
-  "id": "2121199177468104918",
-  "title": "Running jet engine disassembled in Three.js",
-  "title_zh": "运转中喷气发动机Three.js三维拆解",
-  "category": "3d-scene",
+  "id": "2121199347631087871",
+  "title": "Game room scaling and camera perspective rules",
+  "title_zh": "游戏关卡房间缩放与摄像机视角规则解析",
+  "category": "explainer",
   "author": {
-   "handle": "kursormaxx",
-   "name": "Kursor"
+   "handle": "0xWast3",
+   "name": "wast3"
   },
-  "postUrl": "https://x.com/kursormaxx/status/2121199177468104918",
-  "createdAt": "2026-11-13T11:11:08.000Z",
-  "durationMs": 24000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121199177468104918/video.mp4",
+  "postUrl": "https://x.com/0xWast3/status/2121199347631087871",
+  "createdAt": "2026-11-13T11:11:49.000Z",
+  "durationMs": 30100,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121199347631087871/video.mp4",
   "promptShared": false,
   "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121199177468104918/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121199177468104918"
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121199347631087871/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121199347631087871"
  },
  {
   "id": "2121208455557943556",
@@ -6212,6 +5887,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121216070375612527"
  },
  {
+  "id": "2121216551890419748",
+  "title": "Educational cartoon explaining fractions for kids",
+  "title_zh": "面向儿童的分数概念教学动画",
+  "category": "explainer",
+  "author": {
+   "handle": "anstapnever",
+   "name": "anstap"
+  },
+  "postUrl": "https://x.com/anstapnever/status/2121216551890419748",
+  "createdAt": "2026-11-13T12:20:10.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121216551890419748/video.mp4",
+  "promptShared": true,
+  "promptText": "a 6-year-old understood fractions thanks to Fable 5.2\n\ni gave Fable 5.2 and Opus 5.5 one prompt: make a kind cartoon that explains what \"half\" means\n\nno animators. no voice actors. pure code\n\nstop showing your kids Skibidi Toilet.\n\nif your kid doesn't get something, make them a cartoon that explains it.\n\nthe prompt is below, change one line ↓",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121216551890419748/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121216551890419748"
+ },
+ {
   "id": "2121231703767478599",
   "title": "Code-generated Three.js anime short film",
   "title_zh": "Three.js代码生成的动漫短片",
@@ -6228,6 +5922,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121231703767478599/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121231703767478599"
+ },
+ {
+  "id": "2121245217152016866",
+  "title": "Wild West cinematic chase model comparison",
+  "title_zh": "狂野西部追逐场景的多模型生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Lummox_eth",
+   "name": "Lummox"
+  },
+  "postUrl": "https://x.com/Lummox_eth/status/2121245217152016866",
+  "createdAt": "2026-11-13T14:14:05.000Z",
+  "durationMs": 10000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121245217152016866/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121245217152016866/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121245217152016866"
  },
  {
   "id": "2121253191748669705",
@@ -6283,6 +5995,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121273973270827059/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121273973270827059"
+ },
+ {
+  "id": "2121285980900454630",
+  "title": "Video game interface generated in Unreal Engine",
+  "title_zh": "虚幻引擎中生成的视频游戏UI界面",
+  "category": "ui-demo",
+  "author": {
+   "handle": "0xWast3",
+   "name": "wast3"
+  },
+  "postUrl": "https://x.com/0xWast3/status/2121285980900454630",
+  "createdAt": "2026-11-13T16:56:04.000Z",
+  "durationMs": 30233,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121285980900454630/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121285980900454630/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121285980900454630"
  },
  {
   "id": "2121296570872107145",
@@ -6392,24 +6122,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121324766619701419/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121324766619701419"
- },
- {
-  "id": "2121326233044537688",
-  "title": "Fable versus Gemini building the Up house",
-  "title_zh": "多模型生成飞屋环游记房屋效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "noclipepe",
-   "name": "noclipepe"
-  },
-  "postUrl": "https://x.com/noclipepe/status/2121326233044537688",
-  "createdAt": "2026-11-13T19:36:00.000Z",
-  "durationMs": 36133,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121326233044537688/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121326233044537688/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121326233044537688"
  },
  {
   "id": "2121331088895160753",
@@ -6627,6 +6339,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121561217797951859/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121561217797951859"
+ },
+ {
+  "id": "2121565599629271069",
+  "title": "Four model comparison of a single-cylinder engine cross-section",
+  "title_zh": "四款模型生成单缸发动机剖面运转对比",
+  "category": "comparison",
+  "author": {
+   "handle": "kinderlayer",
+   "name": "Kinder"
+  },
+  "postUrl": "https://x.com/kinderlayer/status/2121565599629271069",
+  "createdAt": "2026-11-14T11:27:10.000Z",
+  "durationMs": 12120,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2121565599629271069/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2121565599629271069/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121565599629271069"
  },
  {
   "id": "2121572657300689375",
@@ -7082,6 +6812,42 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121714155757441227"
  },
  {
+  "id": "2121720293324423508",
+  "title": "GTA 6 concept drive scene",
+  "title_zh": "GTA 6概念自驾场景演示",
+  "category": "3d-scene",
+  "author": {
+   "handle": "0xKenny1st",
+   "name": "Kenny1st"
+  },
+  "postUrl": "https://x.com/0xKenny1st/status/2121720293324423508",
+  "createdAt": "2026-11-14T21:41:52.000Z",
+  "durationMs": 172036,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121720293324423508/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121720293324423508/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121720293324423508"
+ },
+ {
+  "id": "2121720755192799480",
+  "title": "Multi-model agent workflow guide for Claude Code",
+  "title_zh": "Claude Code多模型智能体协同工作流教程",
+  "category": "explainer",
+  "author": {
+   "handle": "thedelost",
+   "name": "delost"
+  },
+  "postUrl": "https://x.com/thedelost/status/2121720755192799480",
+  "createdAt": "2026-11-14T21:43:42.000Z",
+  "durationMs": 24604,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121720755192799480/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121720755192799480/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121720755192799480"
+ },
+ {
   "id": "2121721290687983906",
   "title": "Cinematic fight sequence rendered in Three.js",
   "title_zh": "Three.js纯代码渲染的电影级打斗场景",
@@ -7241,7 +7007,7 @@
   "durationMs": 60000,
   "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121799455041011723/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 7,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121799455041011723/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121799455041011723"
  },
@@ -7263,5 +7029,244 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121800440639811713/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121800440639811713"
+ },
+ {
+  "id": "2121842059778605440",
+  "title": "Comparing 3D meshes and Gaussian splats in Fable",
+  "title_zh": "在Fable中对比3D网格与高斯泼溅渲染",
+  "category": "comparison",
+  "author": {
+   "handle": "nan_in_space",
+   "name": "Nan Ha"
+  },
+  "postUrl": "https://x.com/nan_in_space/status/2121842059778605440",
+  "createdAt": "2026-11-15T05:45:43.000Z",
+  "durationMs": 58000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121842059778605440/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121842059778605440/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121842059778605440"
+ },
+ {
+  "id": "2121872293878227086",
+  "title": "Playable browser Souls-like boss fight",
+  "title_zh": "浏览器可玩类魂Boss战游戏",
+  "category": "game",
+  "author": {
+   "handle": "nehulbuilds",
+   "name": "Nehul Sharma"
+  },
+  "postUrl": "https://x.com/nehulbuilds/status/2121872293878227086",
+  "createdAt": "2026-11-15T07:45:51.000Z",
+  "durationMs": 137983,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121872293878227086/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121872293878227086/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121872293878227086"
+ },
+ {
+  "id": "2121894726349795368",
+  "title": "Full clone of Lexware Office interface",
+  "title_zh": "完整复刻Lexware Office软件界面",
+  "category": "ui-demo",
+  "author": {
+   "handle": "derleomartin",
+   "name": "Leonard M. Schmedding"
+  },
+  "postUrl": "https://x.com/derleomartin/status/2121894726349795368",
+  "createdAt": "2026-11-15T09:15:00.000Z",
+  "durationMs": 60600,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121894726349795368/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121894726349795368/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121894726349795368"
+ },
+ {
+  "id": "2121896633848017145",
+  "title": "Dark Souls inspired browser game built with Three.js",
+  "title_zh": "用Three.js在浏览器制作的类黑魂游戏",
+  "category": "game",
+  "author": {
+   "handle": "MengTo",
+   "name": "Meng To"
+  },
+  "postUrl": "https://x.com/MengTo/status/2121896633848017145",
+  "createdAt": "2026-11-15T09:22:35.000Z",
+  "durationMs": 99118,
+  "mp4": "https://www.sandbase.ai/lab/media/x/opus-5-5/2121896633848017145/video.mp4",
+  "promptShared": true,
+  "promptText": "I made a Dark Souls inspired game in 3 days with Three.js and Claude Fable 5.2.\n\nRuns in the browser with full lighting, effects and sound. No build step.\n\nStack: Fable 5.2 + Opus 5.5 in Claude Code, Seedream 5.0 Pro, Tripo 3D\n\nFull workflow and prompts below (1/10)",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/opus-5-5/2121896633848017145/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121896633848017145"
+ },
+ {
+  "id": "2121897847020806350",
+  "title": "Side by side racing game comparison",
+  "title_zh": "3D赛车游戏生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "insomnia_vip",
+   "name": "Insomnia"
+  },
+  "postUrl": "https://x.com/insomnia_vip/status/2121897847020806350",
+  "createdAt": "2026-11-15T09:27:24.000Z",
+  "durationMs": 42074,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2121897847020806350/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2121897847020806350/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121897847020806350"
+ },
+ {
+  "id": "2121922159035773133",
+  "title": "Real-time object tracking camera using YOLO and phone",
+  "title_zh": "使用YOLO和旧手机搭建实时目标追踪相机",
+  "category": "explainer",
+  "author": {
+   "handle": "zodchiii",
+   "name": "darkzodchi"
+  },
+  "postUrl": "https://x.com/zodchiii/status/2121922159035773133",
+  "createdAt": "2026-11-15T11:04:00.000Z",
+  "durationMs": 12000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121922159035773133/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121922159035773133/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121922159035773133"
+ },
+ {
+  "id": "2121941080010592499",
+  "title": "Pixel art lizard wizard casting a fireball spell",
+  "title_zh": "释放火球法术的像素风蜥蜴人法师",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "zer0point_eth",
+   "name": "Zero"
+  },
+  "postUrl": "https://x.com/zer0point_eth/status/2121941080010592499",
+  "createdAt": "2026-11-15T12:19:11.000Z",
+  "durationMs": 3800,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121941080010592499/video.mp4",
+  "promptShared": true,
+  "promptText": "A dev tested how Claude models handle pixel art animation, and the leap to Fable 5.2 is actually insane\n\nPrevious models struggled to modify both the character and the spell type simultaneously\n \nFable 5.2 finally nails it, swapping the blue wizard for a green lizard man while completely rewriting the spell into an animated fireball\n\nHere is the exact prompt used for the test:\n\n\"Create a gif just like this, a pixel art wizard casting a spell, but make it a fireball spell. Get as close as possible to this style but change the wizard to be a green lizard man with green skin and red clothes\"\n\nThe real breakthrough here isn't just generating art. It's giving an LLM a reference animation and commanding it to rewrite the character, outfit, and particle physics in one go",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121941080010592499/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121941080010592499"
+ },
+ {
+  "id": "2121948375931338802",
+  "title": "Web platform UI performance optimization demo",
+  "title_zh": "网页平台UI性能优化与流畅度实测",
+  "category": "ui-demo",
+  "author": {
+   "handle": "koppkev",
+   "name": "kev"
+  },
+  "postUrl": "https://x.com/koppkev/status/2121948375931338802",
+  "createdAt": "2026-11-15T12:48:11.000Z",
+  "durationMs": 7073,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121948375931338802/video.mp4",
+  "promptShared": true,
+  "promptText": "i told fable 5.2 to make https://t.co/sKpUJ7oUKB the smoothest platform on earth.\n\nit's doing some dark magic stuff i've never seen before. i don't understand anything, but it works.\n\nhere's the prompt: \n\n\"Audit this entire project for performance and make it feel as smooth and fast as possible without changing how it looks or behaves. Preserve every feature, animation, transition and layout exactly as is. Measure before you change anything: profile page loads, navigation, scrolling and every interaction, and identify what stutters, what blocks the main thread, what makes the user wait, and what loads too early, too late or too often (images, video, fonts, scripts, data). Test on a throttled low-end device with a slow connection and treat that as the target, not my machine. Fix issues in order of user-visible impact, one at a time, verify each fix with before/after measurements, and revert anything that does not measurably help. Finish with a short report of what you changed and the numbers.\"\n\nthe thing is, details was already heavily optimized. i did a lot of that manually.\n\nbut it still found stuff. like it's drawing shaders that you can't even see, just so everything is ready before you click.\n\nbefore, the page transitions could sometimes stutter on lower end devices. now it's 120 fps the whole way.\n\nit did cost me around 10% -15% weekly usage on a 100$ plan so you should be aware of that.",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121948375931338802/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121948375931338802"
+ },
+ {
+  "id": "2121961164233933129",
+  "title": "Swimmable underwater world in a single HTML file",
+  "title_zh": "单个HTML文件构建的可畅游水下世界",
+  "category": "3d-scene",
+  "author": {
+   "handle": "kimmonismus",
+   "name": "Chubby♨️"
+  },
+  "postUrl": "https://x.com/kimmonismus/status/2121961164233933129",
+  "createdAt": "2026-11-15T13:39:00.000Z",
+  "durationMs": 109600,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121961164233933129/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121673597152362755/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121961164233933129"
+ },
+ {
+  "id": "2121977285221720283",
+  "title": "Rebuilding Twitter interface and feed from scratch",
+  "title_zh": "从零重建推特界面与信息流",
+  "category": "ui-demo",
+  "author": {
+   "handle": "leopardracer",
+   "name": "leopardracer"
+  },
+  "postUrl": "https://x.com/leopardracer/status/2121977285221720283",
+  "createdAt": "2026-11-15T14:43:03.000Z",
+  "durationMs": 24152,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121977285221720283/video.mp4",
+  "promptShared": true,
+  "promptText": "ah sh*t claude fable 5.2 just rebuilt twitter from scratch in 15 seconds and started scrolling the feed\n\ni opened claude code, typed \"rebuild https://t.co/BUieT37Sy2\" and went to make tea. by the time it was ready the timeline was already on my screen\n\nthe loading animation, the sidebar, the tabs, the trending section, every post card. it put the whole interface together piece by piece and then started scrolling like nothing happened\n\nthis is the same model that ran 1,000 agents to formalize fermat's last theorem in 30 hours. a social network is apparently what it does when the task is easy\n\nthe recording is 24 seconds. 15 of those are the build, the rest is me watching it scroll\n\nthe exact prompt is in the reply ↓",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121977285221720283/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121977285221720283"
+ },
+ {
+  "id": "2121996663996707139",
+  "title": "Virtual New York city run by AI agents",
+  "title_zh": "AI智能体驱动的虚拟纽约城市",
+  "category": "3d-scene",
+  "author": {
+   "handle": "DN_degen",
+   "name": "DN_DEGEN"
+  },
+  "postUrl": "https://x.com/DN_degen/status/2121996663996707139",
+  "createdAt": "2026-11-15T16:00:04.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121996663996707139/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121996663996707139/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121996663996707139"
+ },
+ {
+  "id": "2122011748752318857",
+  "title": "Underwater world running in browser without engine",
+  "title_zh": "无需游戏引擎在浏览器运行的水下世界",
+  "category": "3d-scene",
+  "author": {
+   "handle": "Pirat_Nation",
+   "name": "Pirat_Nation 🔴"
+  },
+  "postUrl": "https://x.com/Pirat_Nation/status/2122011748752318857",
+  "createdAt": "2026-11-15T17:00:00.000Z",
+  "durationMs": 59306,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122011748752318857/video.mp4",
+  "promptShared": false,
+  "featured": 5,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122011748752318857/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122011748752318857"
+ },
+ {
+  "id": "2122060820201062902",
+  "title": "Comparing jelly orange slices between Claude models",
+  "title_zh": "对比不同Claude模型生成的果冻橙片",
+  "category": "comparison",
+  "author": {
+   "handle": "RoundtableSpace",
+   "name": "0xMarioNawfal"
+  },
+  "postUrl": "https://x.com/RoundtableSpace/status/2122060820201062902",
+  "createdAt": "2026-11-15T20:15:00.000Z",
+  "durationMs": 17000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/opus-5-5/2121646685319221546/video.mp4",
+  "promptShared": true,
+  "promptText": "Same prompt: \"make a jelly orange slice.\"\n\n>⁠Claude Opus 5.5: $7.57\n>⁠Claude Fable 5.2: $11.57\n\nHide the names and prices. Which one would you pick?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/opus-5-5/2121646685319221546/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122060820201062902"
  }
 ]
