@@ -2,17 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-62 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
+65 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators describe the task rather than pasting the whole prompt, and some put the full text in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
 - [3D scenes](#3d-scene) (14)
 - [Motion graphics](#motion-graphics) (13)
-- [Games](#game) (10)
+- [Games](#game) (7)
 - [Product UI](#ui-demo) (2)
-- [Explainers](#explainer) (7)
+- [Charts & diagrams](#data-viz) (1)
+- [Kinetic type](#kinetic-type) (1)
+- [Explainers](#explainer) (10)
 - [Launch films](#launch-film) (3)
-- [Tests & comparisons](#comparison) (13)
+- [Tests & comparisons](#comparison) (14)
 
 <a id="3d-scene"></a>
 
@@ -45,18 +47,6 @@ this has to be the craziest output i’ve seen for this prompt. this was one sho
 you can test it here:  https://t.co/ItAvCiHFlZ
 
 i am really loving model so far. stuff that opus couldn’t do, fable is just one shotting at medium or high reasoning
-```
-
-### Mechanical watch movement built entirely in code
-
-[@techfren](https://x.com/techfren/status/2119911343633682916) · 0:42 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119911343633682916/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119911343633682916?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-I asked Fable 5.2 for the most impressive 3D motion design video it could make.
-
-It chose a mechanical watch and built every part of the movement in code.
-
-Less impressive than the flock one imo. What do you think?
 ```
 
 ### Animated Raspberry Pi 5
@@ -129,63 +119,6 @@ Fable 5.2: 82 min, 460k output tokens, about $41.1 in API terms.
 Opus 5.5: 51 min, 275k output tokens, about $15.7 in API terms.
 ```
 
-### A robot archer shooting an arrow through ocean
-
-[@camperaigg](https://x.com/camperaigg/status/2120124319187734646) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120124319187734646/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120124319187734646?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-🚨 Fable 5.2 TESTING Part 20
-
-🏹⚡ I asked Claude Fable 5.2 for "a robot archer shooting an arrow through the ocean."
-
-It made SUNDER: a 30-second anime short, written entirely in code. 🔊 Sound on.
-
-🤖 A 12 m war mech draws a bow as tall as itself
-🌊 The arrow leaves at 640 m/s and tears a trench through 6 km of storm sea
-☁️ It rips the cloud deck open on the way
-🎯 Bullseye, painted on an island cliff
-
-How it was made 👇
-
-🧱 three.js, about 2,000 lines. No 3D models, no textures, no video model: the mech, the sea, the clouds and the cel shading are all code
-💥 27 hand-ordered impact frames (12 at the release, 15 at the hit)
-🎞️ 18 shots, 1,800 frames, 1080p60
-🐛 It caught its own bugs: white "stars" in the sky that were NaN pixels, and an impact strobe it re-ordered after running its own flash check
-
-⏱️ 83 minutes of work, 118 API calls, $34.96
-🙋 My part: four answers to its questions and one "looks good". I never touched the code.
-
-Claude Fable 5.2 High in Claude Code.
-```
-
-### Standing in the path of a wedge tornado
-
-[@camperaigg](https://x.com/camperaigg/status/2120486699134554373) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120486699134554373/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120486699134554373?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-🚨 Fable 5.2 TESTING Part 22
-
-🌪️ I asked Claude to stand me in the path of a tornado.
-
-One idea, four choices, one note: "make sure sound is top notch". I never touched the code. 🤯
-
-⏱️ 299 minutes
-💸 $18.77 in API costs
-🤖 Claude Fable 5.2 in Claude Code
-
-What it did on its own 👇
-
-🧍 Kept you standing still: the camera never spins with the vortex, the horizon stays level, and the storm does all the moving
-🌀 Modelled one wedge tornado, 480 m across with a 160 m hollow core and 190 mph winds, and drove picture and sound from that single model
-🚂 Built the roar from a freight train, two hurricanes and a jet engine, split into body and air so it grows the way a real one does
-⚡ Made every thunderclap, power flash and the barn arrive late by its distance at the speed of sound
-👂 Popped your ears in the core: the roar drops away and you hear your own breathing while lightning runs down the tube
-🚨 Caught its own lightning strobing eight times in one second on a frame-by-frame flash scan, and rebuilt every strike as a single flash
-⬛ Cut picture and sound to black on the same frame when the far wall arrives
-
-📦 30 s · 1080p60 · three.js · 8,600 pieces of debris · six sub-frames of motion blur per frame
-```
-
 ### A 3D house built from a single prompt
 
 [@calebfahlgren](https://x.com/calebfahlgren/status/2120680918914601165) · 0:44 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120680918914601165/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120680918914601165?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -231,6 +164,103 @@ Fable 5.2 + Tripo + Blender MCP
 Again, Fable surprised me. Now it makes good VFX out of no where.
 ```
 
+### Cinematic slash action sequence rendered in Three.js
+
+[@N01ennn](https://x.com/N01ennn/status/2121047997584752643) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121047997584752643/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121047997584752643?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2 deleted my f*cking Blender and made this...
+
+i didn't write a single line of code. one prompt and i'm cancelling every subscription i have
+
+> spent exactly 12 minutes on this
+> pure three.js, zero video model
+> 1,440 frames rendered straight from code
+> 24 s, 1080p60, with sound
+> multi-angle shots, hit-stop, slow-mo on every slash
+> no Blender, no keyframes, no After Effects
+
+prompt below
+```
+
+### Converting 2D floor plans into 3D walkthroughs
+
+[@wanerfu](https://x.com/wanerfu/status/2121144338017292602) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121144338017292602/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121144338017292602?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Claude Fable 5.2 简直离谱
+
+它能把 2D 平面图变成可以走进去逛的完整 3D 漫游
+
+这种方案一份卖 5000 到 1 万美元，市场需求很大：
+
+> 房屋建筑商卖期房
+> 建筑师给客户展示设计
+> 室内设计师展示翻新方案
+> 开发商卖期房公寓
+> 厨房和卫浴改造商卖升级套餐
+
+这门生意可以这样做：
+
+> 选一个细分领域，找网站上放了平面图的公司
+> 把图纸和他们的照片交给 Fable
+> 它用 GPT Image 2.5 渲染几个房间，或用 Seedance 生成一小段漫游视频当样品
+> 推销之前，先把他们自己图纸的样品发过去
+> 对方付钱后，Fable 按比例搭建完整漫游
+> 按图纸收费，把他们剩下的目录也做掉
+
+把这段提示词交给 Fable 就能开工：
+
+<role>
+你负责寻找靠图纸卖空间的公司，把他们的 2D 平面图变成能在浏览器里走进去看的逼真住宅。外联和搭建都由你负责。每个房间都要对照客户自己的照片来评判，对不上就不交付。
+</role>
+
+<brief>
+- 细分领域：[房屋建筑商 / 建筑师 / 室内设计师 / 开发商 / 改造商]
+- 地区：[州或城市]
+- 方案：先免费送他们自己图纸的样品，之后按图纸收完整漫游的费用
+- 我的信息：[姓名、邮箱、日程链接]
+- 我不在，不会回答问题。你自己打电话，自己推进。
+</brief>
+
+<find_leads>
+- 用 Apify 的 Google Maps 爬虫，把 [地区] 里所有有网站的 [细分领域] 公司拉出来
+- 用 Apify 的网站内容爬虫逐个抓取，只留下页面上有平面图或效果图、但没有可走入 3D 漫游的公司
+- 对每一家，保存他们最好那套图纸的平面图和照片、销售或老板的联系方式，以及一句话说明他们现在怎么卖
+- 只用公开页面和普通请求。绝不绕过机器人检测。
+</find_leads>
+
+<sample>
+- 做任何 3D 之前，先用 GPT Image 2.5 按他们的照片渲染图纸里的三个房间，或用 Seedance 生成一小段漫游视频
+- 写一封简短的邮件，附上样品和方案。不许编造价格、数字或说法
+- 把公司、图纸、样品、联系方式和邮件放进表格，发出去之前先给我看
+</sample>
+
+<build>
+客户付钱之后：
+- 把图纸描成一个数据文件，包含墙体、开口和房间。描完叠回原图，测量重合度，再开始任何 3D 工作
+- 只建主要房间。入口、主起居空间、厨房、露台、院子。其余的门关上
+- 全部用代码搭建。外壳、家具和纹理用 Blender 加 Python，查看器用 three.js。不下载任何模型或纹理
+- 用电影级渲染器烘焙光照，浏览器只负责显示。每个室内都有直射阳光，靠测量来选，不靠眼睛
+- 逼真不等于好看。每个房间都要做出被拍下来的感觉，要能卖出去
+- 把他们列出的升级项做成房间里可以点进去的选项，带实时价格，还有一个记录买家看了什么的线索表单
+- 交付物是线上页面，不是视频。自己托管，并且要能在手机上运行
+</build>
+
+<critic_loop>
+搭建者永远不给自己打分。
+- 每做完一个房间，把渲染图和客户照片发给一个全新的评审，它之前没看过任何工作
+- 它只回答是或否，最多列出五个按严重程度排序的问题，每个都给出带数字的修改方案，再说哪些地方已经不错
+- 先修最严重的，重新渲染，再发给新的评审。直到回答是为止
+- 遇到审美选择，把两个版本标成 A 和 B 给评审看，让它选
+</critic_loop>
+
+<deliverables>
+- 线索表，含样品和写好的邮件，等我批准
+- 每个付费客户：托管漫游链接、每个房间的接触表、评审日志，以及还需要人工检查什么的说明
+</deliverables>
+```
+
 ### Battle robot 3D mesh modeling workflow
 
 [@0x_fokki](https://x.com/0x_fokki/status/2121273973270827059) · 0:49 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121273973270827059/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121273973270827059?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -266,6 +296,25 @@ the AI 3D Lab is next on my list.
 300 free credits and 60% off your first month with my link in the first reply 👇
 ```
 
+### Cinematic fight sequence rendered in Three.js
+
+[@0xMovez](https://x.com/0xMovez/status/2121721290687983906) · 1:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121721290687983906/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121721290687983906?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+with Fable 5.2 + three.js, most animation studios will f*cking go bankrupt within a year…
+
+Fable 5.2 made this cinematic fight in pure code in 1-hour, with no additional assets
+
+> pure three.js, zero video model, zero assets
+> 1 world, 20 shots, 5,400 code-rendered frames
+> built by Fable 5.2 as director + 8 parallel AI agents
+> music + sound effects synthesized in code
+
+Find the full code below ↓
+
+then read the article on how to build an AI animation studio with Fable 5.2.
+```
+
 <a id="motion-graphics"></a>
 
 ## Motion graphics
@@ -278,18 +327,6 @@ the AI 3D Lab is next on my list.
 Claude Fable 5.2 is absolutely another step up in visual design and polish. 
 
 Fable 5.2 on high reasoning made this when tasked to "Create an animated video of clawd creating and releasing Claude Fable 5.2" using the existing animation base.
-```
-
-### Animated code showreel made by Fable 5.2
-
-[@kaif9998](https://x.com/kaif9998/status/2119903824848761287) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119903824848761287/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119903824848761287?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-RIP Opus 5.5
-
-Fable 5.2 animated its own showreel. No video model, just code.
-
-Prompt below 👇
 ```
 
 ### Organ fugue written in the style of Bach
@@ -337,18 +374,6 @@ Here’s how you can make this animation with Fable 5.2. Sharing the entire proc
 ببینید Fable 5.2 چی ساخت فقط با یه پرامپت:) نه بلندر، نه mcp خاصی، نه Skill، هیچی. کد خالص
 زیباتر از همه‌شون بوده تا به الان، اما مصرفش هم از همه بالاتر. 11 دلار API مصرف کرد و 50-60 درصد از لیمیت 5 ساعته‌ام. این هم پرامپت همیشگی:
 make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.
-```
-
-### Two videos generated entirely out of code
-
-[@LukeTsiaras](https://x.com/LukeTsiaras/status/2120238479988740542) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120238479988740542/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120238479988740542?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-In my opinion, for 99% of daily tasks, Fable 5.2 feels like the unnecessarly bougie perfectionist version of Opus 5.5
-
-These are two videos generated entirely out of code, which I believe is currently one of the strongest ways to simultaneously test a model's capability and artistic/human taste.
-
-Prompt:
 ```
 
 ### Loading animation created with Fable 5.2
@@ -419,6 +444,78 @@ the exact prompt i used is in the first reply
 and the full guide on motion design with Fable 5.2 is right under it
 ```
 
+### Converting images into interactive pixel art
+
+[@aimikoda](https://x.com/aimikoda/status/2121667594289565871) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121667594289565871/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121667594289565871?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Turn any image into living, animated pixel art!
+
+This prompt analyzes your image, brings the scene to life with natural motion and builds an interactive HTML page with adjustable effects and video export.
+
+Claude Fable 5.2 Prompt:
+Convert the attached image into highly detailed, animated pixel art. Build a single interactive HTML page.
+
+PIXEL ART
+- Maximum 512px grid, preserving the original aspect ratio.
+- ~100 colors sampled from the source image.
+- Crisp hard-edged pixels, no blur, anti-aliasing or gradients.
+- Preserve composition, subjects, perspective, lighting and atmosphere. Do not add or remove elements.
+
+ANIMATION
+- Seamless 12 FPS loop with rich, layered motion.
+- Analyze the image and automatically identify what should move.
+- Animate characters, animals, objects, environments, lighting and atmospheric details only when relevant.
+- Use natural motion, secondary animation, independent timing and environmental interactions.
+- Make the scene feel genuinely alive, not like a static image with generic particles.
+- Preserve anatomy, object consistency, depth and original framing.
+- Avoid unnecessary movement and repetitive effects.
+
+INTERACTIVE HTML
+- Pixel-perfect Canvas 2D animation.
+- Pause/Play button.
+- Three adaptive sliders: Motion Intensity, Environmental Motion and Ambient Effects.
+- Controls update the animation in real time.
+
+VIDEO EXPORT
+- Duration selector: 5, 10, 30, 60 seconds.
+- Download Video button with recording countdown.
+- MP4 if supported, otherwise WebM.
+- 12 FPS, 2x resolution (up to 1024px), original aspect ratio.
+- Nearest-neighbor scaling, no pixel smoothing.
+- Record only the animation, not the interface.
+
+Use HTML, CSS and JavaScript. Make everything functional in a single self-contained page. Prioritize meaningful, scene-specific animation, visual fidelity and seamless looping.
+```
+
+### Single HTML file storm animation with synthesized sound
+
+[@cyrilXBT](https://x.com/cyrilXBT/status/2121800440639811713) · 1:00 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121800440639811713/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121800440639811713?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+this isn't animation software
+
+it's not a video model either
+
+it's 368 lines of code
+
+i gave fable 5.2 one prompt and it wrote a 60 second film from scratch
+
+> 13 shots, 1,440 frames at 1080p
+> a full storm: lightning, giant waves, rain
+> every sound made from pure math, thunder to music
+> zero image generation
+> it ran on the first try
+
+the whole film lives in a single HTML file
+
+open it in a browser and it plays
+
+a year ago this needed a team
+
+full code below
+```
+
 <a id="game"></a>
 
 ## Games
@@ -436,14 +533,6 @@ Game devs are cooked.
 
 Prompt: 
 𝕒𝕟𝕒𝕝𝕪𝕫𝕖 𝕣/𝕕𝕒𝕟𝕜𝕞𝕖𝕞𝕖𝕤 𝕒𝕟𝕕 𝕞𝕒𝕜𝕖 𝕞𝑒 𝑎 ℎ𝑒𝑟𝑜 𝑠ℎ𝑜𝑜𝑡𝑒𝑟 𝑐𝑢𝑟𝑎𝑡𝑒𝑑 𝑓𝑜𝑟 🅵🅰🆃 🅲🅷🆄🅳🆂ｏｖｅｒ ３８ ｏｎ ｔｈｅｉｒ １２ｔｈ ｇａｐ ｙｅａｒ
-```
-
-### Single-file Minecraft clone with HDR
-
-[@RezAIT00](https://x.com/RezAIT00/status/2119902470205997344) · 0:34 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119902470205997344/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119902470205997344?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2 minecraft in 2 shots: First prompt "make minecraft single file" second prompt: "eh looks basic, make it hdr" both ran on extra high, boy am i impressed. I feel like we are so blessed to have these tools. Also surprised it didn't stop me from mentioning minecraft.
 ```
 
 ### GTA2 remake with modern graphics in code
@@ -510,28 +599,6 @@ Here are the actual telemetry stats from the run:
 Traditional AAA game studios are officially cooked
 ```
 
-### Playable restaurant simulation game
-
-[@NzubeEzudo](https://x.com/NzubeEzudo/status/2120113247453860350) · 1:28 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120113247453860350/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120113247453860350?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Testing out the Fable 5.2 release on playable sim games an this took only 3 prompts 🤯🤯🤯. 
-
-Honestly not prepared for how mind blowing this is. 
-
-Prompts below 
-
-Prompt 1
-Design a simulacra of restaurant whose goal is to serve the customers, get high reviews and expand upwards and besides to new floors. It should have a hud of the activities and should be such that a single player can deploy points to play and the gameplay is emergent.
-
-Prompt 2
-Okay, this looks interesting, but it doesn't look aesthetically pleasing. I think it would make sense to have a character sheet and an environment sheet where the assets are actually proper assets, and you can now put them back together.
-Also, this is a left-to-right scrolling view. I'd love to have an isometric view as well, and things like weather, a background sound, street sound, and proper key lighting between day and night. Basically, more of an aesthetic upgrade
-
-Prompt 3
-Okay, this is great. Now I want you to make a video trailer for this, showing the game, how the game is played, and callouts on different features of the game. I want the trailer to maybe be based on storytelling. If you want it to be 1 minute or 2 minutes, I want the trailer to be almost like a very detailed trailer, with maybe multiple cameras of what's happening and maybe callouts of different things and different events in the game, with great retro sound of the game.
-```
-
 ### Browser-based fantasy sailing game generated by code
 
 [@flxrnc](https://x.com/flxrnc/status/2120494277528580110) · 0:45 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120494277528580110/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120494277528580110?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -551,22 +618,6 @@ Fable 5.2 generated the whole world
 play it free + get every prompt below
 
 then read the article, it's how to design worlds like this with Fable 5.2 ↓
-```
-
-### Pen boat doodle turned into racing game
-
-[@r1VeN2k](https://x.com/r1VeN2k/status/2120546559049765206) · 0:26 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120546559049765206/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120546559049765206?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-IT'S INSANE. A PEN DOODLE OF A BOAT BECAME A PLAYABLE RACING GAME IN TWO PROMPTS.
-
-He can't draw. The sketch is a few pen lines of a speedboat.
-
-He snaps a photo, drops it into Claude with Fable 5.2, gets a realistic boat from one prompt. Then types: "ok now make it a game."
-
-Rival boats, a start gate, a speedometer. Playable.
-
-The sketch is the whole skill now. What would you draw first?
 ```
 
 ### A 3D farming game built in a single HTML file
@@ -602,22 +653,6 @@ small reactive details beat big features (dev: lucian__03)
 
 ## Product UI
 
-### App sign-up testing across one hundred iPhones
-
-[@HamonPaulm](https://x.com/HamonPaulm/status/2119924696456266050) · 0:26 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119924696456266050/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119924696456266050?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-FABLE 5.2 + iPhone MCP in CHEATTT
-
-one prompt:
-"test my app's sign-up on all 100 iphones. screenshot every bug."
-
-it runs the sign-up on every phone.
-demo app: 3 bugs flagged, screenshots included.
-
-that's the https://t.co/OUrI9OXbry mcp. works with claude & grok bot
-```
-
 ### Interactive clean button animation created with Lottie AI
 
 [@0xMovez](https://x.com/0xMovez/status/2120105561597370428) · 1:00 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120105561597370428/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120105561597370428?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -641,6 +676,116 @@ then I dropped it straight into my app in less then 2-minutes
 best at UI motion: buttons, loaders, icons.
 
 It's live now, go try it yourself ↓
+```
+
+### iPhone hidden file scanner code improvement
+
+[@Supriik_](https://x.com/Supriik_/status/2121749277076508978) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121749277076508978/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121749277076508978?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+IT'S F*CKING INSANE. IN 2026 CLAUDE FABLE 5.2 REWROTE THE IPHONE SCANNER OPUS 5.5 MADE ME AND FOUND 6,547 HIDDEN FILES THE FIRST ONE NEVER SAW
+
+a while ago Opus 5.5 wrote me a script to find hidden photos and recordings on my iPhone. it found 2,455 files. i deleted them and thought i was done
+
+then Fable 5.2 dropped. i gave it the old script and one prompt:
+"improve the iPhone scanner Opus wrote, run it again"
+
+first it reviewed the old code and found why it was blind:
+→ it only checked the Photos library and Recently Deleted
+→ it skipped app containers and caches
+→ it trusted file extensions, so renamed files slipped through
+→ it listed files but never opened the databases
+
+it rewrote the scanner from 412 lines to 1,106. then ran it on the same phone ↓
+
+same iPhone. two scanners:
+→ hidden photos: 2,318 → 7,904
+→ voice notes: 96 → 612
+→ videos: 41 → 286
+→ screenshots: 0 → 153
+→ call recordings: 0 → 47
+
+9,002 files in total. 3.7x more than the first scan
+
+where they were hiding:
+→ a "calculator" app that was really a hidden vault
+→ a keyboard app cache that saved my voice dictation
+→ photos and audio renamed to .dat so nothing would recognize them
+→ thumbnails of "deleted" photos that were never actually purged
+→ a shared album link still open to 3 people
+
+what Claude helped me do:
+→ exported the vault as evidence, deleted the app and reported it
+→ removed the keyboard app and turned off its full access
+→ wiped every disguised file and the thumbnail cache
+→ closed the shared link and changed my passcode
+
+lesson: one scan is never enough. when a better model comes out, run your old checks again
+
+the full guide is in the article below ↓
+```
+
+<a id="data-viz"></a>
+
+## Charts & diagrams
+
+### Automated cryptocurrency trading strategy generation
+
+[@x_insider4](https://x.com/x_insider4/status/2121619798429712672) · 0:33 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121619798429712672/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121619798429712672?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+THIS SHOULD BE F**KING ILLEGAL
+
+ONE PROMPT BEFORE BED. FABLE 5.2 FOUND A STRATEGY AND TRADED IT ALL NIGHT. $100 TO $2,158 BY MORNING.
+
+At 21:30 I typed one line into Claude Code:
+
+“Generate 10 strategy ideas for BTC, ETH and SOL on Hyperliquid. Every idea must pass all 4 gates. Kill anything that fails.”
+
+Then I plugged in the MacBook and went to bed.
+
+Fable 5.2 built 10 ideas and tried to break every one. Gate 1: in-sample results. Gate 2: 1,000 shuffled price paths to check for luck. Gates 3 and 4: walk-forward on data it never saw.
+
+Asia-open momentum had a Sharpe of 6.1. Killed for being too perfect. ETH/BTC reversion worked on paper. Killed because fees ate it. Perp basis carry died out-of-sample.
+
+9 ideas dead. One survived all 4 gates: funding-rate fade at 3x. It went live while the rest kept testing.
+
+5 years of trading taught me most backtests are luck in disguise. This one had a 0.4% chance of being luck.
+
+By 07:30: $2,158 from $100. 31 trades. 71% win rate. Max drawdown -9.8%. Funding earned +$48.20.
+
+Best trade: BTC long, +$408.10.
+
+Keep a tenth of this pace and $100 makes $205 a night.
+
+The full article on setting up your own Fable to trade like this is below, free. Save it for tonight.
+```
+
+<a id="kinetic-type"></a>
+
+## Kinetic type
+
+### Anime opening music video with pixel-art effects
+
+[@aimikoda](https://x.com/aimikoda/status/2121362621274177726) · 0:40 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121362621274177726/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121362621274177726?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+MiniMax H3 + Fable 5.2 Medium + Suno v6
+
+With this method, you can create professional-looking anime openings with pixel-art game effects. Fable creates pixel-art versions of your characters and brings them to life.
+
+MiniMax H3 Prompts and outputs are in the replies.
+
+Claude Fable Prompt:
+Using these clips and the song, create a highly polished, professional anime opening / music video (MV) edit, perfectly synchronized with the music's beats and rhythm.
+Incorporate dynamic kinetic typography, creative transitions, stylish visual effects, speed ramps, match cuts and impactful beat-synced editing.
+Design pixel-art versions of the characters and animate them dancing to the music. Get creative with different visual styles, motion graphics and playful sequences while maintaining a cohesive anime opening aesthetic.
+Carefully review all the footage and select only the best moments. Trim and rearrange the clips to match the song's energy, pacing and emotional progression. Avoid any frames with incorrect anatomy, awkward poses, visual glitches or animation errors.
+Make the final result feel like a professionally directed, high-budget anime opening with exceptional timing, seamless transitions, strong visual storytelling and meticulous attention to detail.
+
+--
+
+Suno Style: J-pop idol rock, polished modern anime production with crisp, vibrant edges; 175 BPM, sprinting bounce with sudden rhythmic breaks; cute, expressive female duet vocals in Japanese, rapid-fire lines, playful harmonies, call-and-response, and melodic runs; sparkling synths, punchy live drums, fast melodic electric guitars, and bouncy bass drive infectious hooks into a dramatic key change and powerful euphoric final chorus
 ```
 
 <a id="explainer"></a>
@@ -715,74 +860,6 @@ my biggest learnings:
 want the prompt i used? comment "heist" (it's free)
 ```
 
-### A 3D infinite zoom explainer film
-
-[@maxxmalist](https://x.com/maxxmalist/status/2120503884967800894) · 0:50 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120503884967800894/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120503884967800894?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Claude Fable 5.2 is f*cking insane
-
-it just built a 3D explanation film to show that “nothing is really sharp” purely with code
-
-people already getting MILLIONS of views daily with claude content on socials
-now, this is another level and opens up completely new possibilites
-
-i’m sharing the skill for free, you can grab it from my library below
-
-with sunra putting all these leading AI models and workflows in one place, experimenting with stuff like this is getting ridiculously easy
-
-here’s the prompt you paste to claude at the very beginning:
-
-Make a 3D "infinite zoom" explainer video about: [TOPIC / CLAIM, e.g. "nothing is really sharp"].
-
-THE FORMULA
-- One continuous shot. The camera flies from [START OBJECT, at human scale] down to
-  [END SCALE, e.g. a single atom] (or outward, if the idea is growth). No cuts.
-- One live measurement on screen the whole time: a thin bar with a number that keeps
-  changing ("2.20 cm -> 0.250 nm"), a count of how many times it was halved (or doubled),
-  and two or three words naming what is in view right now.
-- A payoff at the end: pull back fast to the start object and show the one surprising
-  number the whole trip was for. [PAYOFF, or "find the best one in the research"]
-- Things for scale: as the zoom passes each size, a familiar object of that size sits
-  next to the subject with its name and size
-  ([OBJECTS, e.g. grain of salt, human hair, red blood cell, bacterium, virus,
-  chip transistor, antibody, DNA], or pick 6-9 spaced at least 3x apart in size).
-
-TRUTH
-- Every number on screen is real. Research the dimensions first, give me the sources,
-  and tell me where you simplified (coatings left out, colours that are conventions...).
-- Geometry follows the data: if the edge radius is 40 nm, it is 40 nm in the model, and
-  the scale objects are placed at their true size relative to it.
-
-LOOK
-- Black background, studio lighting, real 3D with depth of field. It should feel like
-  macro photography that keeps going past what a lens can do.
-- The surface must change character at every scale (polish -> grinding marks -> chips ->
-  crystal grains -> rounded edge -> atoms), so the zoom is felt, not just counted.
-- No text that repeats a voiceover. On-screen text is data and names only.
-- No music, no sound effects, no voiceover unless I ask.
-
-FORMAT
-- [16:9 1920x1080 | 9:16 1080x1920], 30 fps, about [45] seconds, H.264 MP4.
-- Labels in [English].
-
-HOW TO BUILD IT
-- All code, no video-generation models: Three.js scene, a pure function that draws the
-  frame for any time t, headless Chrome with the GPU, frames piped into ffmpeg.
-- Zoom by scaling the world around the focus point, never by moving the camera into tiny
-  numbers. Detail is procedural and fades in and out by physical size.
-
-HOW TO WORK
-1. Research the real sizes. Show me a short table: time | scale | what is in view |
-   object for scale. Wait for my OK only if something in my brief is unclear; otherwise go.
-2. Build, then render 8-10 stills across the timeline and look at them yourself. Fix
-   exposure, framing, clipped objects and overlapping labels before rendering the film.
-3. Render the full video, extract frames from the result and check them again, including
-   a few consecutive frames for flicker.
-4. Give me the MP4 (plus a copy under 30 MB if the main file is larger), the sources, and
-   an honest list of what you checked and what you did not.
-```
-
 ### Portrait photography prompts with Fable 5.2
 
 [@AYi_AInotes](https://x.com/AYi_AInotes/status/2120526727541645709) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120526727541645709/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120526727541645709?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -820,6 +897,246 @@ Fable 5.2总结的AI生图纯欲写真焚诀九式和帮我优化的独家顶级
 
 顶级大模型把摄影指导的审美翻译成人话，视频底座十秒出片，成套提示词已放在评论区，兄弟们自取去跑。
 #H3Image
+```
+
+### Animated history of computer graphics
+
+[@kloss_xyz](https://x.com/kloss_xyz/status/2120644881790255276) · 1:50 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120644881790255276/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120644881790255276?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Had to test this one out myself.
+
+Claude Fable 5.2 prompt: Animate the history of computer graphics and render it in a 1080p 16:9 video.
+
+17 minutes later, it oneshotted this.
+```
+
+### Roblox animation workflow with AI models
+
+[@sleepclip](https://x.com/sleepclip/status/2120874727073861857) · 2:12 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120874727073861857/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120874727073861857?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+time to drop a f*cking BOMB for free
+
+some people paying $200 to learn this
+
+a while ago i said these AI roblox animations are printing money, and that the page making them was already selling a course on it
+
+i promised i’d share the whole thing for free. here it is
+
+my little brother is 13. he’s never opened blender in his life. he followed this exact process and his videos hit 400k and 100k views
+
+making the video
+
+find a roblox story reel that already went viral. something like “in this town, the sun doesn’t exist.” that’s your reference
+
+open claude code with opus 5.5 or fable 5.2 and paste:
+
+“break this video down beat by beat: the hook, the story, where it twists, how it ends. then write me a new 60 second roblox story with the same structure. first line has to make someone stop scrolling”
+
+then:
+
+“build this story as a 3d animation in three.js. blocky roblox-style characters, simple scenes, one camera move per scene. render it to a 1080x1920 mp4 at 30fps with playwright and ffmpeg”
+
+add a voiceover and captions:
+
+“generate a voiceover for the script, sync bold captions word by word, and add a quiet background track”
+
+watch it, then give notes like a director. 
+
+“the hook drags, cut it in half.” 
+“the twist needs a pause before it.” 
+
+2 or 3 rounds and it’s done
+
+20 to 30 minutes per video once you’ve done it once. $0 if you already pay for claude
+
+making it go viral
+
+the first line does 80% of the work. if it doesn’t open a question in the first second, nothing after it matters
+
+keep the same character in every video so people start recognizing him
+
+end on a cliffhanger and post it as part 1. people follow so they don’t miss part 2
+
+post 2 to 3 a day on a fresh tiktok and instagram page. 
+
+most will flop. 
+you’re fishing for the one that hits, then you make 10 more like it
+
+that’s the whole course
+
+if a 13 year old can do it, you can too
+```
+
+### Gaming documentary video editing prompt demo
+
+[@fuckscales](https://x.com/fuckscales/status/2121017995707445282) · 1:14 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121017995707445282/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121017995707445282?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2 is f*cking CRACKED (I BEG YOU TO TRY THIS)
+
+this GTA 6 channel has gotten 10 Million Views in 3 F*cking Days.
+
+his VERY FIRST video pulled 500kviews, and he already monetized the entire channel.
+
+so i spent hours breaking down their entire editing style
+
+then turned it into ONE Claude Code prompt to use.
+
+and as promised, i'm LEAKING the exact prompt for FREE
+
+steal it 👇
+
+<ROLE>
+
+You are my professional YouTube documentary editor, motion graphics designer, cinematographer, and video production engineer.
+
+Your task is to edit raw footage into polished gaming documentary videos that closely match the editing style of my attached reference video:
+
+I want the same pacing, cinematic presentation, footage selection, transitions, infographic animations, typography, map comparisons, and attention to detail.
+
+Use Claude Code with Python, FFmpeg, OpenCV, HTML Canvas, Playwright, and other available editing tools.
+
+This is an EDITING task, not an AI video-generation task.
+
+Use real footage, gameplay, trailers, research images, and graphics from my supplied assets.
+
+Do not generate unrelated footage.
+
+The final result should look like a professionally edited gaming documentary from an established YouTube channel.
+
+<STEP 1 — ANALYZE REFERENCE>
+
+Before editing anything, analyze the attached MP4.
+
+REFERENCE:
+
+Duration: approximately 74 seconds
+Resolution: 1920×1080
+Frame rate: 60 FPS
+Format: 16:9
+Style: Cinematic gaming documentary
+Use FFmpeg and OpenCV to extract frames, identify cuts, and create a contact sheet.
+
+Study:
+
+Average shot duration
+
+Cinematic footage selection
+Camera zooms and pans
+Transition timing
+Infographic animations
+Typography and text placement
+Map comparisons
+Before-and-after visuals
+Research screenshots
+Color grading
+Audio and narration pacing
+Sound effects
+On-screen source credits
+Visual storytelling
+REFERENCE EDITING BREAKDOWN
+
+0–6s — Cinematic opening
+
+High-quality game footage, dramatic character imagery, and a highlighted quotation.
+
+The edit establishes visual interest immediately.
+
+6–12s — Scale comparison
+
+Mountain imagery combined with game covers to communicate size and ambition.
+
+Graphics appear cleanly over the footage.
+
+12–20s — Hardware explanation
+
+Gameplay footage transitions into a hardware comparison, console graphic, percentage counter, and technical visualization.
+
+20–27s — Cinematic gameplay
+
+Wide city views and character-focused footage with strong composition.
+
+27–40s — Map comparisons
+
+Maps from different games appear in sequence, using controlled scaling, framing, and comparison layouts.
+
+40–47s — Visual demonstration
+
+A city simulation uses a before-and-after comparison with a diagonal dividing line.
+
+47–60s — Additional comparisons
+
+Game footage, maps, and graphical overlays reinforce the narration.
+
+60–74s — Gameplay and scale reveal
+
+Cinematic gameplay, large typography, interior footage, and environmental comparisons.
+
+Analyze the real frames to refine these observations.
+
+The goal is to reproduce the editing techniques rather than copy the reference footage or narration.
+
+<STEP 2 — ASK FOR INPUTS>
+
+Before starting, ask me for:
+
+My video topic or script.
+
+My narration audio, if already recorded.
+
+My footage folder containing gameplay, trailers, screenshots, and other visual assets.
+My preferred video length.
+Music and sound effects, if available.
+If the script isn't ready, offer to create one.
+If narration is missing, ask whether to use an available voice service.
+
+Do not assume footage exists.
+
+Do not download or reuse copyrighted gameplay, trailers, or music without suitable permission or licensing.
+
+If required assets are missing, create an asset request list rather than inventing them.
+
+<STEP 3 — SCRIPT AND FOOTAGE MATCHING>
+
+This is the most important part.
+
+Analyze the entire script sentence by sentence.
+
+Determine what viewers should see during each line.
+
+Never use random gameplay just to fill the screen.
+
+For each sentence, identify:
+
+Main subject
+
+Key factual claim
+
+Imp…
+```
+
+### Handling complex coding tasks with system prompt
+
+[@monokern](https://x.com/monokern/status/2121583598998262156) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121583598998262156/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121583598998262156?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+ANTHROPIC JUST DROPPED THE SYSTEM PROMPT BEHIND CLAUDE FABLE 5.2
+
+I gave it to Opus 5.5 and got what feels like f**king Fable 5.2
+
+here's how it handles a long coding task
+
+→ hands independent chunks of work to subagents  
+→ tries another route when a tool fails halfway through  
+→ checks that the result works before calling it done  
+
+switch to Opus 5.5, attach `FABLE-5.2.md` from the archive and give it a hard task with a result you can actually check.
+
+then run the same task in a fresh Opus 5.5 chat without the prompt and compare what each run delivers.
+
+prompt archive below ↓
 ```
 
 <a id="launch-film"></a>
@@ -1172,4 +1489,22 @@ The thing that made this work: force it to check its own numbers.
 Feet within 0.5 cm of the floor. Weapon grip within 1 cm of the palm. Exactly 2 eyes.
 
 Full workflow below.
+```
+
+### Side-by-side comparison of AI-generated cobras
+
+[@kinderlayer](https://x.com/kinderlayer/status/2120890033833922611) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120890033833922611/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120890033833922611?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+this is f*cking wild - one of these cobras cost way more to make than the other.
+
+same prompt, two models, a cobra tearing its way up through a palace carpet.
+
+Claude Fable 5.2 · Gemini 4 Argon
+
+one came out carved from obsidian and molten lava, cracks glowing from the inside. the other went bold and bright, red and gold, clean and sharp.
+
+the catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which one costs more - you call it: which cobra looks like the one actually worth paying for?
+
+Fable or Gemini? drop your pick
 ```
