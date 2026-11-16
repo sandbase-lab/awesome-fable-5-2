@@ -2,19 +2,18 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-70 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
+63 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators describe the task rather than pasting the whole prompt, and some put the full text in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
-- [3D scenes](#3d-scene) (14)
-- [Motion graphics](#motion-graphics) (14)
-- [Games](#game) (8)
+- [3D scenes](#3d-scene) (13)
+- [Motion graphics](#motion-graphics) (13)
+- [Games](#game) (7)
 - [Product UI](#ui-demo) (4)
-- [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
-- [Explainers](#explainer) (11)
+- [Explainers](#explainer) (12)
 - [Launch films](#launch-film) (3)
-- [Tests & comparisons](#comparison) (14)
+- [Tests & comparisons](#comparison) (10)
 
 <a id="3d-scene"></a>
 
@@ -49,16 +48,6 @@ you can test it here:  https://t.co/ItAvCiHFlZ
 i am really loving model so far. stuff that opus couldn’t do, fable is just one shotting at medium or high reasoning
 ```
 
-### Animated Raspberry Pi 5
-
-[@sparklabhq](https://x.com/sparklabhq/status/2119917375080521921) · 0:06 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119917375080521921/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119917375080521921?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2:
-
-„animate a raspberry pi 5“
-```
-
 ### Photorealistic honey physics simulation in WebGL
 
 [@deedydas](https://x.com/deedydas/status/2119930300990177509) · 0:51 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119930300990177509/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119930300990177509?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -84,26 +73,6 @@ Via Claude Code + Blender on Max effort.
 
 Fable 5.2: 108 min, 1.03M output tokens, about $89.7 in API terms.
 Opus 5.5: 71 min, 375k output tokens, about $25.2 in API terms.
-```
-
-### Pagoda floating island with dragon riding POV
-
-[@ItsmeAjayKV](https://x.com/ItsmeAjayKV/status/2120056914054942793) · 2:25 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120056914054942793/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120056914054942793?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-WTF, Fable-5.2 is on another level completely !!!
-
-You all have seen pagoda floating island, but you have not seen this three.js pagoda floating island with dragon riding pov !!
-
-No other model comes even close !!
-
-This was made in one turn, via Claude web, and my prompt was simple "Pagoda floating island, with a pond, and dragons + dragon pov"
-
-It continued without needing iteration and delivered this magestic beauty.
-
-There are no flaws, you can click to feed the koi fishes, the lighting is amazing, the dragons are amazing, very well animated, smooth camera controls.
-
-Absolute unit of a model this one !
 ```
 
 ### Procedural Tesla Roadster kickflip stunt in Blender
@@ -261,39 +230,16 @@ Claude Fable 5.2 简直离谱
 </deliverables>
 ```
 
-### Battle robot 3D mesh modeling workflow
+### Single-take night scene with skin zoom
 
-[@0x_fokki](https://x.com/0x_fokki/status/2121273973270827059) · 0:49 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121273973270827059/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121273973270827059?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+[@socialwithaayan](https://x.com/socialwithaayan/status/2121610443714343220) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/seedance-2-5/2121610443714343220/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121610443714343220?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
 ```text
-Fable 5.2 has everyone talking about AI 3D. But I wanted to see how far I could push it in a real production space.
+Fable 5.2 just directed a full night scene from one idea..
 
-I can't stop testing 3D models since I found this.
+Seedance 2.5 shot it in one take. the zoom into her skin at 10s is the part that gets me 👀
 
-I opened a 3D workspace I'd never tried and asked it for one battle robot in 4 sets of armor, expecting nothing special.
-
-2 messages later all 4 versions read the same 1,936,038 faces.
-
-the workspace is @tripoai's Tripo Agentic Canvas, a node canvas with an agent in the chat.
-
-the run, in 6 steps:
-
-1. one prompt in Agent Chat: a full-body battle robot for a sci-fi game
-2. the concept into a gray clay render, since an untextured reference gives HD Model finer detail
-3. HD Model builds the mesh off the clay render
-4. a second message: 4 Texture Generation nodes on that one mesh in titanium steel, royal gold, black obsidian and battle-worn rust
-5. Tripo's segmentation splits the titanium one into 22 parts
-6. Tripo's CLI rigs all 4 as bipeds and one command adds the moves: run, slash, shoot and jump
-
-before the mesh and the textures the agent wrote out its plan and waited for me to press continue.
-
-my way to keep variants matching is squinting at two renders side by side.
-
-its way was 4 nodes wired to the same mesh, 7 in total for 110 credits and not one placed by me.
-
-the AI 3D Lab is next on my list.
-
-300 free credits and 60% off your first month with my link in the first reply 👇
+full breakdown + every prompt below 👇
 ```
 
 ### Cinematic fight sequence rendered in Three.js
@@ -313,6 +259,24 @@ Fable 5.2 made this cinematic fight in pure code in 1-hour, with no additional a
 Find the full code below ↓
 
 then read the article on how to build an AI animation studio with Fable 5.2.
+```
+
+### Aesthetic 3D scenes generated in Three.js code
+
+[@ky__zo](https://x.com/ky__zo/status/2122274109795054036) · 0:28 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2122274109795054036/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122274109795054036?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+I tried to test Fable 5.2's ability to build aesthetic 3d scenes without any external tools.
+
+the result just dropped my jaw. the repo has no model files, no textures and no asset loaders. All geometry, materials and shaders are generated in code.
+
+1.32 billion tokens. $905 api cost. fully three.js.
+
+play it here:  https://t.co/sy360jYeya
+there are 6 different worlds. find all the hidden details. 
+it's insane.
+
+github + prompts below, bookmark it ⬇️
 ```
 
 <a id="motion-graphics"></a>
@@ -384,14 +348,6 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 Asked Fable 5.2 to make a loading animation. The result is Insane!
 
 Free prompt ↓
-```
-
-### Motion design recreation in Fable 5.2
-
-[@kloss_xyz](https://x.com/kloss_xyz/status/2120349707142860942) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120349707142860942/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120349707142860942?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2, recreate this motion design.
 ```
 
 ### Dynamic motion graphics showreel generated from prompt
@@ -587,14 +543,6 @@ Perform the dissection using BLA and REA. Verify their roles before planning the
 Return a short verdict, a five-step flow, and the exact next input you need."
 ```
 
-### Port Mirage game built from a single prompt
-
-[@TawohAwa](https://x.com/TawohAwa/status/2119942652921790675) · 2:39 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119942652921790675/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119942652921790675?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-I typed one prompt: "Build GTA 6 with no mistakes." Claude Fable 5.2 told me the game belongs to Rockstar, then built its own version. This is Port Mirage.
-```
-
 ### First-person shooter on a tropical island
 
 [@imantiai](https://x.com/imantiai/status/2119979537320534135) · 0:31 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119979537320534135/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119979537320534135?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -757,28 +705,6 @@ lesson: one scan is never enough. when a better model comes out, run your old ch
 the full guide is in the article below ↓
 ```
 
-### Web platform UI performance optimization demo
-
-[@koppkev](https://x.com/koppkev/status/2121948375931338802) · 0:07 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121948375931338802/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121948375931338802?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-i told fable 5.2 to make https://t.co/sKpUJ7oUKB the smoothest platform on earth.
-
-it's doing some dark magic stuff i've never seen before. i don't understand anything, but it works.
-
-here's the prompt: 
-
-"Audit this entire project for performance and make it feel as smooth and fast as possible without changing how it looks or behaves. Preserve every feature, animation, transition and layout exactly as is. Measure before you change anything: profile page loads, navigation, scrolling and every interaction, and identify what stutters, what blocks the main thread, what makes the user wait, and what loads too early, too late or too often (images, video, fonts, scripts, data). Test on a throttled low-end device with a slow connection and treat that as the target, not my machine. Fix issues in order of user-visible impact, one at a time, verify each fix with before/after measurements, and revert anything that does not measurably help. Finish with a short report of what you changed and the numbers."
-
-the thing is, details was already heavily optimized. i did a lot of that manually.
-
-but it still found stuff. like it's drawing shaders that you can't even see, just so everything is ready before you click.
-
-before, the page transitions could sometimes stutter on lower end devices. now it's 120 fps the whole way.
-
-it did cost me around 10% -15% weekly usage on a 100$ plan so you should be aware of that.
-```
-
 ### Rebuilding Twitter interface and feed from scratch
 
 [@leopardracer](https://x.com/leopardracer/status/2121977285221720283) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121977285221720283/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121977285221720283?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -797,40 +723,31 @@ the recording is 24 seconds. 15 of those are the build, the rest is me watching 
 the exact prompt is in the reply ↓
 ```
 
-<a id="data-viz"></a>
+### Pixel City Dashboard for AI Agents
 
-## Charts & diagrams
-
-### Automated cryptocurrency trading strategy generation
-
-[@x_insider4](https://x.com/x_insider4/status/2121619798429712672) · 0:33 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121619798429712672/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121619798429712672?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+[@88n77n](https://x.com/88n77n/status/2122019743313842273) · 0:12 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2122019743313842273/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122019743313842273?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
 ```text
-THIS SHOULD BE F**KING ILLEGAL
+fable 5.2 is f*cking insane for my agents
 
-ONE PROMPT BEFORE BED. FABLE 5.2 FOUND A STRATEGY AND TRADED IT ALL NIGHT. $100 TO $2,158 BY MORNING.
+my 13 AI agents are trading, posting and backing up my servers while I drink coffee in McDonald's
 
-At 21:30 I typed one line into Claude Code:
+the little pixel characters you see on my phone are my bots. working = walking the streets. crashed = asleep on a bench
 
-“Generate 10 strategy ideas for BTC, ETH and SOL on Hyperliquid. Every idea must pass all 4 gates. Kill anything that fails.”
+checking them used to eat my mornings. 3 servers, 13 logs, a tab for each
 
-Then I plugged in the MacBook and went to bed.
+so I gave fable 5.2 one prompt and it built my bots a city: live status from every server, sites as skyscrapers that go dark when they're down, TG alerts, a morning report, and the whole thing as a Telegram mini app
 
-Fable 5.2 built 10 ideas and tried to break every one. Gate 1: in-sample results. Gate 2: 1,000 shuffled price paths to check for luck. Gates 3 and 4: walk-forward on data it never saw.
+my setup:
 
-Asia-open momentum had a Sharpe of 6.1. Killed for being too perfect. ETH/BTC reversion worked on paper. Killed because fees ate it. Perp basis carry died out-of-sample.
+1. list every bot, server and site you run
+2. open claude code and switch to fable 5.2
+3. paste the prompt from the reply
+4. go get a coffee
 
-9 ideas dead. One survived all 4 gates: funding-rate fade at 3x. It went live while the rest kept testing.
+one person now runs an operation like a small team. the monitoring runs itself and my time goes into building the next bot
 
-5 years of trading taught me most backtests are luck in disguise. This one had a 0.4% chance of being luck.
-
-By 07:30: $2,158 from $100. 31 trades. 71% win rate. Max drawdown -9.8%. Funding earned +$48.20.
-
-Best trade: BTC long, +$408.10.
-
-Keep a tenth of this pace and $100 makes $205 a night.
-
-The full article on setting up your own Fable to trade like this is below, free. Save it for tonight.
+Do you need the exact text of the prompt?
 ```
 
 <a id="kinetic-type"></a>
@@ -863,16 +780,6 @@ Suno Style: J-pop idol rock, polished modern anime production with crisp, vibran
 <a id="explainer"></a>
 
 ## Explainers
-
-### Rocket science explained for high schoolers
-
-[@Hunter_Weiss](https://x.com/Hunter_Weiss/status/2119932937642946900) · 1:58 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119932937642946900/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119932937642946900?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-One-shot video testing with Fable 5.2 
-
-Prompt: "I need you to create the most impressive video I can share with people about Fable 5.2, explaining rocket science as if it were for someone with a high school education."
-```
 
 ### The history of writing generated by AI
 
@@ -1229,6 +1136,99 @@ then run the same task in a fresh Opus 5.5 chat without the prompt and compare w
 prompt archive below ↓
 ```
 
+### Workflow to recreate videos with AI influencers
+
+[@simonecanciello](https://x.com/simonecanciello/status/2122063438222663798) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2122063438222663798/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122063438222663798?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+you don’t need a $299 course to create AI influencers for just $1.40.
+
+save this workflow:
+
+1. download videos you want to recreate & send them to fable 5.2
+
+2. paste this prompt:
+
+“Analyze this reference video frame by frame and generate a detailed, ready-to-use prompt to recreate it as closely as possible (1:1) using a provided character sheet.
+
+Custom script: {script}
+
+Include:
+- Output & references: format, duration, character identity and consistency.
+- Scene & background: environment, objects, colors, textures, depth and positioning.
+- Acting & expression map: gestures, posture, facial expressions, eye movements and micro-expressions.
+- Timeline: timestamped breakdown of movements, dialogue, expressions and camera changes, adapted to the custom script.
+- Camera rules: framing, angles, handheld motion, shake, focus and perspective.
+- Lighting & realism: shadows, exposure, skin texture and authentic smartphone quality.
+- Dialogue & voice: use the custom script EXACTLY, word for word, with natural pacing, accurate lip sync and a new voice (never clone the original).
+- Audio mix: ambience, background noise and microphone characteristics.
+- Negatives: no AI artifacts, identity drift, unnatural movements or unwanted text.
+
+Preserve the original video's timing, composition, acting and imperfections while adapting speech and lip movements to the custom script. Be extremely specific, avoid assumptions, and output ONLY the final copy-paste-ready generation prompt.”
+
+3. send the generated prompt + a character sheet to wan 3.0 prime
+
+you can literally reverse engineer almost any video on the internet with fable 5.2.
+
+use this method with caution.
+```
+
+### Animation production pipeline using Fable 5.2
+
+[@mika_systems](https://x.com/mika_systems/status/2122073554946564514) · 0:26 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2122073554946564514/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122073554946564514?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+no f*cking way... a 20-year-old Stanford sophomore made a 90-second cartoon that hit 14 million views, alone in his dorm with Anthropic's Fable 5.2. now he just published the whole method for free
+
+the characters, the dance, the score, every footstep: Fable built all of it from free repos. 3 of the world's top motion studios now pay him for films like it
+
+a studio bills $3,600 and a week for 90 seconds like that. his whole cost was one weekend and the $100 plan, 36x less
+
+his full pipeline, step by step:
+
+the illustrator → illustrator-mcp-server
+drives Adobe Illustrator from chat with 63 tools. every character comes out as clean vectors
+https://t.co/SM1ye8zJYv
+
+the rigger → Rigby2D
+puts bones into a layered drawing automatically, so arms bend and heads turn
+https://t.co/b2tF1Ht9hY
+
+the animator → AnimatedDrawings
+Meta's model. makes a flat drawing walk, wave and jump
+https://t.co/GaOdchU4jb
+
+the choreographer → OpenPose
+reads a phone video of a real dancer, so the characters copy every move
+https://t.co/pvnv22Mav6
+
+the background painter → Wan2.2
+Alibaba's video model. paints moving campus scenes behind the characters
+https://t.co/asUqy4D4WM
+
+the motion designer → anime.js
+titles, logos and transitions that snap on the beat
+https://t.co/DBU5jnkOi4
+
+the composer → AudioCraft
+writes an original score from a text brief, zero license fees
+https://t.co/BGV7oxaCuJ
+
+the foley artist → MMAudio
+watches every shot and adds every footstep, whoosh and door slam
+https://t.co/KhWoTnlsvD
+
+the editor → Pireel
+an open-source CapCut that Fable drives over MCP, timeline and all
+https://t.co/E2aHwvDkvs
+
+one of those studios offered him $65,000 a year. he said no and now sells them the same films at $1,100 each, they still bill clients $3,600
+
+a studio with 9 people or a kid with 9 repos: who are you hiring for your next launch?
+
+see the whole set at work below ↓
+```
+
 <a id="launch-film"></a>
 
 ## Launch films
@@ -1322,18 +1322,6 @@ The future looks bright and amazing. 🔥
 What do you guys think?
 ```
 
-### Motion graphics showreel comparison between models
-
-[@himanshutwtxs](https://x.com/himanshutwtxs/status/2120017106804900304) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120017106804900304/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120017106804900304?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2 vs Opus 5.5, INSANE RESULTS!!
-
-Fable 5.2 motion designing in one prompt (sound ON). I like Opus one
-
-prompt- 'make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out'
-```
-
 ### Lion clawing out of carpet model comparison
 
 [@kinderlayer](https://x.com/kinderlayer/status/2120112222227648957) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120112222227648957/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120112222227648957?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1420,33 +1408,6 @@ rain on wet asphalt, palms, neon towers, traffic lights, minimap, autopilot
 the "faster and cheaper" model took 49% longer and cost ~29% more on this job. it burned 135,211 thinking tokens to 5.1's 67,110
 
 cheaper per token, $3 more per game
-```
-
-### Bicycle riding a legless cow comparison
-
-[@AIMind_Ai](https://x.com/AIMind_Ai/status/2120131776253174187) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120131776253174187/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120131776253174187?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Claude Fable 5.2 vs Claude Fable 5.1 on the same prompt. The new one is 20% cheaper.
-
-I asked both for a bicycle riding a cow that has no legs and runs on her udder. The rodeo starts at 0:20.
-
-Is Fable 5.1 already obsolete?
-```
-
-### Three.js black hole light bending comparison
-
-[@Stefan_3D_AI](https://x.com/Stefan_3D_AI/status/2120139167846088787) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120139167846088787/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120139167846088787?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Same black hole prompt: $4.89 on Gemini 4 Argon, $33.15 on Fable 5.2.
-
-Prompt: a black hole in Three.js that really bends light. Fable has the richest picture, Astra the tightest numbers.
-
-Fable 5.2: 77 min, 417k output tokens, about $33.1 in API terms.
-Opus 5.5: 66 min, 366k output tokens, about $18.8 in API terms.
-GPT-6 Astra: 69 min, 126k output tokens, about $16.9 in API terms.
-Gemini 4 Argon: 63 min, 264k output tokens, about $4.9 in API terms.
 ```
 
 ### Animated pelican on bicycle across five seasons
@@ -1580,17 +1541,4 @@ one came out carved from obsidian and molten lava, cracks glowing from the insid
 the catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which one costs more - you call it: which cobra looks like the one actually worth paying for?
 
 Fable or Gemini? drop your pick
-```
-
-### Comparing jelly orange slices between Claude models
-
-[@RoundtableSpace](https://x.com/RoundtableSpace/status/2122060820201062902) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/opus-5-5/2121646685319221546/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122060820201062902?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Same prompt: "make a jelly orange slice."
-
->⁠Claude Opus 5.5: $7.57
->⁠Claude Fable 5.2: $11.57
-
-Hide the names and prices. Which one would you pick?
 ```
