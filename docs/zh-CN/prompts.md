@@ -2,18 +2,18 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 63 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
+共 65 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (13)
-- [动效](#motion-graphics) (13)
-- [游戏](#game) (7)
-- [产品界面](#ui-demo) (4)
+- [3D 场景](#3d-scene) (15)
+- [动效](#motion-graphics) (12)
+- [游戏](#game) (8)
+- [产品界面](#ui-demo) (3)
 - [文字动效](#kinetic-type) (1)
-- [讲解](#explainer) (12)
+- [讲解](#explainer) (11)
 - [发布片](#launch-film) (3)
-- [测试对比](#comparison) (10)
+- [测试对比](#comparison) (12)
 
 <a id="3d-scene"></a>
 
@@ -73,19 +73,6 @@ Via Claude Code + Blender on Max effort.
 
 Fable 5.2: 108 min, 1.03M output tokens, about $89.7 in API terms.
 Opus 5.5: 71 min, 375k output tokens, about $25.2 in API terms.
-```
-
-### Blender中程序化重现特斯拉Roadster翻板特技
-
-[@Stefan_3D_AI](https://x.com/Stefan_3D_AI/status/2120101582444597446) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120101582444597446/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120101582444597446?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2 rebuilt Tesla's Roadster kickflip in Blender and it looks crazy good!
-
-Prompt: here is the official clip, recreate the stunt in Blender, all proceduarly. 
-
-Fable 5.2: 82 min, 460k output tokens, about $41.1 in API terms.
-Opus 5.5: 51 min, 275k output tokens, about $15.7 in API terms.
 ```
 
 ### 单提示词生成的3D房屋
@@ -279,6 +266,53 @@ it's insane.
 github + prompts below, bookmark it ⬇️
 ```
 
+### Three.js构建的无尽剪纸风格世界
+
+[@xikhar](https://x.com/xikhar/status/2122682962647122403) · 0:54 · [观看](https://www.sandbase.ai/lab/media/x/opus-5-5/2122682962647122403/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122682962647122403?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Papertrails: an endless papercraft world that pops up around you.
+
+Built with Fable 5.2 and Opus 5.5, runs in the browser with three.js
+
+Full prompt and workflow steps below.
+```
+
+### Sphere 巨球上的 Grok 交互式 3D 动画
+
+[@JackyZhong0124](https://x.com/JackyZhong0124/status/2122805963115958470) · 1:00 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2122805963115958470/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122805963115958470?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+I asked Fable 5.2 to "create a frame by frame replica of the Grok Bot on the Sphere ad".
+
+it took 5+ hours and 2 reset, result is a pixel perfect and fully interactive 3D animation, no pre-made assets were used
+
+if this is not AGI I don't know what is 🤯🤯
+```
+
+### 单镜头连续运行的机场模拟场景
+
+[@elvar_official](https://x.com/elvar_official/status/2123037730233897060) · 0:50 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2123037730233897060/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2123037730233897060?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+I'm cancelling my Adobe subscription tonight: a dev built a free Claude skill and Fable 5.2 used it to run a whole airport in one 50-second shot with no cuts.
+
+i asked it to "build me an airport" and what came back is the craziest thing i've seen Claude make.
+
+how it actually works:
+
+> Claude measures the look before it writes any code: frames off a reference clip, colours sampled as hex, every panel sized as a share of the screen
+> 2 Claude Code subagents split the models under one scale rule and write 3,277 lines between them, so the loader's deck stops exactly at the jet's cargo door
+> each subagent renders stills next to the reference frames and keeps fixing until the two match
+> the whole airport runs as a function of time: every tug, truck and jet moves along a path by distance instead of physics so any second renders the same
+> the interface gets built over a reference frame at 50% opacity and matched panel by panel
+> before the render a collision check poses the world every 0.1 s and the paths get fixed until nothing drives through anything
+
+i had no idea Claude had come this far and a car plant is next on my list.
+
+the skill and the full guide are in the article below 👇
+```
+
 <a id="motion-graphics"></a>
 
 ## 动效
@@ -348,23 +382,6 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 Asked Fable 5.2 to make a loading animation. The result is Insane!
 
 Free prompt ↓
-```
-
-### 单条提示词生成的动态设计作品集
-
-[@Mr_Buzzoni](https://x.com/Mr_Buzzoni/status/2120763270500077829) · 0:17 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120763270500077829/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120763270500077829?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Claude Code + Fable 5.2 makes a full motion design showreel from one prompt, and this is f*cking unreal
-
-how to get yours:
-
-1. open stock Claude Code, Fable 5.2 on max reasoning
-2. paste this:
-
-"make a dynamic 17-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a resume. render it, check the frames, go all out"
-
-this is what comes out 👇
 ```
 
 ### 使用 Fable 与 Seedance 制作的视频
@@ -629,6 +646,20 @@ Stack: Fable 5.2 + Opus 5.5 in Claude Code, Seedream 5.0 Pro, Tripo 3D
 Full workflow and prompts below (1/10)
 ```
 
+### 48小时构建的游戏引擎设置
+
+[@benchuchu](https://x.com/benchuchu/status/2123056911184810355) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2123056911184810355/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2123056911184810355?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Why wait until 2027 when you have Claude?
+
+Fable 5.2 just helped me achieve the same set up in 48 hours with @RYFTCORP game engine
+
+Sadly it wasn't one-shot but turned out great
+
+Prompt:
+```
+
 <a id="ui-demo"></a>
 
 ## 产品界面
@@ -721,33 +752,6 @@ this is the same model that ran 1,000 agents to formalize fermat's last theorem 
 the recording is 24 seconds. 15 of those are the build, the rest is me watching it scroll
 
 the exact prompt is in the reply ↓
-```
-
-### AI智能体像素城市状态看板
-
-[@88n77n](https://x.com/88n77n/status/2122019743313842273) · 0:12 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2122019743313842273/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122019743313842273?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-fable 5.2 is f*cking insane for my agents
-
-my 13 AI agents are trading, posting and backing up my servers while I drink coffee in McDonald's
-
-the little pixel characters you see on my phone are my bots. working = walking the streets. crashed = asleep on a bench
-
-checking them used to eat my mornings. 3 servers, 13 logs, a tab for each
-
-so I gave fable 5.2 one prompt and it built my bots a city: live status from every server, sites as skyscrapers that go dark when they're down, TG alerts, a morning report, and the whole thing as a Telegram mini app
-
-my setup:
-
-1. list every bot, server and site you run
-2. open claude code and switch to fable 5.2
-3. paste the prompt from the reply
-4. go get a coffee
-
-one person now runs an operation like a small team. the monitoring runs itself and my time goes into building the next bot
-
-Do you need the exact text of the prompt?
 ```
 
 <a id="kinetic-type"></a>
@@ -876,18 +880,6 @@ Fable 5.2总结的AI生图纯欲写真焚诀九式和帮我优化的独家顶级
 
 顶级大模型把摄影指导的审美翻译成人话，视频底座十秒出片，成套提示词已放在评论区，兄弟们自取去跑。
 #H3Image
-```
-
-### 计算机图形学发展史动画
-
-[@kloss_xyz](https://x.com/kloss_xyz/status/2120644881790255276) · 1:50 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120644881790255276/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120644881790255276?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Had to test this one out myself.
-
-Claude Fable 5.2 prompt: Animate the history of computer graphics and render it in a 1080p 16:9 video.
-
-17 minutes later, it oneshotted this.
 ```
 
 ### 利用 AI 模型制作 Roblox 动画的工作流
@@ -1096,24 +1088,6 @@ Key factual claim
 Imp…
 ```
 
-### 面向儿童的分数概念教学动画
-
-[@anstapnever](https://x.com/anstapnever/status/2121216551890419748) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121216551890419748/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121216551890419748?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-a 6-year-old understood fractions thanks to Fable 5.2
-
-i gave Fable 5.2 and Opus 5.5 one prompt: make a kind cartoon that explains what "half" means
-
-no animators. no voice actors. pure code
-
-stop showing your kids Skibidi Toilet.
-
-if your kid doesn't get something, make them a cartoon that explains it.
-
-the prompt is below, change one line ↓
-```
-
 ### 利用系统提示词处理复杂编程任务
 
 [@monokern](https://x.com/monokern/status/2121583598998262156) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121583598998262156/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121583598998262156?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1227,6 +1201,28 @@ one of those studios offered him $65,000 a year. he said no and now sells them t
 a studio with 9 people or a kid with 9 repos: who are you hiring for your next launch?
 
 see the whole set at work below ↓
+```
+
+### 使用Fable 5.2自动化视频剪辑
+
+[@Damir_Akaza](https://x.com/Damir_Akaza/status/2122418093049643146) · 0:17 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2122418093049643146/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122418093049643146?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+I stopped editing my own videos, Fable 5.2 cuts them for me now.
+
+On the screen it runs the edit like a director: cutting, color, music and captions go to separate agents, and Fable checks everything they send back.
+
+I send one message with the mood and length and get a draft with a numbered list of every cut. If a cut feels off, I reply “swap 4” and it renders again.
+
+How it works:
+
+raw clips → one folder → Claude Code on Fable 5.2 → one message → draft.mp4 + list of cuts
+
+Now I have a lot more time for everything else.
+
+The prompt is in the reply.
+
+How to make Fable the brain of your agent team, step by step, is in the article below ↓
 ```
 
 <a id="launch-film"></a>
@@ -1448,26 +1444,6 @@ Definitely, Fable 5.2 cost more but finished faster than Opus 5.5 with quality r
 What do you guys think?
 ```
 
-### Three.js 空客 A380 起飞效果对比
-
-[@LatentOperatorX](https://x.com/LatentOperatorX/status/2120205377803518132) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120205377803518132/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120205377803518132?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Can DeepSeek V4.1 Flash + DeepSeek Harness actually compete with Claude Fable 5.2? 👀✈️
-
-Same prompt: Airbus A380 takeoff in Three.js.
-
-⚡ DeepSeek V4.1 Flash 👉 47m 39s | $0.17
-🟠 Claude Fable 5.2 👉 16m 41s | $4.32
-🟢 GPT-6.1 Sol 👉 3m 30s | $0.20
-
-Three models. One challenge.
-
-Which result impressed you the most? 👇
-
-Follow @LatentOperatorX for more AI battles. ⚔️
-```
-
 ### 夜间火箭发射场景的双模型对比
 
 [@SamgreyAi](https://x.com/SamgreyAi/status/2120253192726577503) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120253192726577503/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120253192726577503?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1541,4 +1517,83 @@ one came out carved from obsidian and molten lava, cracks glowing from the insid
 the catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which one costs more - you call it: which cobra looks like the one actually worth paying for?
 
 Fable or Gemini? drop your pick
+```
+
+### 虚幻引擎中类人蠕虫群模拟效果对比
+
+[@AiBattle_](https://x.com/AiBattle_/status/2121989497252438473) · 0:26 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121989497252438473/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121989497252438473?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2 vs Opus 5.5 Humanoid Worm Swarm (Unreal Engine + Blender)
+
+The prompt was to build a humanoid creature made of hundreds of living worms. When you shoot it, the worms fly off, crawl back, and rebuild the body.
+
+API Cost:
+
+Fable 5.2 (High) = $49.68
+Opus  5.5 (High) = $30.08
+
+Duration: 
+
+Fable 5.2 (High) = 1h 27m
+Opus  5.5 (High) = 1h 2m
+```
+
+### 四种模型生成的马在水中奔跑对比
+
+[@SamgreyAi](https://x.com/SamgreyAi/status/2122440859891409372) · 0:12 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2122440859891409372/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122440859891409372?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Gemini 4 Hydrogen just built a horse out of Minecraft blocks and called it a day 
+
+Same prompt, 4 AI workflows: a horse galloping through water.
+
+Same horse, same lake, but the gap between the results is brutal 
+
+The horse racing department is cooked
+
+🥇 Fable 5.2 → low-poly horse in a low-poly world, huge water splashes and a gallop that actually looks heavy
+
+🥈 Gemini 4 Carbon → warm sunset canyon, smooth horse and a very cinematic look
+
+🥉 GPT-6 Astra → beautiful mountains and forest, but a low-poly horse inside a realistic world
+
+💀 Gemini 4 Hydrogen → somehow a black voxel horse that looks like it escaped from Minecraft
+
+The interesting part isn’t the horse
+
+It’s how the legs, the splashes and the reflections work together
+
+Pretty lighting can’t save you if the water doesn’t react to every hoof
+
+Fable made the whole scene feel like one world, while Astra’s horse and background look like they belong to different games
+
+At this point AI doesn’t need better horses
+
+It needs to learn how water works 
+
+Which horse would you pick?
+```
+
+### 冰雪大教堂生成效果对比
+
+[@EnvolDev](https://x.com/EnvolDev/status/2122773694783349144) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2122773694783349144/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122773694783349144?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+GPT-6.2 Astra vs Fable 5.2 🧊
+
+GPT-6.2 Astra is almost 10x cheaper and almost 3x faster than Fable 5.2. 🤯
+
+But the quality is nowhere near Fable 5.2. 😬
+Mixed feelings.
+
+Same Cathedral of Ice prompt:
+Fable 5.2: $81.10 · 1h 56m 52s
+GPT-6.2 Astra: $8.20 · 40m 34s
+
+For coding and debugging, GPT-6.2 Astra is going to be a game changer.
+
+For UI design and visuals, Fable 5.2 is still far ahead.
+
+Cheap and fast, or the best quality? 👀
 ```
