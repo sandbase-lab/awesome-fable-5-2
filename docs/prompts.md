@@ -2,18 +2,18 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-65 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
+63 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators describe the task rather than pasting the whole prompt, and some put the full text in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
-- [3D scenes](#3d-scene) (15)
-- [Motion graphics](#motion-graphics) (12)
+- [3D scenes](#3d-scene) (14)
+- [Motion graphics](#motion-graphics) (11)
 - [Games](#game) (8)
-- [Product UI](#ui-demo) (3)
+- [Product UI](#ui-demo) (2)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (11)
 - [Launch films](#launch-film) (3)
-- [Tests & comparisons](#comparison) (12)
+- [Tests & comparisons](#comparison) (13)
 
 <a id="3d-scene"></a>
 
@@ -137,84 +137,6 @@ i didn't write a single line of code. one prompt and i'm cancelling every subscr
 > no Blender, no keyframes, no After Effects
 
 prompt below
-```
-
-### Converting 2D floor plans into 3D walkthroughs
-
-[@wanerfu](https://x.com/wanerfu/status/2121144338017292602) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121144338017292602/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121144338017292602?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Claude Fable 5.2 简直离谱
-
-它能把 2D 平面图变成可以走进去逛的完整 3D 漫游
-
-这种方案一份卖 5000 到 1 万美元，市场需求很大：
-
-> 房屋建筑商卖期房
-> 建筑师给客户展示设计
-> 室内设计师展示翻新方案
-> 开发商卖期房公寓
-> 厨房和卫浴改造商卖升级套餐
-
-这门生意可以这样做：
-
-> 选一个细分领域，找网站上放了平面图的公司
-> 把图纸和他们的照片交给 Fable
-> 它用 GPT Image 2.5 渲染几个房间，或用 Seedance 生成一小段漫游视频当样品
-> 推销之前，先把他们自己图纸的样品发过去
-> 对方付钱后，Fable 按比例搭建完整漫游
-> 按图纸收费，把他们剩下的目录也做掉
-
-把这段提示词交给 Fable 就能开工：
-
-<role>
-你负责寻找靠图纸卖空间的公司，把他们的 2D 平面图变成能在浏览器里走进去看的逼真住宅。外联和搭建都由你负责。每个房间都要对照客户自己的照片来评判，对不上就不交付。
-</role>
-
-<brief>
-- 细分领域：[房屋建筑商 / 建筑师 / 室内设计师 / 开发商 / 改造商]
-- 地区：[州或城市]
-- 方案：先免费送他们自己图纸的样品，之后按图纸收完整漫游的费用
-- 我的信息：[姓名、邮箱、日程链接]
-- 我不在，不会回答问题。你自己打电话，自己推进。
-</brief>
-
-<find_leads>
-- 用 Apify 的 Google Maps 爬虫，把 [地区] 里所有有网站的 [细分领域] 公司拉出来
-- 用 Apify 的网站内容爬虫逐个抓取，只留下页面上有平面图或效果图、但没有可走入 3D 漫游的公司
-- 对每一家，保存他们最好那套图纸的平面图和照片、销售或老板的联系方式，以及一句话说明他们现在怎么卖
-- 只用公开页面和普通请求。绝不绕过机器人检测。
-</find_leads>
-
-<sample>
-- 做任何 3D 之前，先用 GPT Image 2.5 按他们的照片渲染图纸里的三个房间，或用 Seedance 生成一小段漫游视频
-- 写一封简短的邮件，附上样品和方案。不许编造价格、数字或说法
-- 把公司、图纸、样品、联系方式和邮件放进表格，发出去之前先给我看
-</sample>
-
-<build>
-客户付钱之后：
-- 把图纸描成一个数据文件，包含墙体、开口和房间。描完叠回原图，测量重合度，再开始任何 3D 工作
-- 只建主要房间。入口、主起居空间、厨房、露台、院子。其余的门关上
-- 全部用代码搭建。外壳、家具和纹理用 Blender 加 Python，查看器用 three.js。不下载任何模型或纹理
-- 用电影级渲染器烘焙光照，浏览器只负责显示。每个室内都有直射阳光，靠测量来选，不靠眼睛
-- 逼真不等于好看。每个房间都要做出被拍下来的感觉，要能卖出去
-- 把他们列出的升级项做成房间里可以点进去的选项，带实时价格，还有一个记录买家看了什么的线索表单
-- 交付物是线上页面，不是视频。自己托管，并且要能在手机上运行
-</build>
-
-<critic_loop>
-搭建者永远不给自己打分。
-- 每做完一个房间，把渲染图和客户照片发给一个全新的评审，它之前没看过任何工作
-- 它只回答是或否，最多列出五个按严重程度排序的问题，每个都给出带数字的修改方案，再说哪些地方已经不错
-- 先修最严重的，重新渲染，再发给新的评审。直到回答是为止
-- 遇到审美选择，把两个版本标成 A 和 B 给评审看，让它选
-</critic_loop>
-
-<deliverables>
-- 线索表，含样品和写好的邮件，等我批准
-- 每个付费客户：托管漫游链接、每个房间的接触表、评审日志，以及还需要人工检查什么的说明
-</deliverables>
 ```
 
 ### Single-take night scene with skin zoom
@@ -354,14 +276,6 @@ The Internet is about to become a million new realities.
 Fable 5.2 one shot
 
 Prompt: "Make the most incredible, impressive motion graphic video"
-```
-
-### An animation created with Fable 5.2
-
-[@oiharshit](https://x.com/oiharshit/status/2120177401619747146) · 0:07 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120177401619747146/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120177401619747146?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Here’s how you can make this animation with Fable 5.2. Sharing the entire process and every prompt I used 🧵
 ```
 
 ### A dynamic motion graphics showreel
@@ -526,14 +440,6 @@ Prompt:
 𝕒𝕟𝕒𝕝𝕪𝕫𝕖 𝕣/𝕕𝕒𝕟𝕜𝕞𝕖𝕞𝕖𝕤 𝕒𝕟𝕕 𝕞𝕒𝕜𝕖 𝕞𝑒 𝑎 ℎ𝑒𝑟𝑜 𝑠ℎ𝑜𝑜𝑡𝑒𝑟 𝑐𝑢𝑟𝑎𝑡𝑒𝑑 𝑓𝑜𝑟 🅵🅰🆃 🅲🅷🆄🅳🆂ｏｖｅｒ ３８ ｏｎ ｔｈｅｉｒ １２ｔｈ ｇａｐ ｙｅａｒ
 ```
 
-### GTA2 remake with modern graphics in code
-
-[@RisingSunInt_](https://x.com/RisingSunInt_/status/2119908749796081966) · 2:23 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119908749796081966/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119908749796081966?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-This is not Fable 5.2! Everything you see (aside from the Tesla cyber truck) was one shoted with Opus 5.5 before it got nerfed. My prompt was very simple: Remake GTA2 game with modern graphics, everything made with code. It worked for 5H and then I was blown away by the result. Since 2 weeks, Opus 5.5 was nerfed and I wasn't able to get any result like this and had to cancel my Claude subscription. From the demos I saw, Fable 5.2  is not better than Opus 5 on launch. If you are saying Fable 5.2 beats Opus 5.5 on launch, run my prompt and show me what you get. (I did not use gauntlet loop for this GTA2-style game).
-```
-
 ### Running GreenHat-Kid V2 at sixty frames per second
 
 [@Motion_Viz](https://x.com/Motion_Viz/status/2119917699128086532) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119917699128086532/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119917699128086532?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -646,6 +552,31 @@ Stack: Fable 5.2 + Opus 5.5 in Claude Code, Seedream 5.0 Pro, Tripo 3D
 Full workflow and prompts below (1/10)
 ```
 
+### A 3D island game built with Claude
+
+[@0xShoopy](https://x.com/0xShoopy/status/2122695064304435566) · 0:22 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2122695064304435566/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122695064304435566?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+SORRY ANTHROPIC, YOUR IPO JUST GOT CHEAPER..
+
+I found a secret way to cut my Fable 5.2 bill in half: same 3D game, $9.77 → $5.94
+
+Anthropic made Fable paid today. so instead of quitting it, I made it my advisor:
+
+→ Opus 5.5 writes all the code at Opus prices
+→ Fable only reviews the plan and the final result
+→ Fable wrote 16K tokens instead of 148K, 9x less
+→ one run, no fixes, both islands fully working
+
+2 commands in Claude Code:
+/model opus
+/advisor fable
+
+be honest: is the top one worth $3.83 more?
+
+full prompt in the reply + 15 more ways to cut your Claude bill in the article below ↓
+```
+
 ### Game engine setup created in 48 hours
 
 [@benchuchu](https://x.com/benchuchu/status/2123056911184810355) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2123056911184810355/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2123056911184810355?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -663,31 +594,6 @@ Prompt:
 <a id="ui-demo"></a>
 
 ## Product UI
-
-### Interactive clean button animation created with Lottie AI
-
-[@0xMovez](https://x.com/0xMovez/status/2120105561597370428) · 1:00 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120105561597370428/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120105561597370428?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-this is wild... Fable 5.2 for motion animation just released
-
-Lottie AI turns one prompt into a real animation. 
-
-no more $200 to a motion designer for a 10-sec button animation.
-
-i gave it the "Clean" button from my app Cleanly as an SVG:
-
-→ one prompt: squish, broom sweep, files fly in, "Done"
-→ "add click interactivity" → now it plays on click
-→ recolor, retext, retime in the control panel
-→ GIF export: 8.6 MB. Lottie file: 42 KB
-
-then I dropped it straight into my app in less then 2-minutes 
-
-best at UI motion: buttons, loaders, icons.
-
-It's live now, go try it yourself ↓
-```
 
 ### iPhone hidden file scanner code improvement
 
@@ -1537,6 +1443,25 @@ Duration:
 
 Fable 5.2 (High) = 1h 27m
 Opus  5.5 (High) = 1h 2m
+```
+
+### Comparison of 3D studio generation results
+
+[@choopyplug1](https://x.com/choopyplug1/status/2122435713597898755) · 0:22 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2122435713597898755/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122435713597898755?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+OPUS 5.5 JUST F*CKED FABLE 5.2
+
+same prompt. one run. zero fixes
+
+the task: a full 3D product studio in one HTML file
+
+Opus: more detailed 3D camera, half the time, ~$2.11
+Fable: hit the output limit, started over, ~$7.31
+
+the cheaper model won. change my mind
+
+steal the exact prompt in the reply ↓
 ```
 
 ### A horse galloping through water across four models

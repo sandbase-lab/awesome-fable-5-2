@@ -871,25 +871,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119907987477422453"
  },
  {
-  "id": "2119908749796081966",
-  "title": "GTA2 remake with modern graphics in code",
-  "title_zh": "纯代码重制的现代画质 GTA2 游戏",
-  "category": "game",
-  "author": {
-   "handle": "RisingSunInt_",
-   "name": "Rising Sun Interactive"
-  },
-  "postUrl": "https://x.com/RisingSunInt_/status/2119908749796081966",
-  "createdAt": "2026-11-09T21:43:26.000Z",
-  "durationMs": 142716,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119908749796081966/video.mp4",
-  "promptShared": true,
-  "promptText": "This is not Fable 5.2! Everything you see (aside from the Tesla cyber truck) was one shoted with Opus 5.5 before it got nerfed. My prompt was very simple: Remake GTA2 game with modern graphics, everything made with code. It worked for 5H and then I was blown away by the result. Since 2 weeks, Opus 5.5 was nerfed and I wasn't able to get any result like this and had to cancel my Claude subscription. From the demos I saw, Fable 5.2  is not better than Opus 5 on launch. If you are saying Fable 5.2 beats Opus 5.5 on launch, run my prompt and show me what you get. (I did not use gauntlet loop for this GTA2-style game).",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119908749796081966/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119908749796081966"
- },
- {
   "id": "2119910195325481026",
   "title": "Open world city action game prototype",
   "title_zh": "开放世界城市动作游戏原型演示",
@@ -2069,24 +2050,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120079288372494782"
  },
  {
-  "id": "2120080934036750493",
-  "title": "AAA racing game created in Unity",
-  "title_zh": "在Unity中制作的AAA级赛车游戏",
-  "category": "game",
-  "author": {
-   "handle": "NFT_Chen",
-   "name": "SuSu_酥酥👅"
-  },
-  "postUrl": "https://x.com/NFT_Chen/status/2120080934036750493",
-  "createdAt": "2026-11-10T09:07:38.000Z",
-  "durationMs": 11261,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120080934036750493/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120080934036750493/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120080934036750493"
- },
- {
   "id": "2120083276916224014",
   "title": "Memorial tribute to Mustafa Kemal Atatürk",
   "title_zh": "纪念穆斯塔法·凯末尔·阿塔图尔克的致敬视频",
@@ -2193,25 +2156,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120095684737347726/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120095684737347726"
- },
- {
-  "id": "2120105561597370428",
-  "title": "Interactive clean button animation created with Lottie AI",
-  "title_zh": "使用Lottie AI生成的交互式清理按钮动画",
-  "category": "ui-demo",
-  "author": {
-   "handle": "0xMovez",
-   "name": "Movez"
-  },
-  "postUrl": "https://x.com/0xMovez/status/2120105561597370428",
-  "createdAt": "2026-11-10T10:45:30.000Z",
-  "durationMs": 59800,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120105561597370428/video.mp4",
-  "promptShared": true,
-  "promptText": "this is wild... Fable 5.2 for motion animation just released\n\nLottie AI turns one prompt into a real animation. \n\nno more $200 to a motion designer for a 10-sec button animation.\n\ni gave it the \"Clean\" button from my app Cleanly as an SVG:\n\n→ one prompt: squish, broom sweep, files fly in, \"Done\"\n→ \"add click interactivity\" → now it plays on click\n→ recolor, retext, retime in the control panel\n→ GIF export: 8.6 MB. Lottie file: 42 KB\n\nthen I dropped it straight into my app in less then 2-minutes \n\nbest at UI motion: buttons, loaders, icons.\n\nIt's live now, go try it yourself ↓",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120105561597370428/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120105561597370428"
  },
  {
   "id": "2120105823737397644",
@@ -2633,25 +2577,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120177103584858570"
  },
  {
-  "id": "2120177401619747146",
-  "title": "An animation created with Fable 5.2",
-  "title_zh": "使用 Fable 5.2 制作的动画",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "oiharshit",
-   "name": "Harshit"
-  },
-  "postUrl": "https://x.com/oiharshit/status/2120177401619747146",
-  "createdAt": "2026-11-10T15:30:58.000Z",
-  "durationMs": 6800,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120177401619747146/video.mp4",
-  "promptShared": true,
-  "promptText": "Here’s how you can make this animation with Fable 5.2. Sharing the entire process and every prompt I used 🧵",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120177401619747146/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120177401619747146"
- },
- {
   "id": "2120178606764904719",
   "title": "Video compared to Blender recreation by Fable",
   "title_zh": "原视频与Fable在Blender中重构效果对比",
@@ -2849,24 +2774,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120211050595340766/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120211050595340766"
- },
- {
-  "id": "2120214767868456979",
-  "title": "Interactive apartment set in Three.js",
-  "title_zh": "Three.js 交互式公寓场景",
-  "category": "3d-scene",
-  "author": {
-   "handle": "morsenxxx",
-   "name": "morsen"
-  },
-  "postUrl": "https://x.com/morsenxxx/status/2120214767868456979",
-  "createdAt": "2026-11-10T17:59:27.000Z",
-  "durationMs": 57700,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120214767868456979/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120214767868456979/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120214767868456979"
  },
  {
   "id": "2120216851636515265",
@@ -3559,24 +3466,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120518714743308542"
  },
  {
-  "id": "2120526126149743091",
-  "title": "Cinematic trailer generated from a Three.js game",
-  "title_zh": "基于Three.js游戏生成的电影感预告片",
-  "category": "launch-film",
-  "author": {
-   "handle": "Octoberry",
-   "name": "O🌷"
-  },
-  "postUrl": "https://x.com/Octoberry/status/2120526126149743091",
-  "createdAt": "2026-11-11T14:36:40.000Z",
-  "durationMs": 60000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120501283304153438/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120501283304153438/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120526126149743091"
- },
- {
   "id": "2120526727541645709",
   "title": "Portrait photography prompts with Fable 5.2",
   "title_zh": "Fable 5.2写真人像提示词技巧",
@@ -3830,24 +3719,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120648796334178374/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120648796334178374"
- },
- {
-  "id": "2120673668544303558",
-  "title": "Interactive cartoon coded in JavaScript",
-  "title_zh": "用JS编写的交互式末日卡通动画",
-  "category": "game",
-  "author": {
-   "handle": "mickeyxfriedman",
-   "name": "mickey friedman"
-  },
-  "postUrl": "https://x.com/mickeyxfriedman/status/2120673668544303558",
-  "createdAt": "2026-11-12T00:22:57.000Z",
-  "durationMs": 72567,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120673668544303558/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120673668544303558/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120673668544303558"
  },
  {
   "id": "2120680918914601165",
@@ -4214,24 +4085,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120890033833922611"
  },
  {
-  "id": "2120898690470519059",
-  "title": "Couple rescuing a kitten in the rain",
-  "title_zh": "雨中情侣救助小猫的日常短剧",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "fleyta88",
-   "name": "fleyta"
-  },
-  "postUrl": "https://x.com/fleyta88/status/2120898690470519059",
-  "createdAt": "2026-11-12T15:17:06.000Z",
-  "durationMs": 27517,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120898690470519059/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120898690470519059/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120898690470519059"
- },
- {
   "id": "2120905457380507991",
   "title": "Dinosaur chase game using sprite stacked WebGL",
   "title_zh": "基于WebGL切片堆叠技术的恐龙追逐游戏",
@@ -4394,24 +4247,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120961143913230460"
  },
  {
-  "id": "2120962655741464681",
-  "title": "A 3D hero generated from a single image",
-  "title_zh": "由单张概念图生成的3D英雄角色",
-  "category": "3d-scene",
-  "author": {
-   "handle": "de1lymoon",
-   "name": "Alex"
-  },
-  "postUrl": "https://x.com/de1lymoon/status/2120962655741464681",
-  "createdAt": "2026-11-12T19:31:17.000Z",
-  "durationMs": 19551,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120962655741464681/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120962655741464681/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120962655741464681"
- },
- {
   "id": "2120979189595873553",
   "title": "Exploded 3D teardown of a robot dog in Three.js",
   "title_zh": "基于Three.js的机器狗全拆解3D动态场景",
@@ -4558,25 +4393,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121139143615074501/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121139143615074501"
- },
- {
-  "id": "2121144338017292602",
-  "title": "Converting 2D floor plans into 3D walkthroughs",
-  "title_zh": "将2D平面图转为3D漫游空间",
-  "category": "3d-scene",
-  "author": {
-   "handle": "wanerfu",
-   "name": "摆烂程序媛"
-  },
-  "postUrl": "https://x.com/wanerfu/status/2121144338017292602",
-  "createdAt": "2026-11-13T07:33:13.000Z",
-  "durationMs": 10218,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121144338017292602/video.mp4",
-  "promptShared": true,
-  "promptText": "Claude Fable 5.2 简直离谱\n\n它能把 2D 平面图变成可以走进去逛的完整 3D 漫游\n\n这种方案一份卖 5000 到 1 万美元，市场需求很大：\n\n> 房屋建筑商卖期房\n> 建筑师给客户展示设计\n> 室内设计师展示翻新方案\n> 开发商卖期房公寓\n> 厨房和卫浴改造商卖升级套餐\n\n这门生意可以这样做：\n\n> 选一个细分领域，找网站上放了平面图的公司\n> 把图纸和他们的照片交给 Fable\n> 它用 GPT Image 2.5 渲染几个房间，或用 Seedance 生成一小段漫游视频当样品\n> 推销之前，先把他们自己图纸的样品发过去\n> 对方付钱后，Fable 按比例搭建完整漫游\n> 按图纸收费，把他们剩下的目录也做掉\n\n把这段提示词交给 Fable 就能开工：\n\n<role>\n你负责寻找靠图纸卖空间的公司，把他们的 2D 平面图变成能在浏览器里走进去看的逼真住宅。外联和搭建都由你负责。每个房间都要对照客户自己的照片来评判，对不上就不交付。\n</role>\n\n<brief>\n- 细分领域：[房屋建筑商 / 建筑师 / 室内设计师 / 开发商 / 改造商]\n- 地区：[州或城市]\n- 方案：先免费送他们自己图纸的样品，之后按图纸收完整漫游的费用\n- 我的信息：[姓名、邮箱、日程链接]\n- 我不在，不会回答问题。你自己打电话，自己推进。\n</brief>\n\n<find_leads>\n- 用 Apify 的 Google Maps 爬虫，把 [地区] 里所有有网站的 [细分领域] 公司拉出来\n- 用 Apify 的网站内容爬虫逐个抓取，只留下页面上有平面图或效果图、但没有可走入 3D 漫游的公司\n- 对每一家，保存他们最好那套图纸的平面图和照片、销售或老板的联系方式，以及一句话说明他们现在怎么卖\n- 只用公开页面和普通请求。绝不绕过机器人检测。\n</find_leads>\n\n<sample>\n- 做任何 3D 之前，先用 GPT Image 2.5 按他们的照片渲染图纸里的三个房间，或用 Seedance 生成一小段漫游视频\n- 写一封简短的邮件，附上样品和方案。不许编造价格、数字或说法\n- 把公司、图纸、样品、联系方式和邮件放进表格，发出去之前先给我看\n</sample>\n\n<build>\n客户付钱之后：\n- 把图纸描成一个数据文件，包含墙体、开口和房间。描完叠回原图，测量重合度，再开始任何 3D 工作\n- 只建主要房间。入口、主起居空间、厨房、露台、院子。其余的门关上\n- 全部用代码搭建。外壳、家具和纹理用 Blender 加 Python，查看器用 three.js。不下载任何模型或纹理\n- 用电影级渲染器烘焙光照，浏览器只负责显示。每个室内都有直射阳光，靠测量来选，不靠眼睛\n- 逼真不等于好看。每个房间都要做出被拍下来的感觉，要能卖出去\n- 把他们列出的升级项做成房间里可以点进去的选项，带实时价格，还有一个记录买家看了什么的线索表单\n- 交付物是线上页面，不是视频。自己托管，并且要能在手机上运行\n</build>\n\n<critic_loop>\n搭建者永远不给自己打分。\n- 每做完一个房间，把渲染图和客户照片发给一个全新的评审，它之前没看过任何工作\n- 它只回答是或否，最多列出五个按严重程度排序的问题，每个都给出带数字的修改方案，再说哪些地方已经不错\n- 先修最严重的，重新渲染，再发给新的评审。直到回答是为止\n- 遇到审美选择，把两个版本标成 A 和 B 给评审看，让它选\n</critic_loop>\n\n<deliverables>\n- 线索表，含样品和写好的邮件，等我批准\n- 每个付费客户：托管漫游链接、每个房间的接触表、评审日志，以及还需要人工检查什么的说明\n</deliverables>",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121144338017292602/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121144338017292602"
  },
  {
   "id": "2121176151234330707",
@@ -6139,6 +5955,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122013352755126431"
  },
  {
+  "id": "2122039842292806135",
+  "title": "ETH Trading Desk Built with Multiple Models",
+  "title_zh": "多模型协同构建的ETH交易工作台",
+  "category": "ui-demo",
+  "author": {
+   "handle": "RetroChainer",
+   "name": "RetroChainer"
+  },
+  "postUrl": "https://x.com/RetroChainer/status/2122039842292806135",
+  "createdAt": "2026-11-15T18:51:38.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122039842292806135/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122039842292806135/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122039842292806135"
+ },
+ {
   "id": "2122058121254416859",
   "title": "Multi-agent system running a Shopify store",
   "title_zh": "多智能体系统全自动运营Shopify网店",
@@ -6412,6 +6246,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122276006690013225"
  },
  {
+  "id": "2122279484661350710",
+  "title": "Wild West chase scene model comparison",
+  "title_zh": "狂野西部追逐场景模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Marlenuii",
+   "name": "Marlen"
+  },
+  "postUrl": "https://x.com/Marlenuii/status/2122279484661350710",
+  "createdAt": "2026-11-16T10:43:53.000Z",
+  "durationMs": 9941,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122279484661350710/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122279484661350710/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122279484661350710"
+ },
+ {
   "id": "2122290663643353165",
   "title": "Comparison of two ice elephant 3D renders",
   "title_zh": "两款模型生成的冰雕大象3D渲染对比",
@@ -6592,6 +6444,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122380646748442963"
  },
  {
+  "id": "2122383168678318155",
+  "title": "Multi-agent workflow with Fable and Opus",
+  "title_zh": "Fable与Opus多智能体工作流",
+  "category": "ui-demo",
+  "author": {
+   "handle": "Klonzu",
+   "name": "Klonzu"
+  },
+  "postUrl": "https://x.com/Klonzu/status/2122383168678318155",
+  "createdAt": "2026-11-16T17:35:54.000Z",
+  "durationMs": 22000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122383168678318155/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122383168678318155/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122383168678318155"
+ },
+ {
   "id": "2122386078422241743",
   "title": "A computer hardware build film generated by AI",
   "title_zh": "由AI生成的计算机硬件组装演示影片",
@@ -6626,6 +6496,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122408638950371579/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122408638950371579"
+ },
+ {
+  "id": "2122413827824476283",
+  "title": "Visualizing financial market strategies using Fable",
+  "title_zh": "使用Fable进行金融市场策略可视化",
+  "category": "data-viz",
+  "author": {
+   "handle": "ludoonchart",
+   "name": "ludoonchart"
+  },
+  "postUrl": "https://x.com/ludoonchart/status/2122413827824476283",
+  "createdAt": "2026-11-16T19:37:43.000Z",
+  "durationMs": 37515,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122413827824476283/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122413827824476283/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122413827824476283"
  },
  {
   "id": "2122415600802627683",
@@ -6663,6 +6551,25 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122418093049643146/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122418093049643146"
+ },
+ {
+  "id": "2122435713597898755",
+  "title": "Comparison of 3D studio generation results",
+  "title_zh": "3D产品工作室生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "choopyplug1",
+   "name": "chuplung"
+  },
+  "postUrl": "https://x.com/choopyplug1/status/2122435713597898755",
+  "createdAt": "2026-11-16T21:04:41.000Z",
+  "durationMs": 22285,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122435713597898755/video.mp4",
+  "promptShared": true,
+  "promptText": "OPUS 5.5 JUST F*CKED FABLE 5.2\n\nsame prompt. one run. zero fixes\n\nthe task: a full 3D product studio in one HTML file\n\nOpus: more detailed 3D camera, half the time, ~$2.11\nFable: hit the output limit, started over, ~$7.31\n\nthe cheaper model won. change my mind\n\nsteal the exact prompt in the reply ↓",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122435713597898755/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122435713597898755"
  },
  {
   "id": "2122435820317487543",
@@ -6718,6 +6625,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122460118944018716/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122460118944018716"
+ },
+ {
+  "id": "2122464338439241910",
+  "title": "Clockwork robot getting its heart back",
+  "title_zh": "发条小机器人找回心脏的动画",
+  "category": "3d-scene",
+  "author": {
+   "handle": "xinxuai",
+   "name": "Xin"
+  },
+  "postUrl": "https://x.com/xinxuai/status/2122464338439241910",
+  "createdAt": "2026-11-16T22:58:26.000Z",
+  "durationMs": 48000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122464338439241910/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122464338439241910/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122464338439241910"
  },
  {
   "id": "2122472401124401585",
@@ -6790,6 +6715,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122640890309050820/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122640890309050820"
+ },
+ {
+  "id": "2122646451939586084",
+  "title": "A Three.js video generated in one shot",
+  "title_zh": "Three.js 一次性生成的视频",
+  "category": "3d-scene",
+  "author": {
+   "handle": "meishengsimon",
+   "name": "seteiro"
+  },
+  "postUrl": "https://x.com/meishengsimon/status/2122646451939586084",
+  "createdAt": "2026-11-17T11:02:05.000Z",
+  "durationMs": 24300,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122646451939586084/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122646451939586084/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122646451939586084"
  },
  {
   "id": "2122647483281015155",
@@ -6865,6 +6808,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122690202749579631"
  },
  {
+  "id": "2122695064304435566",
+  "title": "A 3D island game built with Claude",
+  "title_zh": "用Claude构建的3D岛屿游戏",
+  "category": "game",
+  "author": {
+   "handle": "0xShoopy",
+   "name": "Shoopy"
+  },
+  "postUrl": "https://x.com/0xShoopy/status/2122695064304435566",
+  "createdAt": "2026-11-17T14:15:15.000Z",
+  "durationMs": 22000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122695064304435566/video.mp4",
+  "promptShared": true,
+  "promptText": "SORRY ANTHROPIC, YOUR IPO JUST GOT CHEAPER..\n\nI found a secret way to cut my Fable 5.2 bill in half: same 3D game, $9.77 → $5.94\n\nAnthropic made Fable paid today. so instead of quitting it, I made it my advisor:\n\n→ Opus 5.5 writes all the code at Opus prices\n→ Fable only reviews the plan and the final result\n→ Fable wrote 16K tokens instead of 148K, 9x less\n→ one run, no fixes, both islands fully working\n\n2 commands in Claude Code:\n/model opus\n/advisor fable\n\nbe honest: is the top one worth $3.83 more?\n\nfull prompt in the reply + 15 more ways to cut your Claude bill in the article below ↓",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122695064304435566/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122695064304435566"
+ },
+ {
   "id": "2122702891819377117",
   "title": "Photorealistic room scene written in code",
   "title_zh": "纯代码生成的逼真室内场景",
@@ -6881,6 +6843,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122702891819377117/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122702891819377117"
+ },
+ {
+  "id": "2122714351769412056",
+  "title": "Browser-based motion tool built with Fable 5.2",
+  "title_zh": "基于Fable 5.2构建的浏览器动效工具",
+  "category": "ui-demo",
+  "author": {
+   "handle": "Y0urDumble",
+   "name": "Dumble"
+  },
+  "postUrl": "https://x.com/Y0urDumble/status/2122714351769412056",
+  "createdAt": "2026-11-17T15:31:54.000Z",
+  "durationMs": 20400,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122714351769412056/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122714351769412056/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122714351769412056"
  },
  {
   "id": "2122717552535085195",
@@ -6953,6 +6933,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122748346322362690/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122748346322362690"
+ },
+ {
+  "id": "2122756006770065825",
+  "title": "Short film about making games with AI",
+  "title_zh": "关于用AI制作游戏的短片",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "jsnnsa",
+   "name": "jacob"
+  },
+  "postUrl": "https://x.com/jsnnsa/status/2122756006770065825",
+  "createdAt": "2026-11-17T18:17:25.000Z",
+  "durationMs": 128533,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122756006770065825/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122756006770065825/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122756006770065825"
  },
  {
   "id": "2122773694783349144",
