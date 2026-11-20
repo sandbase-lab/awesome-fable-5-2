@@ -4139,24 +4139,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120912001186799646"
  },
  {
-  "id": "2120920564080513196",
-  "title": "Animated short about a robot named Tock",
-  "title_zh": "关于小机器人Tock的3D动画短片",
-  "category": "3d-scene",
-  "author": {
-   "handle": "ChrisGPT",
-   "name": "Chris"
-  },
-  "postUrl": "https://x.com/ChrisGPT/status/2120920564080513196",
-  "createdAt": "2026-11-12T16:44:01.000Z",
-  "durationMs": 264416,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120920564080513196/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120920564080513196/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120920564080513196"
- },
- {
   "id": "2120931505375428895",
   "title": "Launch film for Horizon Trade trading platform",
   "title_zh": "Horizon Trade交易平台发布短片",
@@ -7115,6 +7097,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122815524124152216/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122815524124152216"
+ },
+ {
+  "id": "2122837291874070590",
+  "title": "Cowboy toy animation comparison in Blender",
+  "title_zh": "Blender 牛仔玩具动画生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "ChrisGPT",
+   "name": "Chris"
+  },
+  "postUrl": "https://x.com/ChrisGPT/status/2122837291874070590",
+  "createdAt": "2026-11-17T23:40:25.000Z",
+  "durationMs": 10000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122837291874070590/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122837291874070590/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122837291874070590"
  },
  {
   "id": "2122862040326807696",
