@@ -2,18 +2,18 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 60 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
+共 63 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (15)
-- [动效](#motion-graphics) (12)
+- [3D 场景](#3d-scene) (17)
+- [动效](#motion-graphics) (14)
 - [游戏](#game) (6)
 - [产品界面](#ui-demo) (2)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (11)
 - [发布片](#launch-film) (3)
-- [测试对比](#comparison) (10)
+- [测试对比](#comparison) (9)
 
 <a id="3d-scene"></a>
 
@@ -253,6 +253,48 @@ Save this prompt, remix the process, and show me the most beautiful thing you bu
 My 3 prompts for these are below.
 ```
 
+### Three.js 地面站火箭发射场景
+
+[@heRiverYY](https://x.com/heRiverYY/status/2125114693505400843) · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2125114693505400843/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125114693505400843?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+实测 GLM-5.4：去你吗的别他妈的造谣GLM-5.4了😅，半成品都很牛逼，审美和自纠错能力进步巨大，但额度消耗也确实不低，缺点是它的雷霆大思考时间太长
+
+我让它完成一个 3D 火箭发射场景，实际运行了约 3 小时 12 分钟。期间，Pro 500 套餐的5小时额度从 100% 降到只剩 28%，因为消耗太高我提前发出了停止。
+
+有意思的是，我让它停下后，它还在考虑继续修改和完善。能看出来它对细节和问题处理得比较认真，只是这次运行时间和额度消耗也随之增加了。
+
+从已经完成的效果来看，GLM-5.4 对需求的理解、画面审美和自纠错能力都表现不错。用自然语言描述想要的场景，它就能逐步把效果做出来，确实有点“许愿编程”的感觉。
+
+就这次生成的画面而言，我个人觉得审美表现不输 Claude Fable 5.2 和 Opus 5.5
+
+望GLM5.5能有个漂亮翻身仗
+
+提示词：使用three.js技术写一个3d帮我生成一个地面站发射火箭上天场景，采用html的形式
+```
+
+### 螃蟹视角下的水下场景
+
+[@DanielZambrini](https://x.com/DanielZambrini/status/2125200400638685608) · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2125200400638685608/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125200400638685608?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2 failed a bit here
+
+"The world on the eyes of a crab"
+-100% Code 
+-no img-to-video or txt-to-video
+-one shot prompt
+
+Despite being very impressive, and having the underwater scene, two main things could be improved in a following attempt:
+
+Crab claws are moving through the sand
+When the wave is coming in, the water physics does not feel right
+
+I will try to fix those and post the comparison.
+
+What else would you improve?
+```
+
 <a id="motion-graphics"></a>
 
 ## 动效
@@ -449,6 +491,26 @@ This AI video is an Absolute Masterpiece🔥
 Made by Fable 5.2 + Seedance 2.5 is unbelievable
 
 Prompt below:
+```
+
+### 纸偶定格动画效果演示
+
+[@abxxai](https://x.com/abxxai/status/2125229525856633000) · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2125229525856633000/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125229525856633000?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Fable 5.2 and Seedance 2.5 just nailed paper puppet animation
+
+made in @FishCreativeHQ workflow + prompts below 👇
+```
+
+### 使用 Fable 5.2 生成的动画测试
+
+[@pradeepXkapoor](https://x.com/pradeepXkapoor/status/2125298607557685750) · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2125298607557685750/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125298607557685750?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+This is not Opus 5.6, this is Fable 5.2
+
+Adding the prompt for this exact animation plus a style prompt if you want to create something similar with a similar style and artistic vision
 ```
 
 <a id="game"></a>
@@ -1306,31 +1368,6 @@ same prompt: create an svg of a pelican riding a bicycle across five animated se
 Hydrogen held up surprisingly well against Fable and could be 10x cheaper than Fable when it launches. 
 
 Fable 5.2 did a really impressive job overall but is the extra detailing worth the cost?
-```
-
-### Opus 5.5与Fable 5.2游戏机器人绑定对比
-
-[@andreysuperior](https://x.com/andreysuperior/status/2120297371355545700) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120297371355545700/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120297371355545700?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Gave Opus 5.5 and Fable 5.2 the same prompt:
-
-Design and rig a game-ready robot.
-19 bones. 4 animation clips. Under 12k tris.
-No tools. One shot.
-
-Then measured both with the same 12 checks.
-
-Opus 5.5: 12/12 first attempt · 6:38 · $0.87
-Fable 5.2: 12/12 first attempt · 6:58 · $1.71
-
-Fable built the more detailed robot (81 parts vs 70).
-Opus did it for half the price.
-
-The thing that made this work: force it to check its own numbers.
-Feet within 0.5 cm of the floor. Weapon grip within 1 cm of the palm. Exactly 2 eyes.
-
-Full workflow below.
 ```
 
 ### 两款AI模型生成的眼镜蛇对比
