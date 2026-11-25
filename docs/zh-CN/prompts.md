@@ -2,18 +2,18 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 63 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
+共 60 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (14)
-- [动效](#motion-graphics) (11)
-- [游戏](#game) (8)
+- [3D 场景](#3d-scene) (15)
+- [动效](#motion-graphics) (12)
+- [游戏](#game) (6)
 - [产品界面](#ui-demo) (2)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (11)
 - [发布片](#launch-film) (3)
-- [测试对比](#comparison) (13)
+- [测试对比](#comparison) (10)
 
 <a id="3d-scene"></a>
 
@@ -190,7 +190,7 @@ github + prompts below, bookmark it ⬇️
 
 ### Three.js构建的无尽剪纸风格世界
 
-[@xikhar](https://x.com/xikhar/status/2122682962647122403) · 0:54 · [观看](https://www.sandbase.ai/lab/media/x/opus-5-5/2122682962647122403/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122682962647122403?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+[@xikhar](https://x.com/xikhar/status/2122682962647122403) · [观看](https://www.sandbase.ai/lab/media/x/opus-5-5/2122682962647122403/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122682962647122403?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
 ```text
 Papertrails: an endless papercraft world that pops up around you.
@@ -233,6 +233,24 @@ how it actually works:
 i had no idea Claude had come this far and a car plant is next on my list.
 
 the skill and the full guide are in the article below 👇
+```
+
+### 使用 WebGL 着色器创建的 3D 场景
+
+[@kloss_xyz](https://x.com/kloss_xyz/status/2124646782433124652) · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2124646782433124652/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2124646782433124652?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+Want to test out your 3D ideas before committing endless hours to modeling and rendering them?
+
+You can skip Blender and Three.js. Use raw WebGL and GLSL shaders to build a hyper-realistic scene with GPT-6.2 Astra or Fable 5.2. You’ll get a single HTML file in under 20 minutes.
+
+I remixed this prompt into 20 of my own. Here are 3 of my favorites.
+
+Prototype a game, test a site idea, or pitch a partner or collaborators before you polish anything.
+
+Save this prompt, remix the process, and show me the most beautiful thing you build.
+
+My 3 prompts for these are below.
 ```
 
 <a id="motion-graphics"></a>
@@ -421,24 +439,21 @@ Here is the exact prompt used for the test:
 The real breakthrough here isn't just generating art. It's giving an LLM a reference animation and commanding it to rewrite the character, outfit, and particle physics in one go
 ```
 
+### 使用 Fable 与 Seedance 生成的视频
+
+[@Viniai_](https://x.com/Viniai_/status/2122916879824306422) · [观看](https://www.sandbase.ai/lab/media/x/seedance-2-5/2122916879824306422/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122916879824306422?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+
+```text
+This AI video is an Absolute Masterpiece🔥
+
+Made by Fable 5.2 + Seedance 2.5 is unbelievable
+
+Prompt below:
+```
+
 <a id="game"></a>
 
 ## 游戏
-
-### 根据迷因提示词生成的英雄射击游戏
-
-[@d0xxed](https://x.com/d0xxed/status/2119898886215205358) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2119898886215205358/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119898886215205358?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-I had early access to Fable 5.2.
-
-One prompt. 12 hours brewing. See the result with your own eyes.
-
-Game devs are cooked.
-
-Prompt: 
-𝕒𝕟𝕒𝕝𝕪𝕫𝕖 𝕣/𝕕𝕒𝕟𝕜𝕞𝕖𝕞𝕖𝕤 𝕒𝕟𝕕 𝕞𝕒𝕜𝕖 𝕞𝑒 𝑎 ℎ𝑒𝑟𝑜 𝑠ℎ𝑜𝑜𝑡𝑒𝑟 𝑐𝑢𝑟𝑎𝑡𝑒𝑑 𝑓𝑜𝑟 🅵🅰🆃 🅲🅷🆄🅳🆂ｏｖｅｒ ３８ ｏｎ ｔｈｅｉｒ １２ｔｈ ｇａｐ ｙｅａｒ
-```
 
 ### 以60帧运行GreenHat-Kid V2效果
 
@@ -554,7 +569,7 @@ Full workflow and prompts below (1/10)
 
 ### 用Claude构建的3D岛屿游戏
 
-[@0xShoopy](https://x.com/0xShoopy/status/2122695064304435566) · 0:22 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2122695064304435566/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122695064304435566?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
+[@0xShoopy](https://x.com/0xShoopy/status/2122695064304435566) · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2122695064304435566/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122695064304435566?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
 
 ```text
 SORRY ANTHROPIC, YOUR IPO JUST GOT CHEAPER..
@@ -575,20 +590,6 @@ Anthropic made Fable paid today. so instead of quitting it, I made it my advisor
 be honest: is the top one worth $3.83 more?
 
 full prompt in the reply + 15 more ways to cut your Claude bill in the article below ↓
-```
-
-### 48小时构建的游戏引擎设置
-
-[@benchuchu](https://x.com/benchuchu/status/2123056911184810355) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2123056911184810355/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2123056911184810355?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Why wait until 2027 when you have Claude?
-
-Fable 5.2 just helped me achieve the same set up in 48 hours with @RYFTCORP game engine
-
-Sadly it wasn't one-shot but turned out great
-
-Prompt:
 ```
 
 <a id="ui-demo"></a>
@@ -1290,28 +1291,6 @@ Save every stage to disk so a crash never costs more than one stage.
 - script.json: the lines and th…
 ```
 
-### 单HTML文件迈阿密夜间驾驶游戏对比
-
-[@0xbobaaa](https://x.com/0xbobaaa/status/2120130913711353937) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120130913711353937/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120130913711353937?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-GTA 6 IS STILL NOT OUT. FABLE 5.2 BUILT ME A VICE CITY IN ONE HTML FILE IN 40 MINUTES
-
-anthropic dropped fable 5.2 last night: "up to 30% faster" than 5.1, $8/$40 per 1M tokens instead of $10/$50
-
-so i gave fable 5.1 and fable 5.2 the same prompt in claude code: a drivable neon miami city at night, basically vice city. rain, reflections, traffic, minimap, one file, zero assets
-
-fable 5.1 -> 27 min, 112,170 output tokens, ~$10.7
-neon signs (flamingo, ocean), palms, rain, minimap, autopilot
-
-fable 5.2 -> 40 min, 248,390 output tokens, ~$13.8
-rain on wet asphalt, palms, neon towers, traffic lights, minimap, autopilot
-
-the "faster and cheaper" model took 49% longer and cost ~29% more on this job. it burned 135,211 thinking tokens to 5.1's 67,110
-
-cheaper per token, $3 more per game
-```
-
 ### 鹈鹕骑自行车穿越五季的SVG动画对比
 
 [@marcthecreatorr](https://x.com/marcthecreatorr/status/2120151349924938083) · 0:45 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120151349924938083/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120151349924938083?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1327,59 +1306,6 @@ same prompt: create an svg of a pelican riding a bicycle across five animated se
 Hydrogen held up surprisingly well against Fable and could be 10x cheaper than Fable when it launches. 
 
 Fable 5.2 did a really impressive job overall but is the extra detailing worth the cost?
-```
-
-### 多模型对比生成的飞龟岛
-
-[@JamesMalsawm](https://x.com/JamesMalsawm/status/2120162060869025848) · 0:12 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120162060869025848/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120162060869025848?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Fable 5.2 versus Claude Opus 5.5. 
-
-The first Fable 5.2 result is here and is totally insane. 
-
-A simple prompt: Flying Turgle Island
-Fable 5.2: $79.10     1hr 43m
-Opus 5.5: $43.97     3hr 15m
-(Run on medium by the way)
-
-There is a bit of a leap in their results but not like a huge jump, 
-
-Definitely, Fable 5.2 cost more but finished faster than Opus 5.5 with quality results
-
-What do you guys think?
-```
-
-### 夜间火箭发射场景的双模型对比
-
-[@SamgreyAi](https://x.com/SamgreyAi/status/2120253192726577503) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120253192726577503/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120253192726577503?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-I gave Fable 5.2 and Claude Opus 5.5 the exact same prompt: a rocket launch at night, in 4K.
-
-No edits. No second chances. Same scene, two models.
-
-The numbers:
-Fable 5.2: $23.45 | 32 mins
-Opus 5.5: $10.35 | 24 mins
-
-Fable cost 2.3x more and took 8 minutes longer
-
-But then I looked at the result
-Fable 5.2 is on another level when it comes to detail. The exhaust glow, the smoke rolling off the pad and the way the engine light hits the clouds all feel like real footage, not a render.
-Opus 5.5 is solid. It’s faster, it’s cheaper, and for most projects it’s more than enough. But next to Fable, you notice what’s missing: the small details that make your brain say “this is real.”
-
-Here’s what bugs me.
-
-I expected Fable 5.2 to be more efficient, or at least priced closer to Fable 5.1. Instead you pay noticeably more for every extra bit of realism.
-
-So the real question isn’t “which model is better?” Fable wins on quality. The question is whether that quality is worth 2x the price.
-
-Making content for social media? Opus 5.5 probably does the job.
-
-Need maximum realism for a hero shot? Fable 5.2 is hard to beat.
-
-What would you choose: the cheaper model or the one that looks real?
 ```
 
 ### Opus 5.5与Fable 5.2游戏机器人绑定对比
