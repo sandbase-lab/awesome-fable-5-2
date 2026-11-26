@@ -2,11 +2,11 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 66 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
+共 65 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (19)
+- [3D 场景](#3d-scene) (18)
 - [动效](#motion-graphics) (14)
 - [游戏](#game) (6)
 - [产品界面](#ui-demo) (2)
@@ -58,21 +58,6 @@ Wow, Fable 5.2 is unbelievable at generating photorealistic scenes.
 "Can you write the most intricate photorealistic simulation of honey in WebGL in the browser"
 
 This video is completely physics-based realtime render.
-```
-
-### Blender中海蛇缠绕船只的动画
-
-[@Stefan_3D_AI](https://x.com/Stefan_3D_AI/status/2120039417981333599) · 0:32 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2120039417981333599/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120039417981333599?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-This is what only 1M of Fable 5.2 tokens can do!
-
-Prompt: generate a sea serpent and animate it in Blender, 20 seconds of coiling around a ship without ever passing through the hull. 
-
-Via Claude Code + Blender on Max effort.
-
-Fable 5.2: 108 min, 1.03M output tokens, about $89.7 in API terms.
-Opus 5.5: 71 min, 375k output tokens, about $25.2 in API terms.
 ```
 
 ### 单提示词生成的3D房屋

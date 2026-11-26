@@ -36,24 +36,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119868968307695818"
  },
  {
-  "id": "2119869170871652487",
-  "title": "Code compiler running in Conway's Game of Life",
-  "title_zh": "在康威生命游戏中运行的代码编译器",
-  "category": "game",
-  "author": {
-   "handle": "maxleiter",
-   "name": "Max Leiter"
-  },
-  "postUrl": "https://x.com/maxleiter/status/2119869170871652487",
-  "createdAt": "2026-11-09T19:06:10.000Z",
-  "durationMs": 60650,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119869170871652487/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119869170871652487/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119869170871652487"
- },
- {
   "id": "2119870838606381391",
   "title": "Robot character blending motion transitions",
   "title_zh": "展示动作融合过渡的机器人动画",
@@ -1631,25 +1613,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120036544257888471/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120036544257888471"
- },
- {
-  "id": "2120039417981333599",
-  "title": "Sea serpent coiling around a ship in Blender",
-  "title_zh": "Blender中海蛇缠绕船只的动画",
-  "category": "3d-scene",
-  "author": {
-   "handle": "Stefan_3D_AI",
-   "name": "Stefan 3D AI"
-  },
-  "postUrl": "https://x.com/Stefan_3D_AI/status/2120039417981333599",
-  "createdAt": "2026-11-10T06:22:40.000Z",
-  "durationMs": 31500,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120039417981333599/video.mp4",
-  "promptShared": true,
-  "promptText": "This is what only 1M of Fable 5.2 tokens can do!\n\nPrompt: generate a sea serpent and animate it in Blender, 20 seconds of coiling around a ship without ever passing through the hull. \n\nVia Claude Code + Blender on Max effort.\n\nFable 5.2: 108 min, 1.03M output tokens, about $89.7 in API terms.\nOpus 5.5: 71 min, 375k output tokens, about $25.2 in API terms.",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120039417981333599/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120039417981333599"
  },
  {
   "id": "2120040640423850168",
@@ -3811,24 +3774,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121212179685007524/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121212179685007524"
- },
- {
-  "id": "2121212540415885509",
-  "title": "Motion effects created with open source libraries",
-  "title_zh": "开源库代码生成的动态图形特效合集",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "m4lkxx",
-   "name": "m4lka"
-  },
-  "postUrl": "https://x.com/m4lkxx/status/2121212540415885509",
-  "createdAt": "2026-11-13T12:04:14.000Z",
-  "durationMs": 18000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121212540415885509/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121212540415885509/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121212540415885509"
  },
  {
   "id": "2121216070375612527",
@@ -6082,24 +6027,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122702891819377117"
  },
  {
-  "id": "2122714351769412056",
-  "title": "Browser-based motion tool built with Fable 5.2",
-  "title_zh": "基于Fable 5.2构建的浏览器动效工具",
-  "category": "ui-demo",
-  "author": {
-   "handle": "Y0urDumble",
-   "name": "Dumble"
-  },
-  "postUrl": "https://x.com/Y0urDumble/status/2122714351769412056",
-  "createdAt": "2026-11-17T15:31:54.000Z",
-  "durationMs": 20400,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122714351769412056/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122714351769412056/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122714351769412056"
- },
- {
   "id": "2122717552535085195",
   "title": "Interactive 3D simulator of forty years of Macs",
   "title_zh": "Mac四十年演变的交互式3D模拟器",
@@ -7121,6 +7048,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125338221378773417"
  },
  {
+  "id": "2125589244928221357",
+  "title": "Motion graphics pipeline using open source repositories",
+  "title_zh": "基于开源工具栈的动态图形制作流程",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "0xnoonez",
+   "name": "noonez"
+  },
+  "postUrl": "https://x.com/0xnoonez/status/2125589244928221357",
+  "createdAt": "2026-11-25T13:55:42.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125589244928221357/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125589244928221357/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125589244928221357"
+ },
+ {
   "id": "2125598244118106609",
   "title": "AI assisted interface design components",
   "title_zh": "AI辅助界面设计组件",
@@ -7264,5 +7209,59 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125773595288977575/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125773595288977575"
+ },
+ {
+  "id": "2125840758334771201",
+  "title": "Code-guided animation with Seedance visual pass",
+  "title_zh": "代码引导结合Seedance渲染的动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "rainisto",
+   "name": "Roope Rainisto"
+  },
+  "postUrl": "https://x.com/rainisto/status/2125840758334771201",
+  "createdAt": "2026-11-26T06:35:07.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125840758334771201/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125840758334771201/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125840758334771201"
+ },
+ {
+  "id": "2125946621209030739",
+  "title": "Animation of something the model loves",
+  "title_zh": "模型喜爱之物的生成动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "prasenx",
+   "name": "Prasenjit"
+  },
+  "postUrl": "https://x.com/prasenx/status/2125946621209030739",
+  "createdAt": "2026-11-26T13:35:47.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125946621209030739/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125946621209030739/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125946621209030739"
+ },
+ {
+  "id": "2126032719226212629",
+  "title": "Gameplay running at 4K 120 FPS",
+  "title_zh": "4K 120帧运行的游戏测试画面",
+  "category": "game",
+  "author": {
+   "handle": "CoretchiV",
+   "name": "Coreţchi Vasile"
+  },
+  "postUrl": "https://x.com/CoretchiV/status/2126032719226212629",
+  "createdAt": "2026-11-26T19:17:54.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126032719226212629/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126032719226212629/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126032719226212629"
  }
 ]

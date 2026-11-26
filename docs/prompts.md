@@ -2,11 +2,11 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-66 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
+65 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators describe the task rather than pasting the whole prompt, and some put the full text in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
-- [3D scenes](#3d-scene) (19)
+- [3D scenes](#3d-scene) (18)
 - [Motion graphics](#motion-graphics) (14)
 - [Games](#game) (6)
 - [Product UI](#ui-demo) (2)
@@ -58,21 +58,6 @@ Wow, Fable 5.2 is unbelievable at generating photorealistic scenes.
 "Can you write the most intricate photorealistic simulation of honey in WebGL in the browser"
 
 This video is completely physics-based realtime render.
-```
-
-### Sea serpent coiling around a ship in Blender
-
-[@Stefan_3D_AI](https://x.com/Stefan_3D_AI/status/2120039417981333599) · 0:32 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2120039417981333599/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120039417981333599?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-This is what only 1M of Fable 5.2 tokens can do!
-
-Prompt: generate a sea serpent and animate it in Blender, 20 seconds of coiling around a ship without ever passing through the hull. 
-
-Via Claude Code + Blender on Max effort.
-
-Fable 5.2: 108 min, 1.03M output tokens, about $89.7 in API terms.
-Opus 5.5: 71 min, 375k output tokens, about $25.2 in API terms.
 ```
 
 ### A 3D house built from a single prompt
