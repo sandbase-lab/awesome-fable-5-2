@@ -2,17 +2,17 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-65 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
+63 Claude Fable 5.2 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Fable 5.2 on SandBase Lab. New to prompting Fable 5.2? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators describe the task rather than pasting the whole prompt, and some put the full text in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
 - [3D scenes](#3d-scene) (18)
 - [Motion graphics](#motion-graphics) (14)
 - [Games](#game) (6)
-- [Product UI](#ui-demo) (2)
+- [Product UI](#ui-demo) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (13)
-- [Launch films](#launch-film) (2)
+- [Launch films](#launch-film) (1)
 - [Tests & comparisons](#comparison) (9)
 
 <a id="3d-scene"></a>
@@ -674,53 +674,6 @@ full prompt in the reply + 15 more ways to cut your Claude bill in the article b
 
 ## Product UI
 
-### iPhone hidden file scanner code improvement
-
-[@Supriik_](https://x.com/Supriik_/status/2121749277076508978) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121749277076508978/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121749277076508978?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-IT'S F*CKING INSANE. IN 2026 CLAUDE FABLE 5.2 REWROTE THE IPHONE SCANNER OPUS 5.5 MADE ME AND FOUND 6,547 HIDDEN FILES THE FIRST ONE NEVER SAW
-
-a while ago Opus 5.5 wrote me a script to find hidden photos and recordings on my iPhone. it found 2,455 files. i deleted them and thought i was done
-
-then Fable 5.2 dropped. i gave it the old script and one prompt:
-"improve the iPhone scanner Opus wrote, run it again"
-
-first it reviewed the old code and found why it was blind:
-→ it only checked the Photos library and Recently Deleted
-→ it skipped app containers and caches
-→ it trusted file extensions, so renamed files slipped through
-→ it listed files but never opened the databases
-
-it rewrote the scanner from 412 lines to 1,106. then ran it on the same phone ↓
-
-same iPhone. two scanners:
-→ hidden photos: 2,318 → 7,904
-→ voice notes: 96 → 612
-→ videos: 41 → 286
-→ screenshots: 0 → 153
-→ call recordings: 0 → 47
-
-9,002 files in total. 3.7x more than the first scan
-
-where they were hiding:
-→ a "calculator" app that was really a hidden vault
-→ a keyboard app cache that saved my voice dictation
-→ photos and audio renamed to .dat so nothing would recognize them
-→ thumbnails of "deleted" photos that were never actually purged
-→ a shared album link still open to 3 people
-
-what Claude helped me do:
-→ exported the vault as evidence, deleted the app and reported it
-→ removed the keyboard app and turned off its full access
-→ wiped every disguised file and the thumbnail cache
-→ closed the shared link and changed my passcode
-
-lesson: one scan is never enough. when a better model comes out, run your old checks again
-
-the full guide is in the article below ↓
-```
-
 ### Rebuilding Twitter interface and feed from scratch
 
 [@leopardracer](https://x.com/leopardracer/status/2121977285221720283) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2121977285221720283/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121977285221720283?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1263,23 +1216,6 @@ the whole setup is on one page, and the prompt to build it is below. save it bef
 <a id="launch-film"></a>
 
 ## Launch films
-
-### Code generated model launch film with music
-
-[@furkancavlakcom](https://x.com/furkancavlakcom/status/2119896886345695521) · 1:14 · [Watch](https://www.sandbase.ai/lab/media/x/fable-5-2/2119896886345695521/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119896886345695521?utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Claude Fable 5.2 bugün çıktı. Tek bir şey istedim:
-
-“Kendi lansman videonu yap. Sadece kodla.”
-
-⏱ 57 dakika
-💸 ~21 $ (API fiyatıyla tahmini)
-🧮 1.702 satır Python, 2.220 kare
-🎵 Müzik dahil her şey sentezlendi
-
-Kamera yok, stok görüntü yok, hazır ses yok.
-```
 
 ### Launch video for BlewUp
 

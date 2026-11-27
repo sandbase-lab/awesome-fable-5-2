@@ -2,17 +2,17 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 65 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
+共 63 条 Claude Fable 5.2 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Fable 5.2 一键 **复刻**。第一次写 Fable 5.2 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (18)
 - [动效](#motion-graphics) (14)
 - [游戏](#game) (6)
-- [产品界面](#ui-demo) (2)
+- [产品界面](#ui-demo) (1)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (13)
-- [发布片](#launch-film) (2)
+- [发布片](#launch-film) (1)
 - [测试对比](#comparison) (9)
 
 <a id="3d-scene"></a>
@@ -674,53 +674,6 @@ full prompt in the reply + 15 more ways to cut your Claude bill in the article b
 
 ## 产品界面
 
-### iPhone隐藏文件扫描脚本优化
-
-[@Supriik_](https://x.com/Supriik_/status/2121749277076508978) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121749277076508978/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121749277076508978?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-IT'S F*CKING INSANE. IN 2026 CLAUDE FABLE 5.2 REWROTE THE IPHONE SCANNER OPUS 5.5 MADE ME AND FOUND 6,547 HIDDEN FILES THE FIRST ONE NEVER SAW
-
-a while ago Opus 5.5 wrote me a script to find hidden photos and recordings on my iPhone. it found 2,455 files. i deleted them and thought i was done
-
-then Fable 5.2 dropped. i gave it the old script and one prompt:
-"improve the iPhone scanner Opus wrote, run it again"
-
-first it reviewed the old code and found why it was blind:
-→ it only checked the Photos library and Recently Deleted
-→ it skipped app containers and caches
-→ it trusted file extensions, so renamed files slipped through
-→ it listed files but never opened the databases
-
-it rewrote the scanner from 412 lines to 1,106. then ran it on the same phone ↓
-
-same iPhone. two scanners:
-→ hidden photos: 2,318 → 7,904
-→ voice notes: 96 → 612
-→ videos: 41 → 286
-→ screenshots: 0 → 153
-→ call recordings: 0 → 47
-
-9,002 files in total. 3.7x more than the first scan
-
-where they were hiding:
-→ a "calculator" app that was really a hidden vault
-→ a keyboard app cache that saved my voice dictation
-→ photos and audio renamed to .dat so nothing would recognize them
-→ thumbnails of "deleted" photos that were never actually purged
-→ a shared album link still open to 3 people
-
-what Claude helped me do:
-→ exported the vault as evidence, deleted the app and reported it
-→ removed the keyboard app and turned off its full access
-→ wiped every disguised file and the thumbnail cache
-→ closed the shared link and changed my passcode
-
-lesson: one scan is never enough. when a better model comes out, run your old checks again
-
-the full guide is in the article below ↓
-```
-
 ### 从零重建推特界面与信息流
 
 [@leopardracer](https://x.com/leopardracer/status/2121977285221720283) · 0:24 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2121977285221720283/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121977285221720283?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
@@ -1263,23 +1216,6 @@ the whole setup is on one page, and the prompt to build it is below. save it bef
 <a id="launch-film"></a>
 
 ## 发布片
-
-### 纯Python代码生成的模型发布宣传片
-
-[@furkancavlakcom](https://x.com/furkancavlakcom/status/2119896886345695521) · 1:14 · [观看](https://www.sandbase.ai/lab/media/x/fable-5-2/2119896886345695521/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119896886345695521?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-fable-5-2&utm_content=prompt-index)
-
-```text
-Claude Fable 5.2 bugün çıktı. Tek bir şey istedim:
-
-“Kendi lansman videonu yap. Sadece kodla.”
-
-⏱ 57 dakika
-💸 ~21 $ (API fiyatıyla tahmini)
-🧮 1.702 satır Python, 2.220 kare
-🎵 Müzik dahil her şey sentezlendi
-
-Kamera yok, stok görüntü yok, hazır ses yok.
-```
 
 ### BlewUp产品发布视频
 

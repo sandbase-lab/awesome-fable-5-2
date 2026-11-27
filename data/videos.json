@@ -415,25 +415,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119896220814762218"
  },
  {
-  "id": "2119896886345695521",
-  "title": "Code generated model launch film with music",
-  "title_zh": "纯Python代码生成的模型发布宣传片",
-  "category": "launch-film",
-  "author": {
-   "handle": "furkancavlakcom",
-   "name": "furkancavlakcom"
-  },
-  "postUrl": "https://x.com/furkancavlakcom/status/2119896886345695521",
-  "createdAt": "2026-11-09T20:56:18.000Z",
-  "durationMs": 74000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119896886345695521/video.mp4",
-  "promptShared": true,
-  "promptText": "Claude Fable 5.2 bugün çıktı. Tek bir şey istedim:\n\n“Kendi lansman videonu yap. Sadece kodla.”\n\n⏱ 57 dakika\n💸 ~21 $ (API fiyatıyla tahmini)\n🧮 1.702 satır Python, 2.220 kare\n🎵 Müzik dahil her şey sentezlendi\n\nKamera yok, stok görüntü yok, hazır ses yok.",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2119896886345695521/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2119896886345695521"
- },
- {
   "id": "2119897650963075569",
   "title": "First-person shooter game clone made with AI",
   "title_zh": "AI制作的第一人称射击游戏克隆",
@@ -1541,24 +1522,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120001344237097184/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120001344237097184"
- },
- {
-  "id": "2120010028073771323",
-  "title": "Interactive game with AI voices and sound effects",
-  "title_zh": "带有 AI 配音和音效的互动游戏",
-  "category": "game",
-  "author": {
-   "handle": "mrdejie",
-   "name": "MrDejie"
-  },
-  "postUrl": "https://x.com/mrdejie/status/2120010028073771323",
-  "createdAt": "2026-11-10T04:25:53.000Z",
-  "durationMs": 74166,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120010028073771323/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2120010028073771323/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2120010028073771323"
  },
  {
   "id": "2120010995309457643",
@@ -4065,24 +4028,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121525925900947923"
  },
  {
-  "id": "2121551723416179188",
-  "title": "Swarm of AI agents editing video",
-  "title_zh": "AI智能体集群自主剪辑视频",
-  "category": "ui-demo",
-  "author": {
-   "handle": "falconhere1",
-   "name": "falcon"
-  },
-  "postUrl": "https://x.com/falconhere1/status/2121551723416179188",
-  "createdAt": "2026-11-14T10:32:02.000Z",
-  "durationMs": 19317,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121551723416179188/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121551723416179188/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121551723416179188"
- },
- {
   "id": "2121553740574400698",
   "title": "Automated quant trading desk pipeline workflow",
   "title_zh": "自动化量化交易系统工作流展示",
@@ -4499,24 +4444,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121642720045261185"
  },
  {
-  "id": "2121650902427713796",
-  "title": "Trading bot comparison between Grok and Fable",
-  "title_zh": "Grok与Fable交易机器人实盘对比",
-  "category": "comparison",
-  "author": {
-   "handle": "0xGull",
-   "name": "Gull"
-  },
-  "postUrl": "https://x.com/0xGull/status/2121650902427713796",
-  "createdAt": "2026-11-14T17:06:08.000Z",
-  "durationMs": 30000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121650902427713796/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121650902427713796/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121650902427713796"
- },
- {
   "id": "2121664345818235177",
   "title": "Galloping horse animation comparison in desert",
   "title_zh": "沙漠中奔马动画多模型对比",
@@ -4733,25 +4660,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121744606543118474/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121744606543118474"
- },
- {
-  "id": "2121749277076508978",
-  "title": "iPhone hidden file scanner code improvement",
-  "title_zh": "iPhone隐藏文件扫描脚本优化",
-  "category": "ui-demo",
-  "author": {
-   "handle": "Supriik_",
-   "name": "Suprik"
-  },
-  "postUrl": "https://x.com/Supriik_/status/2121749277076508978",
-  "createdAt": "2026-11-14T23:37:02.000Z",
-  "durationMs": 18233,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121749277076508978/video.mp4",
-  "promptShared": true,
-  "promptText": "IT'S F*CKING INSANE. IN 2026 CLAUDE FABLE 5.2 REWROTE THE IPHONE SCANNER OPUS 5.5 MADE ME AND FOUND 6,547 HIDDEN FILES THE FIRST ONE NEVER SAW\n\na while ago Opus 5.5 wrote me a script to find hidden photos and recordings on my iPhone. it found 2,455 files. i deleted them and thought i was done\n\nthen Fable 5.2 dropped. i gave it the old script and one prompt:\n\"improve the iPhone scanner Opus wrote, run it again\"\n\nfirst it reviewed the old code and found why it was blind:\n→ it only checked the Photos library and Recently Deleted\n→ it skipped app containers and caches\n→ it trusted file extensions, so renamed files slipped through\n→ it listed files but never opened the databases\n\nit rewrote the scanner from 412 lines to 1,106. then ran it on the same phone ↓\n\nsame iPhone. two scanners:\n→ hidden photos: 2,318 → 7,904\n→ voice notes: 96 → 612\n→ videos: 41 → 286\n→ screenshots: 0 → 153\n→ call recordings: 0 → 47\n\n9,002 files in total. 3.7x more than the first scan\n\nwhere they were hiding:\n→ a \"calculator\" app that was really a hidden vault\n→ a keyboard app cache that saved my voice dictation\n→ photos and audio renamed to .dat so nothing would recognize them\n→ thumbnails of \"deleted\" photos that were never actually purged\n→ a shared album link still open to 3 people\n\nwhat Claude helped me do:\n→ exported the vault as evidence, deleted the app and reported it\n→ removed the keyboard app and turned off its full access\n→ wiped every disguised file and the thumbnail cache\n→ closed the shared link and changed my passcode\n\nlesson: one scan is never enough. when a better model comes out, run your old checks again\n\nthe full guide is in the article below ↓",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2121749277076508978/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121749277076508978"
  },
  {
   "id": "2121752688048377902",
@@ -5083,24 +4991,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2121996663996707139"
  },
  {
-  "id": "2122008363990991018",
-  "title": "Story video for a couples app",
-  "title_zh": "一款情侣APP的叙事视频",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "jackfriks",
-   "name": "jack friks"
-  },
-  "postUrl": "https://x.com/jackfriks/status/2122008363990991018",
-  "createdAt": "2026-11-15T16:46:33.000Z",
-  "durationMs": 52000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122008363990991018/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122008363990991018/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122008363990991018"
- },
- {
   "id": "2122011748752318857",
   "title": "Underwater world running in browser without engine",
   "title_zh": "无需游戏引擎在浏览器运行的水下世界",
@@ -5117,24 +5007,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122011748752318857/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122011748752318857"
- },
- {
-  "id": "2122012974248603907",
-  "title": "AI agent analyzing hidden malicious code",
-  "title_zh": "AI智能体检测隐藏恶意代码",
-  "category": "explainer",
-  "author": {
-   "handle": "0xHunterOFC",
-   "name": "Hunter"
-  },
-  "postUrl": "https://x.com/0xHunterOFC/status/2122012974248603907",
-  "createdAt": "2026-11-15T17:04:52.000Z",
-  "durationMs": 33111,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122012974248603907/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122012974248603907/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122012974248603907"
  },
  {
   "id": "2122013352755126431",
@@ -5626,24 +5498,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122380646748442963"
  },
  {
-  "id": "2122386078422241743",
-  "title": "A computer hardware build film generated by AI",
-  "title_zh": "由AI生成的计算机硬件组装演示影片",
-  "category": "launch-film",
-  "author": {
-   "handle": "Nyxera0x",
-   "name": "Nyxera"
-  },
-  "postUrl": "https://x.com/Nyxera0x/status/2122386078422241743",
-  "createdAt": "2026-11-16T17:47:27.000Z",
-  "durationMs": 34500,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122386078422241743/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122386078422241743/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122386078422241743"
- },
- {
   "id": "2122408638950371579",
   "title": "Three.js scene generated with Fable",
   "title_zh": "基于 Three.js 生成的 3D 场景",
@@ -5879,24 +5733,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122640890309050820/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122640890309050820"
- },
- {
-  "id": "2122646451939586084",
-  "title": "A Three.js video generated in one shot",
-  "title_zh": "Three.js 一次性生成的视频",
-  "category": "3d-scene",
-  "author": {
-   "handle": "meishengsimon",
-   "name": "seteiro"
-  },
-  "postUrl": "https://x.com/meishengsimon/status/2122646451939586084",
-  "createdAt": "2026-11-17T11:02:05.000Z",
-  "durationMs": 24300,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122646451939586084/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2122646451939586084/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2122646451939586084"
  },
  {
   "id": "2122647483281015155",
@@ -6902,24 +6738,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125288177183441032"
  },
  {
-  "id": "2125288449788019168",
-  "title": "Animation of Tokyo drawn in code",
-  "title_zh": "用代码绘制的东京主题动画",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "kevin_t_ngo",
-   "name": "Kevin Ngo"
-  },
-  "postUrl": "https://x.com/kevin_t_ngo/status/2125288449788019168",
-  "createdAt": "2026-11-24T18:00:27.000Z",
-  "durationMs": null,
-  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125288449788019168/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125288449788019168/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125288449788019168"
- },
- {
   "id": "2125298607557685750",
   "title": "An animation test generated with Fable 5.2",
   "title_zh": "使用 Fable 5.2 生成的动画测试",
@@ -7193,6 +7011,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125655219480539289"
  },
  {
+  "id": "2125656301388849519",
+  "title": "Automated chart analysis and trading on TradingView",
+  "title_zh": "TradingView自动化图表分析与交易",
+  "category": "data-viz",
+  "author": {
+   "handle": "Cora64189920179",
+   "name": "ヨシ＠兼業トレーダー"
+  },
+  "postUrl": "https://x.com/Cora64189920179/status/2125656301388849519",
+  "createdAt": "2026-11-25T18:22:09.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125656301388849519/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125656301388849519/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125656301388849519"
+ },
+ {
   "id": "2125773595288977575",
   "title": "AAA game demo generated from prompt",
   "title_zh": "通过提示词生成的3A游戏演示",
@@ -7247,6 +7083,78 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125946621209030739"
  },
  {
+  "id": "2125976724554789049",
+  "title": "Hollywood style animation generated in one pass",
+  "title_zh": "一键生成的电影级风格动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "maxxmalist",
+   "name": "MAX"
+  },
+  "postUrl": "https://x.com/maxxmalist/status/2125976724554789049",
+  "createdAt": "2026-11-26T15:35:24.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125976724554789049/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125976724554789049/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125976724554789049"
+ },
+ {
+  "id": "2125982976483975534",
+  "title": "Space dungeon crawler game in HTML",
+  "title_zh": "纯代码生成的太空地牢探险游戏",
+  "category": "game",
+  "author": {
+   "handle": "kevin_t_ngo",
+   "name": "Kevin Ngo"
+  },
+  "postUrl": "https://x.com/kevin_t_ngo/status/2125982976483975534",
+  "createdAt": "2026-11-26T16:00:15.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125982976483975534/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125982976483975534/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125982976483975534"
+ },
+ {
+  "id": "2125986285898682524",
+  "title": "Game enemy character sliced for animation",
+  "title_zh": "为动画骨骼切片的游戏敌人角色",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "TylerAlterman",
+   "name": "Tyler is finishing a book, slow to reply"
+  },
+  "postUrl": "https://x.com/TylerAlterman/status/2125986285898682524",
+  "createdAt": "2026-11-26T16:13:24.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125986285898682524/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2125986285898682524/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2125986285898682524"
+ },
+ {
+  "id": "2126025589211730083",
+  "title": "Threejs and Blender 3D scene",
+  "title_zh": "Threejs与Blender制作的3D场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "chetanankola",
+   "name": "Chetan Ankola"
+  },
+  "postUrl": "https://x.com/chetanankola/status/2126025589211730083",
+  "createdAt": "2026-11-26T18:49:34.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126025589211730083/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126025589211730083/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126025589211730083"
+ },
+ {
   "id": "2126032719226212629",
   "title": "Gameplay running at 4K 120 FPS",
   "title_zh": "4K 120帧运行的游戏测试画面",
@@ -7263,5 +7171,95 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126032719226212629/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126032719226212629"
+ },
+ {
+  "id": "2126047389652021655",
+  "title": "Automated SaaS product launch video",
+  "title_zh": "全自动生成的SaaS产品发布视频",
+  "category": "launch-film",
+  "author": {
+   "handle": "fayzonnn",
+   "name": "fayz333"
+  },
+  "postUrl": "https://x.com/fayzonnn/status/2126047389652021655",
+  "createdAt": "2026-11-26T20:16:12.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126047389652021655/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126047389652021655/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126047389652021655"
+ },
+ {
+  "id": "2126058085353697470",
+  "title": "Sculpting the statue of David in Blender",
+  "title_zh": "在Blender中雕刻大卫雕像",
+  "category": "comparison",
+  "author": {
+   "handle": "andreysuperior",
+   "name": "Superior"
+  },
+  "postUrl": "https://x.com/andreysuperior/status/2126058085353697470",
+  "createdAt": "2026-11-26T20:58:42.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126058085353697470/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126058085353697470/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126058085353697470"
+ },
+ {
+  "id": "2126072418561097855",
+  "title": "Animation created with multiple AI models",
+  "title_zh": "AI多模型协作生成的动画短片",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "p_rabtsevich",
+   "name": "Pavel Rabtsevich"
+  },
+  "postUrl": "https://x.com/p_rabtsevich/status/2126072418561097855",
+  "createdAt": "2026-11-26T21:55:39.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126072418561097855/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126072418561097855/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126072418561097855"
+ },
+ {
+  "id": "2126307553269469189",
+  "title": "An MMORPG world built in Unreal Engine",
+  "title_zh": "在虚幻引擎中构建的MMORPG游戏世界",
+  "category": "game",
+  "author": {
+   "handle": "Stefan_3D_AI",
+   "name": "Stefan 3D AI"
+  },
+  "postUrl": "https://x.com/Stefan_3D_AI/status/2126307553269469189",
+  "createdAt": "2026-11-27T13:30:00.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126307553269469189/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126307553269469189/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126307553269469189"
+ },
+ {
+  "id": "2126350443534078269",
+  "title": "Automated video timeline editing on a laptop",
+  "title_zh": "笔记本电脑上的自动化视频剪辑时间线",
+  "category": "ui-demo",
+  "author": {
+   "handle": "robiartec",
+   "name": "rob."
+  },
+  "postUrl": "https://x.com/robiartec/status/2126350443534078269",
+  "createdAt": "2026-11-27T16:20:26.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126350443534078269/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/fable-5-2/2126350443534078269/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/fable-5-2/2126350443534078269"
  }
 ]
